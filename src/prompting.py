@@ -7,6 +7,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 template_path = r'./src/prompt_templates/natural_language.txt'
 source_data_path = r'./data/ESConv_prompt_style.json'
 test_data_path = r'./data/ESConv_test_data.json'
+response_path = r'./data/NL_response.jsonl'
 
 def read_prompt(prompt_path: Text) -> Text:
     """Read a prompt template from text file.
@@ -163,18 +164,26 @@ def prompting(prompt: Text, model_name: Text) -> str:
         return gpt_j_text_generate(prompt)
 
 
+def dump_response(message: Text, response_file: Text) -> None:
+    response_file.write(json.dumps(
+        {
+            "response": message
+        }
+    ) + "\n")
+
 def main():
     source_data = read_source_data(source_data_path)
     test_data = read_source_data(test_data_path)
+    response_file = open(response_path, 'a+', encoding='utf-8')
+    # load model
+    model_name = "gpt-j"
+    model, tokenizer = load_large_model(model_name)
+    # load prompt generator
     prompt_generator = assembly_prompt(template_path, test_data, source_data)
-    load_large_model("EleutherAI/gpt-j-6B")
-    while True:
-        input_text = input("command\n")
-        if input_text == "n":
-            prompt = next(prompt_generator)
-            print("=========================")
-            response = prompting(prompt)
-            print(response)
+    prompt = next(prompt_generator)
+    print("==================")
+    response = gpt_j_text_generate(prompt, model, tokenizer)
+    dump_response(response, response_file)
 
 
 if __name__ == "__main__":
