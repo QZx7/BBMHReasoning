@@ -184,6 +184,7 @@ def main():
     # load prompt generator
     prompt_generator = assembly_prompt(template_path, test_data, source_data)
     prompt = next(prompt_generator)
+    print(prompt)
     print("==================")
     response = gpt_j_text_generate(prompt, model, tokenizer)
     dump_response(response, response_file)
