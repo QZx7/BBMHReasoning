@@ -155,7 +155,7 @@ def gpt_j_text_generate(prompt: Text, model, tokenizer) -> str:
         input_ids,
         do_sample=True,
         temperature=0.9,
-        max_length=100,
+        max_length=1500,
     )
     gen_text = tokenizer.batch_decode(gen_tokens)[0]
     return gen_text
