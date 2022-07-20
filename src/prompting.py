@@ -125,9 +125,12 @@ def load_large_model(model_name: Text):
     Returns:
         _type_: Return the model file and tokenizer.
     """
-    model = AutoModelForCausalLM.from_pretrained(model_name)
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-
+    if "gpt-j" == model_name:
+        model_name = "EleutherAI/gpt-j-6B"
+        model = AutoModelForCausalLM.from_pretrained(model_name)
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+    else:
+        return None
     return model, tokenizer
 
 
