@@ -1,2 +1,2 @@
-# BBMHReasoning
- 
+# BBMHR
+ blenderbot mental health + reasoning

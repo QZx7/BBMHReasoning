@@ -1,0 +1,6 @@
+Complete the analysis base on the conversation,
+Conversation:<conversation_0>In this conversation, the seeker feels <feel_0> <eoe> because <reason_0> <eor> The support should <suggestion_0> <eos>
+Conversation:<conversation_1>In this conversation, the seeker feels <feel_1> <eoe> because <reason_1> <eor> The support should <suggestion_1> <eos>
+Conversation:<conversation_2>In this conversation, the seeker feels <feel_2> <eoe> because <reason_2> <eor> The support should <suggestion_2> <eos>
+Conversation:
+<conversation>In this conversation, the seeker feels
