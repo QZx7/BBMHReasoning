@@ -1,13 +1,14 @@
 import json
 import random
-from typing import Dict, List, Text
+from typing import Any, Dict, List, Text
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-template_path = r'./src/prompt_templates/natural_language.txt'
-source_data_path = r'./data/ESConv_prompt_style.json'
-test_data_path = r'./data/ESConv_test_data.json'
-response_path = r'./data/NL_response.jsonl'
+template_path = r"./src/prompt_templates/nl_zero.txt"
+source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
+test_data_path = r"./data/ESConv_test_data.json"
+response_path = r"./data/NL_response.jsonl"
+
 
 def read_prompt(prompt_path: Text) -> Text:
     """Read a prompt template from text file.
@@ -18,11 +19,13 @@ def read_prompt(prompt_path: Text) -> Text:
     Returns:
         Text: Prompt template as plain text.
     """
-    template_file = open(prompt_path, 'r', encoding='utf-8')
+    template_file = open(prompt_path, "r", encoding="utf-8")
     return template_file.read()
 
 
-def reformat_source_data(source_path: Text, reformat_source_path: Text) -> Dict[str, str]:
+def reformat_source_data(
+    source_path: Text, reformat_source_path: Text
+) -> Dict[str, str]:
     """If the source is not in required format, reformat.
 
     Args:
@@ -32,9 +35,9 @@ def reformat_source_data(source_path: Text, reformat_source_path: Text) -> Dict[
     Returns:
         Dict: Reformatted data dictionary.
     """
-    source_file = open(source_path, 'r', encoding='utf-8')
+    source_file = open(source_path, "r", encoding="utf-8")
     source_data = json.load(source_file)
-    reformated_file = open(reformat_source_path, 'w+', encoding='utf-8')
+    reformated_file = open(reformat_source_path, "w+", encoding="utf-8")
     assert not isinstance(source_data[0]["conversation"], str)
 
     for data in source_data:
@@ -56,12 +59,14 @@ def read_source_data(source_path: Text) -> List[Dict[str, str]]:
     Returns:
         Dict: Return the source as data.
     """
-    source_file = open(source_path, 'r', encoding='utf-8')
+    source_file = open(source_path, "r", encoding="utf-8")
     source_data = json.load(source_file)
     return source_data
 
 
-def pick_up_examples(test_data: List[Dict[str, str]], number: int) -> List[Dict[str, str]]:
+def pick_up_examples(
+    test_data: List[Dict[str, str]], number: int
+) -> List[Dict[str, str]]:
     """Randomly pick up certain number of examples as prompt instances.
 
     Args:
@@ -79,8 +84,8 @@ def pick_up_examples(test_data: List[Dict[str, str]], number: int) -> List[Dict[
         else:
             selected = False
             for example in examples:
-                if example['emotion_type'] == test_data[rand_index]['emotion_type']:
-                    if example['problem_type'] == test_data[rand_index]['problem_type']:
+                if example["emotion_type"] == test_data[rand_index]["emotion_type"]:
+                    if example["problem_type"] == test_data[rand_index]["problem_type"]:
                         selected = True
                         break
             if not selected:
@@ -88,32 +93,42 @@ def pick_up_examples(test_data: List[Dict[str, str]], number: int) -> List[Dict[
     return examples
 
 
-def assembly_prompt(template: Text, test_data: List[Dict[str, str]], source_data: List[Dict[str, str]]) -> str:
+def assembly_prompt(
+    template: Text, test_data: List[Dict[str, str]], source_data: List[Dict[str, Any]]
+) -> str:
     """Assembly the final prompt with the given template and the source data.
-
+       The method yield one prompt at a time. Each time, a user turn with previous
+       dialogue history will be assigned as question of current prompt.
     Args:
         template (Text): A template with main factors representated by tokens with <>.
         text_data (List[Dict[str, str]]): Some annotated data pool from which examples are chosen.
-        source_data (List[Dict[str, str]]): The dialogue data to annotate.
+        source_data (List[Dict[str, Any]]): The dialogue data to annotate.
 
     Returns:
         str: A prompt.
     """
-    template_file = open(template, 'r', encoding='utf-8')
+    template_file = open(template, "r", encoding="utf-8")
     prompt = template_file.read()
     instances = pick_up_examples(test_data, 3)
 
     # Assembly prompt instances depending on the number of instances
     for index in range(len(instances)):
-        prompt = prompt.replace(f"<conversation_{index}>", instances[index]["conversation"])
+        prompt = prompt.replace(
+            f"<conversation_{index}>", instances[index]["conversation"]
+        )
+        # replace <> tokens with real content as prompt instances
         prompt = prompt.replace(f"<feel_{index}>", instances[index]["feel"])
         prompt = prompt.replace(f"<reason_{index}>", instances[index]["reason"])
         prompt = prompt.replace(f"<suggestion_{index}>", instances[index]["suggestion"])
-    
+
     # Assembly question and yield one prompt one time
     for data in source_data:
-        dy_prompt = prompt.replace("<conversation>", data['conversation'])
-        yield dy_prompt
+        current_dialog = ""
+        for utterance in data["conversation"]:
+            current_dialog += utterance["speaker"] + ": " + utterance["content"] + "\n"
+            if utterance["speaker"] == "seeker":
+                dy_prompt = prompt.replace("<conversation>", current_dialog)
+                yield dy_prompt
 
 
 def load_large_model(model_name: Text):
@@ -168,27 +183,26 @@ def prompting(prompt: Text, model_name: Text) -> str:
 
 
 def dump_response(message: Text, response_file: Text) -> None:
-    response_file.write(json.dumps(
-        {
-            "response": message
-        }
-    ) + "\n")
+    response_file.write(json.dumps({"response": message}) + "\n")
+
 
 def main():
     source_data = read_source_data(source_data_path)
     test_data = read_source_data(test_data_path)
-    response_file = open(response_path, 'a+', encoding='utf-8')
+    response_file = open(response_path, "a+", encoding="utf-8")
     # load model
     model_name = "gpt-j"
     model, tokenizer = load_large_model(model_name)
     # load prompt generator
     prompt_generator = assembly_prompt(template_path, test_data, source_data)
-    prompt = next(prompt_generator)
-    print(prompt)
-    print("==================")
-    response = gpt_j_text_generate(prompt, model, tokenizer)
-    print(response)
-    dump_response(response, response_file)
+    
+    for i in range(10):
+        prompt = next(prompt_generator)
+        print(prompt)
+        print("==================")
+        response = gpt_j_text_generate(prompt, model, tokenizer)
+        print(response)
+        dump_response(response, response_file)
 
 
 if __name__ == "__main__":
