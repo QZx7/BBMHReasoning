@@ -187,6 +187,7 @@ def main():
     print(prompt)
     print("==================")
     response = gpt_j_text_generate(prompt, model, tokenizer)
+    print(response)
     dump_response(response, response_file)
 
 
