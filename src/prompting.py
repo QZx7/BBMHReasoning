@@ -165,6 +165,7 @@ def gpt_j_text_generate(prompt: Text, model, tokenizer) -> str:
     # )
 
     input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+    print(tokenizer.eos_token)
 
     gen_tokens = model.generate(
         input_ids,
@@ -196,13 +197,13 @@ def main():
     # load prompt generator
     prompt_generator = assembly_prompt(template_path, test_data, source_data)
     
-    for i in range(10):
-        prompt = next(prompt_generator)
-        print(prompt)
-        print("==================")
-        response = gpt_j_text_generate(prompt, model, tokenizer)
-        print(response)
-        dump_response(response, response_file)
+    # for i in range(10):
+    prompt = next(prompt_generator)
+    # print(prompt)
+    # print("==================")
+    response = gpt_j_text_generate(prompt, model, tokenizer)
+    # print(response)
+    dump_response(response, response_file)
 
 
 if __name__ == "__main__":
