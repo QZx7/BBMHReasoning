@@ -1,0 +1,21 @@
+Complete the analysis base on the conversation,
+Conversation:
+supporter: How can I help you today? It is Christmas, so I expect there to be help for the lonely.
+seeker: Yeah, I'm pretty stressed today with the news from Nashville.
+In this conversation, <soe> the seeker's feeling hasn't been revealed. <eoe> The reason is not mentioned. <eor> The supporter should ask for more information. <|endoftext|>
+Conversation:
+seeker: I'm so worried about breaking up with my boyfriend that I find myself shaking at night.
+supporter: I'm sorry you are going through that. Why do you think you are worried?
+seeker: I just miss the physical comfort and support.
+supporter: I have also struggled with that in the past. It can be difficult!
+seeker: Yes, I feel so lonely.
+supporter: Can you think of things that don't make you feel lonely? We can work on focusing on those instead.
+seeker: Yes, I guess I could try to turn things around to a positive focus on what I do have.
+supporter: That's a great idea. I think you will be headed in the right direction doing that.
+seeker: How do I stop the shaking at night?  Do you have suggestions?
+supporter: I would work on making sure you are in a positive mindset before you go to bed and try to focus on the things you can control.
+seeker: Maybe I could think of things in my life like my new nephew to cheer me up!  He is so cute and makes me smile.
+supporter: That is a wonderful idea. You are on the right track with that. You should try to think about him before bed and see if it help tonight!
+In this conversation, <soe> the seeker feels lonely and worried. <eoe> The reason is that the seeker's worried about breaking up with her boyfriend. <eor> The supporter should comfort the seeker and ask the seeker to think about people around her, like family. <|endoftext|>
+Conversation:
+<conversation>In this conversation, <soe>

@@ -3,6 +3,7 @@ import random
 from typing import Any, Dict, List, Text
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 template_path = r"./src/prompt_templates/nl_zero.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
@@ -142,14 +143,20 @@ def load_large_model(model_name: Text):
     """
     if "gpt-j" == model_name:
         model_name = "EleutherAI/gpt-j-6B"
+        print(f"loading model from {model_name}")
         model = AutoModelForCausalLM.from_pretrained(model_name)
         tokenizer = AutoTokenizer.from_pretrained(model_name)
+    elif "gpt-2" == model_name:
+        model_name = "distilgpt2"
+        print(f"loading model from {model_name}")
+        tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+        model = GPT2LMHeadModel.from_pretrained(model_name)
     else:
         return None
     return model, tokenizer
 
 
-def gpt_j_text_generate(prompt: Text, model, tokenizer) -> str:
+def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     """Generate text with GPT-J 6B model using the given prompt.
 
     Args:
@@ -177,10 +184,11 @@ def gpt_j_text_generate(prompt: Text, model, tokenizer) -> str:
     return gen_text
 
 
-def prompting(prompt: Text, model_name: Text) -> str:
+def prompting(prompt: Text, model_name: Text, model, tokenizer) -> str:
     # load model with given name
     if "gpt-j" == model_name:
-        return gpt_j_text_generate(prompt)
+        return gpt_text_generate(prompt, model, tokenizer)
+    return
 
 
 def dump_response(message: Text, response_file: Text) -> None:
@@ -201,7 +209,7 @@ def main():
     prompt = next(prompt_generator)
     print(prompt)
     print("==================")
-    response = gpt_j_text_generate(prompt, model, tokenizer)
+    response = gpt_text_generate(prompt, model, tokenizer)
     print(response)
     print("*******************")
     dump_response(response, response_file)
