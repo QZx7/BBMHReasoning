@@ -204,15 +204,15 @@ def main():
     model, tokenizer = load_large_model(model_name)
     # load prompt generator
     prompt_generator = assembly_prompt(template_path, test_data, source_data)
-    
-    # for i in range(10):
-    prompt = next(prompt_generator)
-    print(prompt)
-    print("==================")
-    response = gpt_text_generate(prompt, model, tokenizer)
-    print(response)
-    print("*******************")
-    dump_response(response, response_file)
+
+    for i in range(100):
+        prompt = next(prompt_generator)
+        print(prompt)
+        print("==================")
+        response = gpt_text_generate(prompt, model, tokenizer)
+        print(response)
+        print("*******************")
+        dump_response(response, response_file)
 
 
 if __name__ == "__main__":
