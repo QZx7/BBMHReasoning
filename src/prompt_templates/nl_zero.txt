@@ -2,7 +2,7 @@ Complete the analysis base on the conversation,
 Conversation:
 supporter: How can I help you today? It is Christmas, so I expect there to be help for the lonely.
 seeker: Yeah, I'm pretty stressed today with the news from Nashville.
-In this conversation, <soe> the seeker's feeling hasn't been revealed. <eoe> The reason is not mentioned. <eor> The supporter should ask for more information. <eos>
+In this conversation, <soe> the seeker's feeling hasn't been revealed. <eoe> The reason is not mentioned. <eor> The supporter should ask for more information. <|endoftext|>
 Conversation:
 seeker: I'm so worried about breaking up with my boyfriend that I find myself shaking at night.
 supporter: I'm sorry you are going through that. Why do you think you are worried?
@@ -16,12 +16,12 @@ seeker: How do I stop the shaking at night?  Do you have suggestions?
 supporter: I would work on making sure you are in a positive mindset before you go to bed and try to focus on the things you can control.
 seeker: Maybe I could think of things in my life like my new nephew to cheer me up!  He is so cute and makes me smile.
 supporter: That is a wonderful idea. You are on the right track with that. You should try to think about him before bed and see if it help tonight!
-In this conversation, <soe> the seeker feels lonely and worried. <eoe> The reason is that the seeker's worried about breaking up with her boyfriend. <eor> The supporter should comfort the seeker and ask the seeker to think about people around her, like family. <eos>
+In this conversation, <soe> the seeker feels lonely and worried. <eoe> The reason is that the seeker's worried about breaking up with her boyfriend. <eor> The supporter should comfort the seeker and ask the seeker to think about people around her, like family. <|endoftext|>
 Conversation:
 seeker: Hi there, could I ask you for some help?
 supporter: hi! how are you doing today? of course! Whst's up?
 seeker: Well not too great really. I am on furlough from my job because of the lockdown..
-In this conversation, <soe> the seeker feels sad and worried. <eoe> The reason is that the seeker is on furlough from my job and he's worried about losing the job. <eor> The supporter should chat with the seeker about positive things going on and cheer the seeker up. <eos>
+In this conversation, <soe> the seeker feels sad and worried. <eoe> The reason is that the seeker is on furlough from my job and he's worried about losing the job. <eor> The supporter should chat with the seeker about positive things going on and cheer the seeker up. <|endoftext|>
 Conversation:
 supporter: Hello How can I help u today? Hello? Can you please state your issue?
 seeker: Have there, I have a work issue that I'm hoping you can help me with.
@@ -37,6 +37,6 @@ supporter: I would look on sites like Skill share. You can learn a lot on there.
 seeker: ok I've never heard of skillshare, is that a website where you can get more information about work based qualifications etc?
 supporter: I think so. Doesn't hurt to check them out.
 seeker: yeah that's very true. I've never heard of that before so thanks for the tip.
-In this conversation, <soe> the seeker feels stressful. <eoe> The reason is that the seeker wants to take some courses but the seeker does not have enough time due to the work. <eor> The supporter could suggest some good online course resources that won't take too much time. <eos>
+In this conversation, <soe> the seeker feels stressful. <eoe> The reason is that the seeker wants to take some courses but the seeker does not have enough time due to the work. <eor> The supporter could suggest some good online course resources that won't take too much time. <|endoftext|>
 Conversation:
 <conversation>In this conversation, <soe>
