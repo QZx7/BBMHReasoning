@@ -199,10 +199,11 @@ def main():
     
     # for i in range(10):
     prompt = next(prompt_generator)
-    # print(prompt)
-    # print("==================")
+    print(prompt)
+    print("==================")
     response = gpt_j_text_generate(prompt, model, tokenizer)
-    # print(response)
+    print(response)
+    print("*******************")
     dump_response(response, response_file)
 
 
