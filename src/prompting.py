@@ -216,7 +216,7 @@ def main():
         print(prompt)
         print("==================")
         response = gpt_text_generate(prompt, model, tokenizer)
-        print(response)
+        response = response[len(prompt):]
         print("*******************")
         dump_response(response, response_file)
 
