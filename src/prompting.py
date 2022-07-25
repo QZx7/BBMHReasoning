@@ -1,3 +1,4 @@
+import argparse
 import json
 import random
 from typing import Any, Dict, List, Text
@@ -5,10 +6,11 @@ from typing import Any, Dict, List, Text
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-template_path = r"./src/prompt_templates/nl_no_token.txt"
+template_path = r"./src/prompt_templates/short_prompt.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
 test_data_path = r"./data/ESConv_test_data.json"
 response_path = r"./data/NL_response.jsonl"
+seeker_utterances_only = r"./data/seeker_only.jsonl"
 
 
 def read_prompt(prompt_path: Text) -> Text:
@@ -95,7 +97,7 @@ def pick_up_examples(
 
 
 def assembly_prompt(
-    template: Text, test_data: List[Dict[str, str]], source_data: List[Dict[str, Any]]
+    template: Text, seeker_only: Text, test_data: List[Dict[str, str]], source_data: List[Dict[str, Any]]
 ) -> str:
     """Assembly the final prompt with the given template and the source data.
        The method yield one prompt at a time. Each time, a user turn with previous
@@ -109,6 +111,7 @@ def assembly_prompt(
         str: A prompt.
     """
     template_file = open(template, "r", encoding="utf-8")
+    seeker_only_file = open(seeker_only, "w+", encoding="utf-8")
     prompt = template_file.read()
     instances = pick_up_examples(test_data, 3)
 
@@ -128,6 +131,11 @@ def assembly_prompt(
         for utterance in data["conversation"]:
             current_dialog += utterance["speaker"] + ": " + utterance["content"] + "\n"
             if utterance["speaker"] == "seeker":
+                seeker_only_file.write(json.dumps(
+                    {
+                        "utterance": utterance["content"]
+                    }
+                ) + "\n")
                 dy_prompt = prompt.replace("<conversation>", current_dialog)
                 yield dy_prompt
 
@@ -201,25 +209,56 @@ def dump_response(message: Text, response_file: Text) -> None:
     response_file.write(json.dumps({"response": message}) + "\n")
 
 
+def add_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--model_name",
+        type=str,
+        default="gpt-j",
+        help="select model name from ['gpt-j', 'gpt-2']"
+    )
+    parser.add_argument(
+        "--sample_number",
+        type=int,
+        default=0,
+        help="how many samples to generate"
+    )
+    args = parser.parse_args()
+    return args
+
 def main():
+    # load arguments
+    args = add_arguments()
+    # load data
     source_data = read_source_data(source_data_path)
     test_data = read_source_data(test_data_path)
     response_file = open(response_path, "a+", encoding="utf-8")
     # load model
-    model_name = "gpt-j"
+    model_name = args.model_name
     model, tokenizer = load_large_model(model_name)
     # load prompt generator
-    prompt_generator = assembly_prompt(template_path, test_data, source_data)
+    prompt_generator = assembly_prompt(template_path, seeker_utterances_only, test_data, source_data)
 
-    for i in range(300):
-        prompt = next(prompt_generator)
-        print(prompt)
-        print("==================")
-        response = gpt_text_generate(prompt, model, tokenizer)
-        response = response[len(prompt):]
-        print(response)
-        print("*******************")
-        dump_response(response, response_file)
+    if args.sample_number == 0:
+        for i in prompt_generator:
+            prompt = next(prompt_generator)
+            print(prompt)
+            print("==================")
+            response = gpt_text_generate(prompt, model, tokenizer)
+            response = response[len(prompt):]
+            print(response)
+            print("*******************")
+            dump_response(response, response_file)
+    else:
+        for i in range(args.sample_number):
+            prompt = next(prompt_generator)
+            print(prompt)
+            print("==================")
+            response = gpt_text_generate(prompt, model, tokenizer)
+            response = response[len(prompt):]
+            print(response)
+            print("*******************")
+            dump_response(response, response_file)
 
 
 if __name__ == "__main__":
