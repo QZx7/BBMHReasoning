@@ -183,7 +183,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
         input_ids,
         do_sample=True,
         temperature=0.7,
-        max_length=1500,
+        max_length=2500,
         attention_mask=attention_mask,
     )
     gen_text = tokenizer.batch_decode(gen_tokens)[0]
@@ -211,7 +211,7 @@ def main():
     # load prompt generator
     prompt_generator = assembly_prompt(template_path, test_data, source_data)
 
-    for i in range(5):
+    for i in range(300):
         prompt = next(prompt_generator)
         print(prompt)
         print("==================")
