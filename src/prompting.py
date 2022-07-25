@@ -6,7 +6,7 @@ from typing import Any, Dict, List, Text
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-template_path = r"./src/prompt_templates/short_prompt.txt"
+template_path = r"./src/prompt_templates/nl_no_token.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
 test_data_path = r"./data/ESConv_test_data.json"
 response_path = r"./data/NL_response.jsonl"
