@@ -170,15 +170,21 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     #     "previously unexplored valley, in the Andes Mountains. Even more surprising to the "
     #     "researchers was the fact that the unicorns spoke perfect English."
     # )
+    
+    # add padding token
 
-    input_ids = tokenizer(prompt, return_tensors="pt").input_ids
-    print(tokenizer.eos_token)
+    sequence = tokenizer(prompt, return_tensors="pt")
+    input_ids = sequence["input_ids"]
+    attention_mask = sequence["attention_mask"]
+    model.config.pad_token_id = model.config.eos_token_id
+    # print(tokenizer.eos_token)
 
     gen_tokens = model.generate(
         input_ids,
         do_sample=True,
-        temperature=0.9,
+        temperature=0.7,
         max_length=1500,
+        attention_mask=attention_mask,
     )
     gen_text = tokenizer.batch_decode(gen_tokens)[0]
     return gen_text
@@ -186,7 +192,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
 
 def prompting(prompt: Text, model_name: Text, model, tokenizer) -> str:
     # load model with given name
-    if "gpt-j" == model_name:
+    if "gpt-2" == model_name:
         return gpt_text_generate(prompt, model, tokenizer)
     return
 
