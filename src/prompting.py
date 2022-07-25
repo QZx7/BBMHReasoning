@@ -191,7 +191,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
         input_ids,
         do_sample=True,
         temperature=0.7,
-        max_length=2500,
+        max_length=2000,
         attention_mask=attention_mask,
     )
     gen_text = tokenizer.batch_decode(gen_tokens)[0]
