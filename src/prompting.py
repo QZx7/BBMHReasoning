@@ -6,7 +6,7 @@ from typing import Any, Dict, List, Text
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-template_path = r"./src/prompt_templates/nl_no_token.txt"
+template_path = r"./src/prompt_templates/nl_zero.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
 test_data_path = r"./data/ESConv_test_data.json"
 response_path = r"./data/NL_response.jsonl"
@@ -191,7 +191,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
         input_ids,
         do_sample=True,
         temperature=0.7,
-        max_length=2000,
+        max_length=1500,
         attention_mask=attention_mask,
     )
     gen_text = tokenizer.batch_decode(gen_tokens)[0]
