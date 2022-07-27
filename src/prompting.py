@@ -231,8 +231,9 @@ def add_arguments():
         help="where to start"
     )
     parser.add_argument(
-        "response_path",
+        "--response_path",
         type=str,
+        default="default_batch"
         help="folder to save the results"
     )
     args = parser.parse_args()
