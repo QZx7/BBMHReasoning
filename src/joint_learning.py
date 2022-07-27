@@ -1,24 +1,37 @@
-# implement blenderbot here
-from transformers import BlenderbotTokenizer, BlenderbotForConditionalGeneration
+import random
 
-mname = "facebook/blenderbot-400M-distill"
-model = BlenderbotForConditionalGeneration.from_pretrained(mname)
-tokenizer = BlenderbotTokenizer.from_pretrained(mname)
-UTTERANCE = "My friends are cool but they eat too many carbs."
-print("Human: ", UTTERANCE)
+from parlai.core.agents import Agent
+from parlai.core.params import ParlaiParser
+from parlai.core.worlds import create_task
 
-inputs = tokenizer([UTTERANCE], return_tensors="pt")
-reply_ids = model.generate(**inputs)
-print("Bot: ", tokenizer.batch_decode(reply_ids, skip_special_tokens=True)[0])
+class RepeatLabelAgent(Agent):
+    def __init__(self, opt):
+        self.id = "RepeatLabel"
+    
+    def observe(self, observation):
+        self.observation = observation
+        return observation
 
-REPLY = "I'm not sure"
-print("Human: ", REPLY)
+    def act(self):
+        reply = {"id": self.id}
+        if "labels" in self.observation:
+            reply["text"] = ', '.join(self.observation["labels"])
+        elif 'label_candidates' in self.observation:
+            cands = self.observation['label_candidates']
+            reply['text'] = random.choice(list(cands))
+        else:
+            reply["text"] = "I don't know."
+        return reply
 
-NEXT_UTTERANCE = (
-    "My friends are cool but they eat too many carbs.</s> <s>That's unfortunate. "
-    "Are they trying to lose weight or are they just trying to be healthier?</s> "
-    "<s> I'm not sure."
-)
-inputs = tokenizer([NEXT_UTTERANCE], return_tensors="pt")
-next_reply_ids = model.generate(**inputs)
-print("Bot: ", tokenizer.batch_decode(next_reply_ids, skip_special_tokens=True)[0])
+parser = ParlaiParser()
+opt = parser.parse_args()
+
+agent = RepeatLabelAgent(opt)
+world = create_task(opt, agent)
+
+for _ in range(10):
+    world.parley()
+    print(world.display())
+    if world.epoch_done():
+        print("Done")
+        break

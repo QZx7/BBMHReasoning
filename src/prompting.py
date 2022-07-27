@@ -223,6 +223,12 @@ def add_arguments():
         default=0,
         help="how many samples to generate"
     )
+    parser.add_argument(
+        "--start_index",
+        type=int,
+        default=0,
+        help="where to start"
+    )
     args = parser.parse_args()
     return args
 
@@ -238,6 +244,9 @@ def main():
     model, tokenizer = load_large_model(model_name)
     # load prompt generator
     prompt_generator = assembly_prompt(template_path, seeker_utterances_only, test_data, source_data)
+
+    for _ in range(args.start_index):
+        next(prompt_generator)
 
     if args.sample_number == 0:
         for i in prompt_generator:
