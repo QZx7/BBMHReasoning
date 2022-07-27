@@ -233,7 +233,7 @@ def add_arguments():
     parser.add_argument(
         "--response_path",
         type=str,
-        default="default_batch"
+        default="default_batch",
         help="folder to save the results"
     )
     args = parser.parse_args()
