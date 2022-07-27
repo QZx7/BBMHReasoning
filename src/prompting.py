@@ -1,6 +1,7 @@
 import argparse
 import json
 import random
+import os
 from typing import Any, Dict, List, Text
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -229,6 +230,11 @@ def add_arguments():
         default=0,
         help="where to start"
     )
+    parser.add_argument(
+        "response_path",
+        type=str,
+        help="folder to save the results"
+    )
     args = parser.parse_args()
     return args
 
@@ -238,12 +244,12 @@ def main():
     # load data
     source_data = read_source_data(source_data_path)
     test_data = read_source_data(test_data_path)
-    response_file = open(response_path, "a+", encoding="utf-8")
+    response_file = open(os.path.join(args.response_path, "NL_response.jsonl"), "w+", encoding="utf-8")
     # load model
     model_name = args.model_name
     model, tokenizer = load_large_model(model_name)
     # load prompt generator
-    prompt_generator = assembly_prompt(template_path, seeker_utterances_only, test_data, source_data)
+    prompt_generator = assembly_prompt(template_path, os.path.join(args.response_path, "seeker_only.jsonl"), test_data, source_data)
 
     for _ in range(args.start_index):
         next(prompt_generator)
