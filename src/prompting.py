@@ -10,8 +10,8 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 template_path = r"./src/prompt_templates/nl_zero.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
 test_data_path = r"./data/ESConv_test_data.json"
-response_path = r"./data/NL_response.jsonl"
-seeker_utterances_only = r"./data/seeker_only.jsonl"
+response_path = r"./data/NL_response"
+seeker_utterances_only = r"./data/seeker_only"
 
 
 def read_prompt(prompt_path: Text) -> Text:
@@ -98,7 +98,10 @@ def pick_up_examples(
 
 
 def assembly_prompt(
-    template: Text, seeker_only: Text, test_data: List[Dict[str, str]], source_data: List[Dict[str, Any]]
+    template: Text,
+    seeker_only: Text,
+    test_data: List[Dict[str, str]],
+    source_data: List[Dict[str, Any]],
 ) -> str:
     """Assembly the final prompt with the given template and the source data.
        The method yield one prompt at a time. Each time, a user turn with previous
@@ -132,11 +135,9 @@ def assembly_prompt(
         for utterance in data["conversation"]:
             current_dialog += utterance["speaker"] + ": " + utterance["content"] + "\n"
             if utterance["speaker"] == "seeker":
-                seeker_only_file.write(json.dumps(
-                    {
-                        "utterance": utterance["content"]
-                    }
-                ) + "\n")
+                seeker_only_file.write(
+                    json.dumps({"utterance": utterance["content"]}) + "\n"
+                )
                 dy_prompt = prompt.replace("<conversation>", current_dialog)
                 yield dy_prompt
 
@@ -179,7 +180,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     #     "previously unexplored valley, in the Andes Mountains. Even more surprising to the "
     #     "researchers was the fact that the unicorns spoke perfect English."
     # )
-    
+
     # add padding token
 
     sequence = tokenizer(prompt, return_tensors="pt")
@@ -216,28 +217,21 @@ def add_arguments():
         "--model_name",
         type=str,
         default="gpt-j",
-        help="select model name from ['gpt-j', 'gpt-2']"
+        help="select model name from ['gpt-j', 'gpt-2']",
     )
     parser.add_argument(
-        "--sample_number",
-        type=int,
-        default=0,
-        help="how many samples to generate"
+        "--sample_number", type=int, default=0, help="how many samples to generate"
     )
+    parser.add_argument("--start_index", type=int, default=0, help="where to start")
     parser.add_argument(
-        "--start_index",
-        type=int,
-        default=0,
-        help="where to start"
-    )
-    parser.add_argument(
-        "--response_path",
+        "--response_suffix",
         type=str,
         default="default_batch",
-        help="folder to save the results"
+        help="folder to save the results",
     )
     args = parser.parse_args()
     return args
+
 
 def main():
     # load arguments
@@ -245,12 +239,19 @@ def main():
     # load data
     source_data = read_source_data(source_data_path)
     test_data = read_source_data(test_data_path)
-    response_file = open(os.path.join(args.response_path, "NL_response.jsonl"), "w+", encoding="utf-8")
+    response_file = open(
+        response_path + args.response_suffix + ".jsonl", "w+", encoding="utf-8"
+    )
     # load model
     model_name = args.model_name
     model, tokenizer = load_large_model(model_name)
     # load prompt generator
-    prompt_generator = assembly_prompt(template_path, os.path.join(args.response_path, "seeker_only.jsonl"), test_data, source_data)
+    prompt_generator = assembly_prompt(
+        template_path,
+        seeker_utterances_only + args.response_suffix + ".jsonl",
+        test_data,
+        source_data,
+    )
 
     for _ in range(args.start_index):
         next(prompt_generator)
@@ -261,7 +262,7 @@ def main():
             print(prompt)
             print("==================")
             response = gpt_text_generate(prompt, model, tokenizer)
-            response = response[len(prompt):]
+            response = response[len(prompt) :]
             print(response)
             print("*******************")
             dump_response(response, response_file)
@@ -271,7 +272,7 @@ def main():
             print(prompt)
             print("==================")
             response = gpt_text_generate(prompt, model, tokenizer)
-            response = response[len(prompt):]
+            response = response[len(prompt) :]
             print(response)
             print("*******************")
             dump_response(response, response_file)
