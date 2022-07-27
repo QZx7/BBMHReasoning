@@ -1,7 +1,6 @@
 import argparse
 import json
 import random
-import os
 from typing import Any, Dict, List, Text
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -259,8 +258,7 @@ def main():
     if args.sample_number == 0:
         for i in prompt_generator:
             prompt = next(prompt_generator)
-            print(prompt)
-            print("==================")
+            print(i)
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
             print(response)
