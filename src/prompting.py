@@ -258,20 +258,19 @@ def main():
     if args.sample_number == 0:
         for i in prompt_generator:
             prompt = next(prompt_generator)
-            print(i)
+            print(prompt, flush=True)
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
-            print(response)
+            print(response, flush=True)
             print("*******************")
             dump_response(response, response_file)
     else:
         for i in range(args.sample_number):
             prompt = next(prompt_generator)
-            print(prompt)
-            print("==================")
+            print(prompt, flush=True)
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
-            print(response)
+            print(response, flush=True)
             print("*******************")
             dump_response(response, response_file)
 
