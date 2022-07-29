@@ -1,10 +1,13 @@
 import argparse
 import json
 import random
+import logging
 from typing import Any, Dict, List, Text
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
+
+logger = logging.getLogger(__name__)
 
 template_path = r"./src/prompt_templates/nl_zero.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
@@ -258,20 +261,18 @@ def main():
     if args.sample_number == 0:
         for i in prompt_generator:
             prompt = next(prompt_generator)
-            print(prompt, flush=True)
+            logger.info(prompt)
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
-            print(response, flush=True)
-            print("*******************")
+            logger.info(response)
             dump_response(response, response_file)
     else:
         for i in range(args.sample_number):
             prompt = next(prompt_generator)
-            print(prompt, flush=True)
+            logger.info(prompt)
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
-            print(response, flush=True)
-            print("*******************")
+            logger.info(response)
             dump_response(response, response_file)
 
 
