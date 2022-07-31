@@ -1,12 +1,13 @@
 import json
+from xmlrpc.client import boolean
 
 from torch import le
 from prompting import read_source_data
 from typing import Dict, List, Text
 
 source_data_path = r'./data/ESConv_one_speaker_one_turn.json'
-batch_data_path = r'./data/batch/response.jsonl'
-parlai_format_path = r'./data/batch/parlai_format.txt'
+batch_data_path = r'./data/experiments/small_scale/test_response_b0_4.jsonl'
+parlai_format_path = r'./data/experiments/no_reasoning/test_parlai_b4.txt'
 
 
 def read_batch_data(batch_data_path: Text) -> List[Dict[str, str]]:
@@ -19,7 +20,7 @@ def read_batch_data(batch_data_path: Text) -> List[Dict[str, str]]:
 
 
 def parlai_format_from_batch(
-    batch_data: List[Dict[str, str]], source_data: List[Dict[str, str]], out_path: Text
+    batch_data: List[Dict[str, str]], source_data: List[Dict[str, str]], out_path: Text, with_annotation: boolean = True
 ):
     output_file = open(out_path, 'w+', encoding='utf-8', newline='')
     tmp = ""
@@ -35,8 +36,11 @@ def parlai_format_from_batch(
         for index in range(start, len(dialog["conversation"]) - 1, 2):
             if total_seeker_utterance_index >= len(batch_data):
                 return
-            annotation = batch_data[total_seeker_utterance_index]["response"].split("\n")[0]
-            text = tmp + dialog["conversation"][index]["content"] + " The seeker " + annotation
+            
+            text = tmp + dialog["conversation"][index]["content"]
+            if with_annotation:
+                annotation = batch_data[total_seeker_utterance_index]["response"].split("\n")[0]
+                text += " The seeker " + annotation
             label = dialog["conversation"][index + 1]["content"]
             tmp = ""
             total_seeker_utterance_index += 1
@@ -51,7 +55,7 @@ def parlai_format_from_batch(
 def main():
     source_data = read_source_data(source_data_path)
     batch_data = read_batch_data(batch_data_path)
-    parlai_format_from_batch(batch_data, source_data, parlai_format_path)
+    parlai_format_from_batch(batch_data, source_data, parlai_format_path, with_annotation=False)
 
 
 if __name__ == "__main__":
