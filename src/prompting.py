@@ -191,14 +191,17 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     model.config.pad_token_id = model.config.eos_token_id
     # print(tokenizer.eos_token)
 
-    gen_tokens = model.generate(
-        input_ids,
-        do_sample=True,
-        temperature=0.7,
-        max_new_tokens=80,
-        attention_mask=attention_mask,
-    )
-    gen_text = tokenizer.batch_decode(gen_tokens)[0]
+    try:
+        gen_tokens = model.generate(
+            input_ids,
+            do_sample=True,
+            temperature=0.7,
+            max_new_tokens=80,
+            attention_mask=attention_mask,
+        )
+        gen_text = tokenizer.batch_decode(gen_tokens)[0]
+    except RuntimeError:
+        gen_text = "<padding> <padding> <padding> <padding> <padding>"
     return gen_text
 
 
