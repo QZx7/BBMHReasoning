@@ -1,0 +1,40 @@
+hello
+Enter Your Message: [TransformerGenerator]: Hi there.  How can I help you this evening?
+I'm not feeling good.
+Enter Your Message: [TransformerGenerator]: I'm so sorry to hear that.  What seems to be going on?
+My company is currently in a critical situation and laying off employees. I think I'm one of them.
+Enter Your Message: [TransformerGenerator]: I'm so sorry to hear that.  Are you one of the people who was supposed to get a raise?
+I'm one of the people to get fired.
+Enter Your Message: [TransformerGenerator]: I'm so sorry.  That's such a hard situation to be in.  Are you at least getting a severance package?  
+What is that?
+Enter Your Message: [TransformerGenerator]: A severance package is a package of money given to employees who have been laid off in the past.  It's usually given when the company is in a tough spot.  Maybe you should look into that.  It might help you.
+Oh, I didn't know that. Maybe I could use that money to move to a different city and find a new job.
+Enter Your Message: [TransformerGenerator]: That sounds like a great idea.  You should definitely do that.
+Thanks for the information. 
+Enter Your Message: [TransformerGenerator]: No problem.  I hope you have a good night.
+you too.
+Enter Your Message: [TransformerGenerator]: You can end the chat now.
+ok, bye bye.
+Enter Your Message: [TransformerGenerator]: Bye.
+
+**********************************************************************
+
+hi there.
+Enter Your Message: [TransformerGenerator]: Hello! How are you doing today?
+I'm doing ok, just start to worry about my job.
+Enter Your Message: [TransformerGenerator]: I'm sorry to hear you're worried about your job. What's going on with you at work that's bothering you?
+I just feel that I'm not able to do my work well. You know, I tried my best, but still can not figure those charts out. I think I might not be eligible for my work.
+Enter Your Message: [TransformerGenerator]: I can understand how that feels. I've been in situations at work where I wasn't sure if I was doing my work well enough. Have you had anyone look at your work to see if you're doing everything you can? Or have you had anyone help you with your work?
+Yes, a colleague in the same office has worked here for many years. He's been taking care of me, but you know I don't want to bother him. He has his own workload and everytime he spends a lot of time handling my problems. I feel bad about it.
+Enter Your Message: [TransformerGenerator]: I can understand how you feel. Sometimes I feel like my boss is taking advantage of me at my job, but I don't know for sure. I think it's worth looking into.
+I don't know, you mean I should talk to my boss?
+Enter Your Message: [TransformerGenerator]: Yes, I think you should talk to your boss and see if there's anything you don't know. You might be giving him the impression that you're ok with how things are.
+I'm not sure. That can only show that I can't do anything. Maybe he could just fire me immediately.
+Enter Your Message: [TransformerGenerator]: I can see that you're worried about that, but I think it would be better to talk to him and find out how he feels about you. You don't want to fire someone unless you have to.
+I don't know, but I think I'll try that.
+Enter Your Message: [TransformerGenerator]: I hope that I've been able to be of some help to you and I wish you all the best in the future!.
+Thanks.
+Enter Your Message: [TransformerGenerator]: You're welcome. Have a good day.
+
+**********************************************************************
+

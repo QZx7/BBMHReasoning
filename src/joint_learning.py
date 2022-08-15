@@ -6,8 +6,8 @@ from prompting import read_source_data
 from typing import Dict, List, Text
 
 source_data_path = r'./data/ESConv_one_speaker_one_turn.json'
-batch_data_path = r'./data/experiments/small_scale/test_response_b0_4.jsonl'
-parlai_format_path = r'./data/experiments/no_reasoning/test_parlai_b4.txt'
+batch_data_path = r'./data/experiments/400M/test_response_b15_17.jsonl'
+parlai_format_path = r'./data/experiments/no_reasoning/test_parlai_b15_17.txt'
 
 
 def read_batch_data(batch_data_path: Text) -> List[Dict[str, str]]:

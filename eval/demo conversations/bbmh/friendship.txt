@@ -1,0 +1,25 @@
+hi there.
+Enter Your Message: [TransformerGenerator]: Hello! How are you doing today?
+Thanks for asking, I'm doing ok. 
+Enter Your Message: [TransformerGenerator]: I'm glad to hear you're doing okay. Is there anything that's bothering you?
+Yeah, I could say it's bothering me. You know, my best friend seems to hate me now. The other day they had a party with some other guys but none of them notified me. I feel being isolated by them.
+Enter Your Message: [TransformerGenerator]: I can understand how that would feel unfair. Do you think you could talk to them about it and see why they feel the way they do?
+I could, but it seems that they won't reply my messages in the group. You know, I feel that they have decided to be like this together. 
+Enter Your Message: [TransformerGenerator]: I can understand how frustrated that would make you. I would feel the same way.
+Yeah, I really don't know what I've done wrong. It's just all out of a sudden.
+Enter Your Message: [TransformerGenerator]: I can imagine that it is. It's like a slap in the face when you feel you are being treated well and then all of a sudden you aren't.
+Yeah, exactly. I don't know what happens. I mean if they told me the reason, I could fix it. But they just started to ignore me.
+Enter Your Message: [TransformerGenerator]: I have had that happen to me before. It really hurts and then you start to wonder what else is wrong and then it's hard to come to a conclusion.
+Yeah, it's such a bad experience. How did you overcome that? 
+Enter Your Message: [TransformerGenerator]: I just had to let it go and move on. I tried to focus on other aspects of my life and how I wanted it to be.
+So, you mean, there is basically nothing more we can do by ourselves.
+Enter Your Message: [TransformerGenerator]: I mean try to focus on other things in your life. If they really wanted to stay in your life they would make some effort to stay in contact.
+That makes sense. There is really nothing more we can do. I hope they could let me the reason in the future. And if they just keep doing this, I don't think I can be friends with them.
+Enter Your Message: [TransformerGenerator]: I have learned in life that if someone wants to stay in your life they will make an effort to do so. If they don't they weren't really that good of a friend to begin with.
+Ok, I think I know what to do, thanks for the help.
+Enter Your Message: [TransformerGenerator]: You are very welcome. I hope you feel a little better about things.
+Thank you.
+Enter Your Message: [TransformerGenerator]: Things will get better for you too.
+
+**********************************************************************
+

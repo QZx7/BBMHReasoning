@@ -1,0 +1,357 @@
+2022-08-03 09:39:55,228 WARNING  | Overriding opt["datatype"] to valid (previously: train)
+2022-08-03 09:39:55,228 WARNING  | Overriding opt["task"] to fromfile:parlaiformat (previously: blended_skill_talk,wizard_of_wikipedia,convai2:normalized,empathetic_dialogues,fromfile:parlaiformat)
+2022-08-03 09:39:55,229 WARNING  | Overriding opt["fromfile_datapath"] to ../data/no_reasoning/test_parlai_b4.txt (previously: ../data/parlai_format.txt)
+2022-08-03 09:39:55,229 WARNING  | Overriding opt["skip_generation"] to False (previously: True)
+2022-08-03 09:39:55,287 INFO     | Using CUDA
+2022-08-03 09:39:55,297 INFO     | loading dictionary from ../model/bbmhr_90M.dict
+2022-08-03 09:39:55,455 INFO     | num words = 54944
+2022-08-03 09:39:56,780 WARNING  | DEPRECATED: XLM should only be used for backwards compatibility, as it involves a less-stable layernorm operation.
+2022-08-03 09:40:03,417 INFO     | Total parameters: 87,508,992 (86,984,704 trainable)
+2022-08-03 09:40:03,418 INFO     | Loading existing model params from ../model/bbmhr_90M
+2022-08-03 09:40:06,257 INFO     | Opt:
+2022-08-03 09:40:06,257 INFO     |     activation: gelu
+2022-08-03 09:40:06,258 INFO     |     adafactor_eps: '[1e-30, 0.001]'
+2022-08-03 09:40:06,258 INFO     |     adam_eps: 1e-08
+2022-08-03 09:40:06,258 INFO     |     add_missing_turns: none
+2022-08-03 09:40:06,258 INFO     |     add_p1_after_newln: False
+2022-08-03 09:40:06,258 INFO     |     aggregate_micro: False
+2022-08-03 09:40:06,258 INFO     |     allow_missing_init_opts: False
+2022-08-03 09:40:06,258 INFO     |     area_under_curve_class: None
+2022-08-03 09:40:06,258 INFO     |     area_under_curve_digits: -1
+2022-08-03 09:40:06,258 INFO     |     attention_dropout: 0.0
+2022-08-03 09:40:06,258 INFO     |     batchsize: 8
+2022-08-03 09:40:06,258 INFO     |     beam_block_full_context: True
+2022-08-03 09:40:06,258 INFO     |     beam_block_list_filename: None
+2022-08-03 09:40:06,258 INFO     |     beam_block_ngram: -1
+2022-08-03 09:40:06,258 INFO     |     beam_context_block_ngram: -1
+2022-08-03 09:40:06,258 INFO     |     beam_delay: 30
+2022-08-03 09:40:06,258 INFO     |     beam_length_penalty: 0.65
+2022-08-03 09:40:06,258 INFO     |     beam_min_length: 1
+2022-08-03 09:40:06,258 INFO     |     beam_size: 1
+2022-08-03 09:40:06,258 INFO     |     betas: '[0.9, 0.999]'
+2022-08-03 09:40:06,258 INFO     |     bpe_add_prefix_space: None
+2022-08-03 09:40:06,258 INFO     |     bpe_debug: False
+2022-08-03 09:40:06,258 INFO     |     bpe_dropout: None
+2022-08-03 09:40:06,258 INFO     |     bpe_merge: None
+2022-08-03 09:40:06,258 INFO     |     bpe_vocab: None
+2022-08-03 09:40:06,259 INFO     |     checkpoint_activations: False
+2022-08-03 09:40:06,259 INFO     |     chosen_topic_delimiter: '\n'
+2022-08-03 09:40:06,259 INFO     |     compute_tokenized_bleu: False
+2022-08-03 09:40:06,259 INFO     |     datapath: /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data
+2022-08-03 09:40:06,259 INFO     |     datatype: valid
+2022-08-03 09:40:06,259 INFO     |     delimiter: '  '
+2022-08-03 09:40:06,259 INFO     |     dict_class: parlai.core.dict:DictionaryAgent
+2022-08-03 09:40:06,259 INFO     |     dict_endtoken: __end__
+2022-08-03 09:40:06,259 INFO     |     dict_file: ../model/bbmhr_90M.dict
+2022-08-03 09:40:06,259 INFO     |     dict_include_test: False
+2022-08-03 09:40:06,259 INFO     |     dict_include_valid: False
+2022-08-03 09:40:06,259 INFO     |     dict_initpath: None
+2022-08-03 09:40:06,259 INFO     |     dict_language: english
+2022-08-03 09:40:06,259 INFO     |     dict_loaded: True
+2022-08-03 09:40:06,259 INFO     |     dict_lower: False
+2022-08-03 09:40:06,259 INFO     |     dict_max_ngram_size: -1
+2022-08-03 09:40:06,259 INFO     |     dict_maxexs: -1
+2022-08-03 09:40:06,259 INFO     |     dict_maxtokens: -1
+2022-08-03 09:40:06,259 INFO     |     dict_minfreq: 0
+2022-08-03 09:40:06,259 INFO     |     dict_nulltoken: __null__
+2022-08-03 09:40:06,259 INFO     |     dict_starttoken: __start__
+2022-08-03 09:40:06,265 INFO     |     dict_textfields: text,labels
+2022-08-03 09:40:06,265 INFO     |     dict_tokenizer: bpe
+2022-08-03 09:40:06,265 INFO     |     dict_unktoken: __unk__
+2022-08-03 09:40:06,265 INFO     |     display_examples: False
+2022-08-03 09:40:06,265 INFO     |     download_path: None
+2022-08-03 09:40:06,265 INFO     |     dropout: 0.1
+2022-08-03 09:40:06,266 INFO     |     dynamic_batching: None
+2022-08-03 09:40:06,266 INFO     |     embedding_projection: random
+2022-08-03 09:40:06,266 INFO     |     embedding_size: 512
+2022-08-03 09:40:06,266 INFO     |     embedding_type: random
+2022-08-03 09:40:06,266 INFO     |     embeddings_scale: True
+2022-08-03 09:40:06,266 INFO     |     eval_batchsize: None
+2022-08-03 09:40:06,266 INFO     |     eval_dynamic_batching: None
+2022-08-03 09:40:06,266 INFO     |     evaltask: None
+2022-08-03 09:40:06,266 INFO     |     ffn_size: 2048
+2022-08-03 09:40:06,266 INFO     |     final_extra_opt: 
+2022-08-03 09:40:06,266 INFO     |     force_fp16_tokens: True
+2022-08-03 09:40:06,266 INFO     |     fp16: True
+2022-08-03 09:40:06,266 INFO     |     fp16_impl: mem_efficient
+2022-08-03 09:40:06,266 INFO     |     fromfile_datapath: ../data/no_reasoning/test_parlai_b4.txt
+2022-08-03 09:40:06,266 INFO     |     fromfile_datatype_extension: False
+2022-08-03 09:40:06,266 INFO     |     gpu: -1
+2022-08-03 09:40:06,266 INFO     |     gradient_clip: 0.1
+2022-08-03 09:40:06,266 INFO     |     hide_labels: False
+2022-08-03 09:40:06,266 INFO     |     history_add_global_end_token: end
+2022-08-03 09:40:06,266 INFO     |     history_reversed: False
+2022-08-03 09:40:06,266 INFO     |     history_size: -1
+2022-08-03 09:40:06,266 INFO     |     image_cropsize: 224
+2022-08-03 09:40:06,266 INFO     |     image_mode: raw
+2022-08-03 09:40:06,266 INFO     |     image_size: 256
+2022-08-03 09:40:06,267 INFO     |     include_checked_sentence: True
+2022-08-03 09:40:06,267 INFO     |     include_knowledge: True
+2022-08-03 09:40:06,267 INFO     |     include_knowledge_separator: False
+2022-08-03 09:40:06,267 INFO     |     inference: greedy
+2022-08-03 09:40:06,267 INFO     |     init_model: /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/tutorial_transformer_generator/model
+2022-08-03 09:40:06,267 INFO     |     init_opt: None
+2022-08-03 09:40:06,267 INFO     |     interactive_mode: False
+2022-08-03 09:40:06,267 INFO     |     invsqrt_lr_decay_gamma: -1
+2022-08-03 09:40:06,267 INFO     |     is_debug: False
+2022-08-03 09:40:06,267 INFO     |     label_truncate: 128
+2022-08-03 09:40:06,267 INFO     |     label_type: response
+2022-08-03 09:40:06,267 INFO     |     learn_positional_embeddings: False
+2022-08-03 09:40:06,267 INFO     |     learningrate: 7e-06
+2022-08-03 09:40:06,267 INFO     |     log_every_n_secs: 10.0
+2022-08-03 09:40:06,267 INFO     |     log_every_n_steps: 50
+2022-08-03 09:40:06,267 INFO     |     log_keep_fields: all
+2022-08-03 09:40:06,267 INFO     |     loglevel: info
+2022-08-03 09:40:06,267 INFO     |     lr_scheduler: reduceonplateau
+2022-08-03 09:40:06,267 INFO     |     lr_scheduler_decay: 0.5
+2022-08-03 09:40:06,267 INFO     |     lr_scheduler_patience: 3
+2022-08-03 09:40:06,267 INFO     |     max_num_turns: -1
+2022-08-03 09:40:06,267 INFO     |     max_train_steps: -1
+2022-08-03 09:40:06,267 INFO     |     max_train_time: -1
+2022-08-03 09:40:06,267 INFO     |     metrics: default
+2022-08-03 09:40:06,267 INFO     |     model: transformer/generator
+2022-08-03 09:40:06,267 INFO     |     model_file: ../model/bbmhr_90M
+2022-08-03 09:40:06,268 INFO     |     model_parallel: True
+2022-08-03 09:40:06,268 INFO     |     momentum: 0
+2022-08-03 09:40:06,268 INFO     |     multitask_weights: '[1.0, 3.0, 3.0, 3.0, 1.0]'
+2022-08-03 09:40:06,268 INFO     |     mutators: None
+2022-08-03 09:40:06,268 INFO     |     n_decoder_layers: -1
+2022-08-03 09:40:06,268 INFO     |     n_encoder_layers: -1
+2022-08-03 09:40:06,268 INFO     |     n_heads: 16
+2022-08-03 09:40:06,268 INFO     |     n_layers: 8
+2022-08-03 09:40:06,268 INFO     |     n_positions: 512
+2022-08-03 09:40:06,268 INFO     |     n_segments: 0
+2022-08-03 09:40:06,268 INFO     |     nesterov: True
+2022-08-03 09:40:06,268 INFO     |     no_cuda: False
+2022-08-03 09:40:06,268 INFO     |     num_epochs: -1
+2022-08-03 09:40:06,268 INFO     |     num_examples: -1
+2022-08-03 09:40:06,268 INFO     |     num_topics: 5
+2022-08-03 09:40:06,268 INFO     |     num_workers: 0
+2022-08-03 09:40:06,268 INFO     |     nus: [0.7]
+2022-08-03 09:40:06,268 INFO     |     optimizer: mem_eff_adam
+2022-08-03 09:40:06,268 INFO     |     output_scaling: 1.0
+2022-08-03 09:40:06,268 INFO     |     override: "{'datatype': 'valid', 'task': 'fromfile:parlaiformat', 'fromfile_datapath': '../data/no_reasoning/test_parlai_b4.txt', 'model_file': '../model/bbmhr_90M', 'skip_generation': False}"
+2022-08-03 09:40:06,268 INFO     |     parlai_home: /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages
+2022-08-03 09:40:06,268 INFO     |     person_tokens: False
+2022-08-03 09:40:06,268 INFO     |     rank_candidates: False
+2022-08-03 09:40:06,268 INFO     |     relu_dropout: 0.0
+2022-08-03 09:40:06,268 INFO     |     report_filename: 
+2022-08-03 09:40:06,268 INFO     |     save_after_valid: True
+2022-08-03 09:40:06,269 INFO     |     save_every_n_secs: -1
+2022-08-03 09:40:06,269 INFO     |     save_format: conversations
+2022-08-03 09:40:06,269 INFO     |     share_word_embeddings: True
+2022-08-03 09:40:06,269 INFO     |     short_final_eval: False
+2022-08-03 09:40:06,269 INFO     |     skip_generation: False
+2022-08-03 09:40:06,269 INFO     |     special_tok_lst: None
+2022-08-03 09:40:06,269 INFO     |     split_lines: False
+2022-08-03 09:40:06,269 INFO     |     starttime: Jul28_19-57
+2022-08-03 09:40:06,269 INFO     |     task: fromfile:parlaiformat
+2022-08-03 09:40:06,269 INFO     |     temperature: 1.0
+2022-08-03 09:40:06,269 INFO     |     tensorboard_log: False
+2022-08-03 09:40:06,269 INFO     |     tensorboard_logdir: None
+2022-08-03 09:40:06,269 INFO     |     text_truncate: 512
+2022-08-03 09:40:06,269 INFO     |     topk: 10
+2022-08-03 09:40:06,269 INFO     |     topp: 0.9
+2022-08-03 09:40:06,269 INFO     |     train_experiencer_only: False
+2022-08-03 09:40:06,269 INFO     |     truncate: 128
+2022-08-03 09:40:06,269 INFO     |     update_freq: 2
+2022-08-03 09:40:06,269 INFO     |     use_reply: label
+2022-08-03 09:40:06,269 INFO     |     validation_cutoff: 1.0
+2022-08-03 09:40:06,269 INFO     |     validation_every_n_epochs: 0.25
+2022-08-03 09:40:06,269 INFO     |     validation_every_n_secs: -1
+2022-08-03 09:40:06,269 INFO     |     validation_every_n_steps: -1
+2022-08-03 09:40:06,269 INFO     |     validation_max_exs: -1
+2022-08-03 09:40:06,269 INFO     |     validation_metric: ppl
+2022-08-03 09:40:06,269 INFO     |     validation_metric_mode: min
+2022-08-03 09:40:06,270 INFO     |     validation_patience: 10
+2022-08-03 09:40:06,270 INFO     |     validation_share_agent: False
+2022-08-03 09:40:06,270 INFO     |     variant: xlm
+2022-08-03 09:40:06,270 INFO     |     verbose: False
+2022-08-03 09:40:06,270 INFO     |     wandb_entity: None
+2022-08-03 09:40:06,270 INFO     |     wandb_log: False
+2022-08-03 09:40:06,270 INFO     |     wandb_name: None
+2022-08-03 09:40:06,270 INFO     |     wandb_project: None
+2022-08-03 09:40:06,270 INFO     |     warmup_rate: 0.0001
+2022-08-03 09:40:06,270 INFO     |     warmup_updates: 100
+2022-08-03 09:40:06,270 INFO     |     weight_decay: None
+2022-08-03 09:40:06,270 INFO     |     world_logs: 
+2022-08-03 09:40:06,270 INFO     |     your_persona_first: True
+2022-08-03 09:40:06,708 INFO     | Evaluating task fromfile:parlaiformat using datatype valid.
+2022-08-03 09:40:06,709 INFO     | creating task(s): fromfile:parlaiformat
+2022-08-03 09:40:06,712 WARNING  | You are using this fromfile data as a valid or test set without setting fromfile_datatype_extension to true. Please be aware this uses directly the file you indicated, make sure this is not the same as your training file.
+2022-08-03 09:40:06,712 INFO     | Loading ParlAI text data: ../data/no_reasoning/test_parlai_b4.txt
+2022-08-03 09:40:21,828 INFO     | 1.0% complete (5 / 487), 0:00:10 elapsed, 0:17:10 eta
+    accuracy    bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 3.337e-09 189.6 189.6 88.76       0          0 .4681    5 .1025   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+          64.4  .006606  39.2 2.049  39.2 18.35       0          0 7.762      .4898   
+    token_em   tpb   tps  
+           0 228.8 107.1
+2022-08-03 09:40:27,490 INFO     | 3.9% complete (19 / 487), 0:00:20 elapsed, 0:08:31 eta
+    accuracy    bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 1.216e-08 217.1 211.7 193.9   .1053      5.368 .9160   19 .1165   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         35.26   .00745 30.63 2.165 30.63 28.06       0          0 8.717      .4811   
+    token_em   tpb  tps  
+           0 242.4  222
+2022-08-03 09:40:37,521 INFO     | 6.6% complete (32 / 487), 0:00:30 elapsed, 0:07:18 eta
+    accuracy   bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs     f1  \
+           0 8.33e-09 449.5 326.4 339.5   .4062        123  1.04   32 .09997   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         41.19  .007638 28.31 2.143 28.31 29.44       0          0 8.525      .4857   
+    token_em   tpb   tps  
+           0 354.8 368.9
+2022-08-03 09:40:47,553 INFO     | 11.9% complete (58 / 487), 0:00:40 elapsed, 0:05:02 eta
+    accuracy    bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 7.304e-06 368.8 281.4   400   .3103       87.4 1.421   58 .1226   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         33.67  .007587  25.9 1.955  25.9 36.81       0          0 7.062      .5160   
+    token_em   tpb   tps  
+           0 307.3 436.9
+2022-08-03 09:40:57,933 INFO     | 15.6% complete (76 / 487), 0:00:51 elapsed, 0:04:37 eta
+    accuracy    bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 5.577e-06 327.7 260.9 387.4   .2500      66.76 1.485   76 .1181   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         34.36  .007451 24.88 1.974 24.88 36.94       0          0 7.201      .5225   
+    token_em   tpb   tps  
+           0 285.8 424.4
+2022-08-03 09:41:08,036 INFO     | 20.1% complete (98 / 487), 0:01:01 elapsed, 0:04:03 eta
+    accuracy    bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 4.326e-06   383 289.7 463.2   .3265      93.31 1.599   98 .1188   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen  ppl  token_acc  \
+         33.36  .007588 25.73 1.953 25.73 41.15       0          0 7.05      .5250   
+    token_em   tpb   tps  
+           0 315.4 504.3
+2022-08-03 09:41:18,125 INFO     | 26.9% complete (131 / 487), 0:01:11 elapsed, 0:03:14 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .005955 351.3 281.3 516.3   .2519      70.04 1.835  131 .1295   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         29.89   .00751 24.15 1.982 24.15 44.33       0          0 7.257      .5161   
+    token_em   tpb   tps  
+           0 305.5 560.6
+2022-08-03 09:41:28,169 INFO     | 31.4% complete (153 / 487), 0:01:21 elapsed, 0:02:58 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .005099 360.7 291.4 547.6   .2745      69.25 1.879  153 .1267   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         29.82  .007562 26.08 2.007 26.08    49       0          0 7.442      .5088   
+    token_em   tpb   tps  
+           0 317.5 596.6
+2022-08-03 09:41:38,213 INFO     | 36.6% complete (178 / 487), 0:01:31 elapsed, 0:02:39 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .008844 352.9 289.9 564.2   .2584         63 1.946  178 .1327   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         29.31  .007614 25.82 1.995 25.82 50.25       0          0 7.354      .5135   
+    token_em   tpb   tps  
+           0 315.7 614.4
+2022-08-03 09:41:48,804 INFO     | 40.5% complete (197 / 487), 0:01:42 elapsed, 0:02:30 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .009746 344.7 287.4 554.8   .2386      57.24  1.93  197 .1344   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         29.95  .007406 25.69 1.966 25.69 49.58       0          0 7.139      .5200   
+    token_em   tpb   tps  
+     .005076 313.1 604.4
+2022-08-03 09:41:59,044 INFO     | 45.6% complete (222 / 487), 0:01:52 elapsed, 0:02:14 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0  .00865 350.4 292.5 578.3   .2523      57.83 1.977  222 .1376   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+          29.5  .007452  25.2 1.979  25.2 49.81       0          0 7.237      .5197   
+    token_em   tpb   tps  
+     .009009 317.7 628.1
+2022-08-03 09:42:09,508 INFO     | 48.9% complete (238 / 487), 0:02:02 elapsed, 0:02:08 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .008264 353.9 296.1 574.1   .2647      57.74 1.939  238 .1385   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+          30.4  .007614 26.53 1.996 26.53 51.43       0          0 7.361      .5160   
+    token_em   tpb   tps  
+     .008403 322.7 625.6
+2022-08-03 09:42:20,084 INFO     | 53.2% complete (259 / 487), 0:02:13 elapsed, 0:01:57 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .007596 363.7 297.2 577.2   .2703      66.53 1.942  259 .1403   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         30.58  .007587 27.64 2.017 27.64 53.68       0          0 7.512      .5133   
+    token_em   tpb   tps  
+     .007722 324.8 630.9
+2022-08-03 09:42:31,028 INFO     | 56.9% complete (277 / 487), 0:02:24 elapsed, 0:01:49 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .008528 364.7 300.2 576.4   .2708      64.48  1.92  277 .1414   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         31.13  .007562 27.53 2.003 27.53 52.86       0          0 7.411      .5153   
+    token_em   tpb   tps  
+      .00722 327.8 629.3
+2022-08-03 09:42:41,065 INFO     | 62.0% complete (302 / 487), 0:02:34 elapsed, 0:01:35 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .007822 358.5 298.4 583.9   .2649      60.12 1.957  302 .1424   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         30.67  .007564 27.76 1.972 27.76 54.33       0          0 7.185      .5197   
+    token_em   tpb   tps  
+     .006623 326.1 638.2
+2022-08-03 09:42:52,073 INFO     | 65.9% complete (321 / 487), 0:02:45 elapsed, 0:01:25 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .007824   355 296.5 575.7   .2586      58.47 1.942  321 .1426   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         31.07  .007743 27.83 1.969 27.83 54.03       0          0 7.165      .5211   
+    token_em   tpb   tps  
+     .006231 324.4 629.8
+2022-08-03 09:43:02,156 INFO     | 70.4% complete (343 / 487), 0:02:55 elapsed, 0:01:14 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .007322 362.1   297 580.8   .2595      65.05 1.955  343 .1407   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         30.97  .007458  27.1 1.983  27.1    53       0          0 7.262      .5207   
+    token_em   tpb   tps  
+     .005831 324.1 633.8
+2022-08-03 09:43:12,178 INFO     | 76.0% complete (370 / 487), 0:03:05 elapsed, 0:00:59 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .007037 359.8 297.8 594.3   .2568      61.99 1.995  370 .1406   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         30.45  .007537 27.05 1.973 27.05 53.98       0          0 7.194      .5219   
+    token_em   tpb   tps  
+     .005405 324.9 648.3
+2022-08-03 09:43:22,460 INFO     | 81.9% complete (399 / 487), 0:03:15 elapsed, 0:00:43 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .006526 354.7 295.4 602.1   .2506      59.36 2.039  399 .1398   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         29.87  .007538 26.88  1.97 26.88  54.8       0          0 7.172      .5224   
+    token_em   tpb   tps  
+     .005013 322.2 656.9
+2022-08-03 09:43:32,676 INFO     | 85.2% complete (415 / 487), 0:03:25 elapsed, 0:00:36 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .007265   352 294.9 594.3   .2434      57.13 2.015  415 .1398   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         30.33  .007381 26.82 1.973 26.82 54.04       0          0 7.192      .5217   
+    token_em   tpb   tps  
+     .004819 321.7 648.4
+2022-08-03 09:43:43,516 INFO     | 87.9% complete (428 / 487), 0:03:36 elapsed, 0:00:30 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .007214 353.8   296 584.5   .2500       57.8 1.974  428 .1402   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         31.05  .007484 26.82 1.971 26.82 52.95       0          0 7.181      .5214   
+    token_em   tpb   tps  
+     .004673 322.9 637.5
+2022-08-03 09:43:53,546 INFO     | 91.8% complete (447 / 487), 0:03:46 elapsed, 0:00:20 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .006907 360.8 299.4 590.2   .2617       61.4 1.971  447 .1396   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen  ppl  token_acc  \
+         31.17  .007616 27.46 1.992 27.46 54.11       0          0 7.33      .5185   
+    token_em   tpb   tps  
+     .004474 326.9 644.3
+2022-08-03 09:44:03,762 INFO     | 96.7% complete (471 / 487), 0:03:57 elapsed, 0:00:08 eta
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .006556 356.5 297.4   591   .2590      59.15 1.987  471 .1395   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         30.98  .007537 27.88 2.005 27.88 55.41       0          0 7.425      .5155   
+    token_em   tpb   tps  
+     .004246 325.3 646.4
+2022-08-03 09:44:09,486 REPORT   | Report for fromfile:parlaiformat:
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .006676 352.4 295.2 592.2   .2505       57.2 2.006  487 .1408   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         30.72  .007218 27.77 2.001 27.77 55.72       0          0 7.396      .5157   
+    token_em   tpb   tps  
+     .004107 322.9 647.9
+2022-08-03 09:44:09,486 INFO     | Finished evaluating tasks ['fromfile:parlaiformat'] using datatype valid
+    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
+           0 .006676 352.4 295.2 592.2   .2505       57.2 2.006  487 .1408   
+    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
+         30.72  .007218 27.77 2.001 27.77 55.72       0          0 7.396      .5157   
+    token_em   tpb   tps  
+     .004107 322.9 647.9
