@@ -1,0 +1,44 @@
+Enter Your Message: hi, how are you doing?
+[TransformerGenerator]: I am doing well. How are things with you?
+Enter Your Message: Yes, I was discontinued from studies due to some financial problem.
+[TransformerGenerator]: Oh no, I am so sorry to hear that. I have had it happen to me before, and it is one of the most stressful things that can happen to you. How are you coping with it?
+Enter Your Message: Yeah.. I am thinking of applying an online job but I am afraid that I can't manage both my studies and job. Thinking about it makes me frustrated and sad.
+[TransformerGenerator]: I understand that, especially with the pandemic going on, it can be difficult to keep up with school and work.
+Enter Your Message: Yes, thank you for the concern.
+[TransformerGenerator]: No problem, I am glad I could help you today. Is there anything else you would like to talk about?
+
+**********************************************************************
+
+Enter Your Message: hi, how are you doing?
+[TransformerGenerator]: I am doing well. How are things with you?
+Enter Your Message: Yes, I was discontinued from studies due to some financial problem.
+[TransformerGenerator]: Oh no, I am so sorry to hear that. I have had it happen to me before, and it is one of the most stressful things that can happen to you. How are you coping with it?
+Enter Your Message: Yeah.. I am thinking of applying an online job but I am afraid that I can't manage both my studies and job. Thinking about it makes me frustrated and sad.
+[TransformerGenerator]: I understand that, especially with the pandemic going on, it can be difficult to keep up with school and work.
+Enter Your Message: Yeah.. and I don't know what to do.
+[TransformerGenerator]: Have you thought about talking to your professors or other students about a tutor, or even a peer-supporter?.
+Enter Your Message: Yeah, I actually talked about the research assistant with my professor, but I'm not sure if I could get the job because it's very competitive. There are many students applying it.
+[TransformerGenerator]: I'm sure that you will find something that works for you.
+Enter Your Message: Ah, thank you anyway.
+[TransformerGenerator]: You're welcome. I'm sure that you will do great!
+
+**********************************************************************
+
+Enter Your Message: Hi, I'm very depressed and sad. Please help me I need help.
+[TransformerGenerator]: I'm sorry to hear that. Do you know why you feel depressed and sad?
+Enter Your Message: I think it's because of my poor relationship in life.
+[TransformerGenerator]: I'm sorry to hear that. Do you know why you feel depressed and sad?
+Enter Your Message: My family doesn't like me because I'm bad at school. My friends don't really like me or talk to me much. I feel alone.
+[TransformerGenerator]: So you don't feel like you have anyone to talk to or get support from?
+Enter Your Message: Not really. I try to talk to my friends but they avoid me.
+[TransformerGenerator]: I can see how that feels bad, being ignored. Do you know why they avoid you?
+Enter Your Message: If I knew the reason, I could start working on improvement. But they just don't want to talk to me, though they always hang out together.
+[TransformerGenerator]: I had a friend who's family did that. She told me that they just didn't want to see the truth. She ended up having to seek professional help to overcome the depression.
+Enter Your Message: Do you think that can help me identify the problem?
+[TransformerGenerator]: It can, sometimes we need another perspective. I think it may also be helpful to ask your friends why they feel that way. I bet you could find out a lot about yourself that way.
+Enter Your Message: That seems like a good idea.
+[TransformerGenerator]: I've done that myself. I had a friend who couldn't see why I was upset with her, and it turns out that she didn't want to see what was wrong with her. It took me a long time to realize that and change my perspective on her.
+Enter Your Message: I'll try to wait for the right time and talk to them.
+[TransformerGenerator]: That sounds like a great idea. I'm sure they'll be happy to listen and to give you another perspective.
+Enter Your Message: Thank you so much. I feel like I can talk to someone now.
+[TransformerGenerator]: I'm so glad to hear that. I hope that you feel better soon.

@@ -23,3 +23,25 @@ Enter Your Message: [TransformerGenerator]: Things will get better for you too.
 
 **********************************************************************
 
+Enter Your Message: Hello, how are you?
+[TransformerGenerator]: Hello good how are you.
+Enter Your Message: I'm sad and angry because I no longer talk to my best friend.
+[TransformerGenerator]: I'm sorry to hear that, why are you not talking to your best friend?
+Enter Your Message: Well, she was staying at my house for a month and we were constantly fighting so she just stopped talking to me.
+[TransformerGenerator]: I understand why you would be upset about that, I would be too.
+Enter Your Message: Yes, and she began avoiding me while we were in the same house, so we started arguing again and I found she's been lying to me since I've known her and I'm very upset.
+[TransformerGenerator]: I've been in a similar situation, I was in a long distance relationship with my best friend and we were fighting a lot so she stopped talking to me. But, we started talking again and we are still best friends to this day.
+Enter Your Message: How did that happen? Did one of you apologize? 
+[TransformerGenerator]: We just decided to give each other some space and then we started talking again and it was like we never stopped talking. I don't think an apology would really help you out here. I think you should just let it go. You're both adults, she will come around eventually.
+Enter Your Message: You know, from the beginning I respected her a lot. But you know, it just, makes me feel angry that I was being used for so long and constantly lied to.
+[TransformerGenerator]: I understand how you feel, but I think you should just focus on yourself and not worry about what happens with her.
+Enter Your Message: Maybe you're right, probably I should talk to my other friends the situation some more so I can get over it without thinking about too much.
+[TransformerGenerator]: I think that would be a good idea, and it sounds like she would also want you to do that too.
+Enter Your Message: Now I start to realize that I wasn't angry with my friend but rather myself.
+[TransformerGenerator]: I know how you feel, but I think you should just focus on yourself for now.
+Enter Your Message: Because I basically allowed her to use me for seven years and kept lying to me or gave her space because I thought I was being a good friend. I feel like I was stupid to do that and soft.
+[TransformerGenerator]: I understand how you feel, but it's over now and it's not going to happen again. There's no need to dwell on the past.
+Enter Your Message: Yeah, that's right. I just need to pay more attention in the future. Thank you very much for your advice.
+[TransformerGenerator]: You're welcome. I hope you feel better.
+Enter Your Message: Thanks, enjoy the rest of your day.
+[TransformerGenerator]: You too!

@@ -1,0 +1,31 @@
+Enter Your Message: hi there.
+[TransformerGenerator]: Hello! How are you doing today?
+Enter Your Message: I've been feeling a lot of pressure and stress lately due to school.
+[TransformerGenerator]: I'm sorry to hear that. Do you have any idea what is causing the stress?
+Enter Your Message: Well, I am in a doctoral program, so I have to work on my thesis on the side even with all of my classes and I had a hard time managing my time and keeping track.
+[TransformerGenerator]: I can understand how that is very overwhelming. The thesis can be so stressful. Have you had any luck managing your time?
+Enter Your Message: You know, I do use calendars, both physical one and electronic one. But I feel like even if I write down my tasks, I find a way to procrastinate which is what I am having trouble with.
+[TransformerGenerator]: I think that the physical calendar is really helpful! Do you find that when you are writing down your tasks that you are more motivated to do them?
+Enter Your Message: I do feel more motivated in the beginning, but my brain can always find a reasonable execuse to finish that task the other day.
+[TransformerGenerator]: I think that you could maybe set aside an evening every week where you do your tasks to the best of your ability, and then each day after that, you could check off what you did. This would give you a record of what you have done and it could help you from feeling like you have failed to fulfill your tasks.
+Enter Your Message: So, you mean I should motivate myself with the feeling of "guity"? That sounds like a very helpful advice, I will take note of it.
+[TransformerGenerator]: Yes, exactly. You will know if you have done your best if you have a record of it, and you could feel good about it too.
+Enter Your Message: I agree. That really is helpful, thank you. You know, recently I just feel even worse due to the pandemic. I'm always locked in my apartment and staying sitting down in from of my computer all day. So, I just feel like doing nothing everyday. But you advice really helps. Thank you.
+[TransformerGenerator]: I can understand that. The pandemic has really been hard on everyone. You aren't alone in feeling that way. You could also try to do small tasks that seem easy, but are actually difficult. For example, making your bed. I always feel bad about making my bed, but in reality, it is very easy to do. But, I always feel bad about having to do it, but once I do it, I feel better about it.
+Enter Your Message: Sounds like another reasonable advice to handle small tasks. Haha, thanks.
+[TransformerGenerator]: You are very welcome! I hope you are able to feel somewhat better about the situation at least until the pandemic is over. I think it will make things a lot easier for you..
+
+**********************************************************************
+
+Enter Your Message: Hello, there.
+[TransformerGenerator]: Hello, how are you?
+Enter Your Message: I'm recently feeling bad. I have finals coming up and I am so nervous about taking these tests.
+[TransformerGenerator]: I am sure you are trying the hardest you can.
+Enter Your Message: I did, but I'm afraid I'm going to do poorly and have to retake the classes.
+[TransformerGenerator]: I am sure you will do your best, but if you are really worried you can contact your professor and ask for a extension on your exams.
+Enter Your Message: I don't think they are going to let me do that. The schedule is decided for everyone. You know, I study and I have gone to all my classes but I feel like I don't know the infromation well enough. 
+[TransformerGenerator]: I have been in that situation before, and I was able to talk to my professor and get an extension on my exams. I was also in a situation where I did not know the infromation well, and I was able to talk to my professor and get an extension on my exams. I was able to talk to my professor and get an extension on my exams.
+Enter Your Message: Well.. thank you. I will try that...
+[TransformerGenerator]: I know it is hard, but I know you can do it. Is there anything else I can help you with?
+Enter Your Message: No, thank you for talking with me.
+[TransformerGenerator]: You are very welcome! Have a nice day!

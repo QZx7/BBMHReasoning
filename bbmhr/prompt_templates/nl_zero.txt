@@ -1,5 +1,8 @@
 Give a conversation betwee a seeker and a supporter, predict the emotion status of the seeker, the reason causing that emotion and some conversation instructions for the supporter.
 Conversation:
+seeker: hello.
+In this conversation, the seeker did greeting. The supporter should also do greetings.
+Conversation:
 supporter: How can I help you today? It is Christmas, so I expect there to be help for the lonely.
 seeker: Yeah, I'm pretty stressed today with the news from Nashville.
 In this conversation, the seeker feels stressed, but the reason is not mentioned. The supporter should ask for more details.

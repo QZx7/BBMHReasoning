@@ -35,6 +35,3 @@ I don't know, but I think I'll try that.
 Enter Your Message: [TransformerGenerator]: I hope that I've been able to be of some help to you and I wish you all the best in the future!.
 Thanks.
 Enter Your Message: [TransformerGenerator]: You're welcome. Have a good day.
-
-**********************************************************************
-

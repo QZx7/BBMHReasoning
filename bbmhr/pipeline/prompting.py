@@ -2,14 +2,29 @@ import argparse
 import json
 import random
 import logging
-from typing import Any, Dict, List, Text
+import openai
+import os
+from typing import Any, Dict, List, Optional, Text
 
+from datetime import date
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-logger = logging.getLogger(__name__)
+Log_Format = "%(levelname)s %(asctime)s - %(message)s"
 
-template_path = r"./src/prompt_templates/nl_zero.txt"
+GPT_3_log_path = os.path.join("./log", date.today().strftime("%Y%m%d") + ".log")
+handler = logging.FileHandler(GPT_3_log_path, mode='a+', encoding='utf-8')
+handler.setFormatter(logging.Formatter(Log_Format))
+logger = logging.getLogger()
+logger.addHandler(handler)
+logger.setLevel(logging.DEBUG)
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+GPT_3_TASK_COMPLETION = "completion"
+GPT_3_TASK_CLASSIFICATION = "classification"
+GPT_3_TASK_CONVERSATION = "conversation"
+
+template_path = r"./bbmhr/prompt_templates/nl_zero.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
 test_data_path = r"./data/ESConv_test_data.json"
 response_path = r"./data/NL_response"
@@ -27,6 +42,60 @@ def read_prompt(prompt_path: Text) -> Text:
     """
     template_file = open(prompt_path, "r", encoding="utf-8")
     return template_file.read()
+
+
+def get_gpt_result(task: Text, gpt_prompt: Optional[Text] = "", query: Optional[Text] = "", stop_words: Optional[List[Text]] = []) -> Dict:
+    """Get response from the gpt by prompt.
+
+    Args:
+        task (Text): task to finsih, choose from "completion", "classification" and "conversation".
+        gpt_prompt (Optional[Text], optional): The prompt text. Defaults to "".
+        query (Optional[Text], optional): classification task only. Defaults to "".
+        stope_words (Optional[List[Text]], optional): stops to break the generation and prepare for next quest.
+
+    Returns:
+        Dict: the result dict
+    """
+    logger.debug("Now requesting GPT-3")
+    response = None
+    if task == GPT_3_TASK_COMPLETION:
+        if not gpt_prompt:
+            print("need to provide prompt")
+        else:
+            response = openai.Completion.create(
+                engine="davinci",
+                prompt=gpt_prompt,
+                temperature=0.7,
+                max_tokens=100,
+                top_p=1,
+                frequency_penalty=0,
+                presence_penalty=0,
+                stop=stop_words
+            )
+    elif task == GPT_3_TASK_CLASSIFICATION:
+        if not query:
+            print("need to provide query")
+        else: 
+            response = openai.Classification.create(
+                file="file-GVK7z8A0vGQmPvKydNavhkyi",
+                query=query,
+                search_model="ada", 
+                model="curie", 
+                max_examples=3
+            )
+    elif task == GPT_3_TASK_CONVERSATION:
+        response = openai.Completion.create(
+            engine="text-davinci-001",
+            prompt=gpt_prompt,
+            temperature=0.5,
+            max_tokens=60,
+            top_p=1.0,
+            frequency_penalty=0.5,
+            presence_penalty=0.0,
+            stop=stop_words
+        )
+    logger.debug("Finished requesting GPT-3")
+    return response
 
 
 def reformat_source_data(
