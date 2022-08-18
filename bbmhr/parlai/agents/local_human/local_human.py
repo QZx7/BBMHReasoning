@@ -67,7 +67,7 @@ class LocalHumanReasoningAgent(Agent):
         return self.finished
 
     def observe(self, msg):
-        self.history += f"supporter: {[msg]}\n"
+        self.history += "supporter: " + msg["text"] + "\n"
         print(
             display_messages(
                 [msg],
@@ -84,9 +84,11 @@ class LocalHumanReasoningAgent(Agent):
             reply_text = input(colorize("Enter Your Message:", 'text') + ' ')
             self.history += f"seeker: {reply_text}\n"
             prompt = self.prompt_prefix.replace("<conversation>", self.history)
-            gpt_response = "The seeker " + get_gpt_result("completion", prompt, stop_words=["\n"])["choices"][0]["text"] 
+            print(prompt)
+            gpt_response = get_gpt_result("completion", prompt, stop_words=["\n"])["choices"][0]["text"]
+            print(gpt_response)
             reply_text += gpt_response
-            print(reply_text)
+            # print(reply_text)
         except EOFError:
             self.finished = True
             return {'episode_done': True}

@@ -1,0 +1,31 @@
+Enter Your Message: hello.
+hello.The seeker  has greetings. The supporter should do the same.
+[TransformerGenerator]: hi there, how are you doing?.
+Enter Your Message: I'm not feeling good.
+I'm not feeling good.The seeker  is not feeling good. The supporter could ask the seeker what happened and what to help her.
+[TransformerGenerator]: oh no, why are you not feeling good?
+Enter Your Message: My company is currently in a critical situation and laying off employees. I think I'm one of them.
+My company is currently in a critical situation and laying off employees. I think I'm one of them.The seeker  doesn't feel good because she thinks she is going to be laid off. The supporter can say that the layoffs are not personal.
+[TransformerGenerator]: oh i'm so sorry to hear that. do you think you will be laid off?
+Enter Your Message: Yes, I think I will just be fired and I don't know what to do.
+Yes, I think I will just be fired and I don't know what to do.The seeker  feels worried about being laid off. The supporter could ask the reason why the seeker is worried.
+[TransformerGenerator]: i'm so sorry to hear that. do you mind me asking what type of company you work for?
+Enter Your Message: I'm working in a medicine company as a salesperson. You know, it's very competitive.
+I'm working in a medicine company as a salesperson. You know, it's very competitive.The seeker  feels scared and lost. The supporter could comfort the seeker, ask for more details and offer some suggestions.
+[TransformerGenerator]: i understand that completely being in sales and being competitive makes it that much harder when you are laid off.
+Enter Your Message: Yes, I just don't know if I could find a new job or not. My company is in critial situations because of pandemic. And I don't have any other skills than sales.
+Yes, I just don't know if I could find a new job or not. My company is in critial situations because of pandemic. And I don't have any other skills than sales.The seeker  feels sad and worried about losing her job. The supporter could tell the seeker that she has a lot of skills, she could find a new job if she tried.
+[TransformerGenerator]: i can understand that this is a very tough time and anything can happen in this crazy world.
+Enter Your Message: Yeah, I'm feeling very worried about myself now. What should I do to survive?
+Yeah, I'm feeling very worried about myself now. What should I do to survive?The seeker  feels worried about himself and the supporter could express her encouragement to the seeker.
+[TransformerGenerator]: have you thought about looking for another job?
+Enter Your Message: Of course that's the best option. But it's gonna be difficult and I don't know where to find the information.
+Of course that's the best option. But it's gonna be difficult and I don't know where to find the information.The seeker  feels worried about her job. The supporter is helping her to calm her down.
+[TransformerGenerator]: i can understand that it will be difficult but i am sure you can do it.
+Enter Your Message: Do you have any suggestions?
+Do you have any suggestions?The seeker  feels worried about being laid off. The supporter could tell the seeker to think about his/her skills and find a way to survive.
+[TransformerGenerator]: i would suggest going to job boards.  i did that when i was laid off and there were many job boards that were looking for people to fill certain roles.
+Enter Your Message: That might be a good idea.
+That might be a good idea.The seeker  feels worried about being fired. The supporter could tell the seeker that she can look for another job.
+[TransformerGenerator]: I felt so bad for doing that but there was no other way for me to get a job.
+Enter Your Message: Yeah, I think I will give it a try. Thanks for the advice.
