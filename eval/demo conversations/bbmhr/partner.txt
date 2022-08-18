@@ -1,0 +1,74 @@
+Enter Your Message: hello, how are you?
+ does greeting. The supporter should also do greeting.
+[TransformerGenerator]: Hello, I am good. How are you?
+Enter Your Message: I don't feel good.
+ feels unhappy. The supporter should ask why he doesn't feel happy.
+[TransformerGenerator]: Why do you feel that way?
+Enter Your Message: I broke up with my boyfriend.    
+ felt sad after breaking up with her boyfriend. The supporter should help the seeker to cheer up.
+[TransformerGenerator]: Oh, I am sorry to hear that. I have been in a similar situation before.
+Enter Your Message: You know what, he cheated on me. That is just so bad.
+ feels sad and cheated. The supporter could give some suggestions.
+[TransformerGenerator]: Yes, it is really bad. Did you get any closure?
+Enter Your Message: I just did expect that. You know, I thought I met a handsome intelligent man. We dated for a month. Then out of nowhere he cheated on me. I'm so sad. I am just trying to understand what I did wrong.
+ feels sad and cheated. The supporter should give some consolation.
+[TransformerGenerator]: You did nothing wrong. It is his problem, not yours. I know it's hard, but try to think that way..
+Enter Your Message: Yes, but I really want to know the reason. I thought we really loved each other.
+ feels sad and lonely. The supporter should give the seeker an encouragement to accept the current situation and take an action to solve the problem.
+[TransformerGenerator]: He didn't love you enough to stay true to you. That is why he cheated.
+Enter Your Message: I just can't believe it.
+ feels sad. The supporter tells the seeker that she did nothing wrong. The supporter tells the seeker that the boyfriend should have loved her more to stay true to her. The supporter tells the seeker that she is on the right track, because she thinks about the reason the boyfriend cheated on her.
+[TransformerGenerator]: It is very sad. But you can use this as a motivation to show him how much you do love him and to get him to change for the better.
+Enter Your Message: I don't know. I just don't know what to do. But I know I love him.
+'s emotion status is sad. The reason causing that emotion is cheating boyfriend. The supporter could give suggestions to the seeker for coping with that emotion.
+[TransformerGenerator]: Have you thought about if you can live without him? Or if he is the right person for you?
+Enter Your Message: He is handsome and intelligent. I don't know if I'm able to find another person like him.
+ feels sad and lonely after breaking up with her boyfriend. The supporter should be sympathetic and kind.
+[TransformerGenerator]: I know you will do the right thing and tell him. I hope he can forgive you..
+Enter Your Message: Maybe you're right, I don't feel he cares about me.
+ feels sad after a break up. The supporter suggests the seeker should try to think the break up is not her fault.
+[TransformerGenerator]: I know that this is really hard, but I know you can get through it!
+Enter Your Message: What do you think I should do now?
+ feels sad after being cheated. The supporter could tell the seeker that this was a bad thing and that he/she is not alone.
+[TransformerGenerator]: I think you should give him some time, maybe two or three weeks? He might need some time to process all of this..
+Enter Your Message: I don't know if that's gonna change him to a better person. But I might give it a try.
+ feels sad and upset about the breakup. The supporter told the seeker that the breakup is not her fault. The supporter also told the seeker that cheating is bad. The supporter gave some suggestions for the seeker.
+[TransformerGenerator]: I think it might help to give him some time to process all of this.
+Enter Your Message: Well, maybe I could just forget about him for a while.
+ feels sad about the break up. The supporter could relate the sadness to a similar situation in the past.
+[TransformerGenerator]: That might be a good idea.
+Enter Your Message: Anyway, it's glad talking with you.
+ is sad about her breakup. The supporter is trying to comfort the seeker.
+[TransformerGenerator]: Thank you for talking with me too. I hope you feel better soon!
+Enter Your Message: Thanks.
+ is upset about breaking up with her boyfriend. The supporter could explain the situations to the seeker, and suggest the seeker to think about if she really loves her boyfriend, and if she could be with another guy.
+[TransformerGenerator]: You're welcome!
+
+**********************************************************************
+
+Enter Your Message: Hello.
+ is not sad, but the supporter is. The supporter should tell the reason, so the seeker could understand what the supporter is sad about.
+[TransformerGenerator]: Hello. How are you?
+Enter Your Message: I've just really been experiencing a very tough time lately.
+ is sad and the supporter is sad. The supporter should ask why the seeker is sad?
+[TransformerGenerator]: I'm sorry to hear that. What has been going on?
+Enter Your Message: Well, it started with a break up. My boyfriend and I dated for 7 years and suddenly out of nowhere, he dumps me over text. I keep blaming myself and my body for this.
+ is sad. The supporter should ask the reason.
+[TransformerGenerator]: That's very rough. How often do you see him?
+Enter Your Message: Well, recently, I think about once a month.
+ feels sad because she just experienced a break up. The supporter should ask for more details and encourage the seeker to tell more story.
+[TransformerGenerator]: That's tough. You must feel lonely too, having to deal with that break up and not being able to see your boyfriend.
+Enter Your Message: Yeah, I just can't stop blaming myself for that. I don't know what to do and I can't get myself out of it. feeling sad and lonely. The supporter could give some suggestions for the seeker.
+[TransformerGenerator]: It's hard to get over a break up, especially a long one.  I think it's normal to take time to grieve, and to want to be with someone who cared about you as much as you cared about them.
+Enter Your Message: You know, he is a very good person. I think we do develop good relationship for a long time. We've been supporting each other until now. But it seems that 7 years, he has changed and everything just doesn't feel right. I know sometimes I could be selfish, but I really love him.
+ is sad and lonely. The supporter should comfort the seeker by talking about how to comfort yourself.
+[TransformerGenerator]: I think it's important to recognize that we can't control other people, and that they will make decisions for themselves.  And that includes whether or not to be in a relationship with us.  And it also includes whether or not to end the relationship if it feels wrong to us.  And it also includes whether or not we end it in a kind way or a mean way.  But I think it's important to recognize that we can't control other people, and that they can make their own decisions.
+Enter Your Message: Yeah, I do know that... What do you think I should do now?
+ feels lonely, sad and the supporter could tell the seeker that the supporter feels sorry for the seeker.
+[TransformerGenerator]: Well, I think you should talk to him about how you feel, and let him know that you're willing to accept his decision either way.  And if he says he wants to stay in the relationship, you need to accept that as well, and try to work through the feelings of jealousy and mistrust that you have towards him.
+Enter Your Message: Ok, I think that makes a lot of sense. I think I never tell him how much I love him. I'll try to tell him this time.
+ feels sad about the break up with her boyfriend. The supporter could tell the seeker that the break up is a painful process and could give some suggestions to get through that.
+[TransformerGenerator]: It sounds like you're a very thoughtful and caring girlfriend.  I know you can get through this!
+Enter Your Message: Thanks a lot for the suggestion. It was great to have a talk with you.
+ feels sad as a result of her break up. The supporter could tell the seeker the truth that she is not able to control others.
+[TransformerGenerator]: You're very welcome.  I'm glad I was able to help you tonight!

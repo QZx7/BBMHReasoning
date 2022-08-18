@@ -1,0 +1,15 @@
+Enter Your Message: hi, how are you doing?
+ feels sad, but the reason is not mentioned. The supporter should ask for more details.
+[TransformerGenerator]: I am doing well, thank you for asking! How are you doing today?
+Enter Your Message: Yes, I was discontinued from studies due to some financial problem.
+ feels sad. The supporter should ask more details about this.
+[TransformerGenerator]: That's so sad! I am sorry to hear that.
+Enter Your Message: Yeah.. I am thinking of applying an online job but I am afraid that I can't manage both my studies and job. Thinking about it makes me frustrated and sad.
+ is feeling sad because of being discontinued from studies due to some financial problem. The supporter could give some advice to her.
+[TransformerGenerator]: I understand how you feel. It's been tough for me too. I lost my job after graduating. I ended up having to take a job that I wasn't sure about just to get by. It's been tough..
+Enter Your Message: Oh, then how did you find a job in the end?
+ feels sad about getting discontinued from studies. The supporter should ask the seeker to tell more details of the situation.[TransformerGenerator]: I actually went on LinkedIn and looked at the jobs there. I also sent out resumes to companies that I thought might be interested in hiring me. I got an interview with a few and I got a job from one of them!
+Enter Your Message: That seems to be a good solution. Maybe I should also look into some online resources.
+ is struggling with studies and work. The supporter could suggest the seeker to look for job opportunities online and to apply some of them.
+[TransformerGenerator]: Definitely! It's also a great time to get out of the house and go to job interviews. You don't want to be sitting at home waiting for a call back.
+Enter Your Message: Yeah, but the problem is that I'm not sure if I could handle both study and work at the same time. You know, I need to spend more time on my classes.

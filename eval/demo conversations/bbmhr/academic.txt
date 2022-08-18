@@ -1,0 +1,48 @@
+Enter Your Message: hi there. The seeker did greeting, the supporter should also do greeting.
+[TransformerGenerator]: Hello! How are you doing today?
+Enter Your Message: I've been feeling a lot of pressure and stress lately due to school. The seeker feels stressed but the reason is not mentioned. The supporter should ask for more details.
+[TransformerGenerator]: Oh no, I'm sorry to hear that. Is there anything specific causing the stress? Maybe it's something you can fix?
+Enter Your Message: Well, I am in a doctoral program, so I have to work on my thesis on the side even with all of my classes and I had a hard time managing my time and keeping track. The seeker feels stressed because he's having difficulty managing time between school and work. The suppoter could ask the seeker to use calendars and time tables.
+[TransformerGenerator]: Oh wow, a doctoral thesis. That must be very difficult for you, and very stressful. I'm sure you're doing your best, and if not, you can always talk to your professor or someone else in your group about how you can improve.
+Enter Your Message: Yeah, I talked to my professor and he suggested me to focus on the thesis. But I also need money to survidve. So, I don't know what to do. The seeker worries about his financial status because he needs more time on thesis. The supporter could suggest the seeker to perform good time management.
+[TransformerGenerator]: I think you should focus on surviving first. There are ways to make money in order to survive. There are also ways to earn a degree in order to earn a living. You may have to make some choices.
+Enter Your Message: Yes, I totally agree. The problem is that I'm supposed to be able to hanlde both study and work as long as I don't procrastinate my daily tasks. The seeker feels stressed because he procrastinate daily tasks. The supporter could suggest the seeker to use calendars and time tables.
+[TransformerGenerator]: Is there a way you could set up a system where you can check off things to do in order to study? For example, you could put your homework on your calendar and check it off as you do it?
+Enter Your Message: Yes, actually I'm using calendars, both physical one and digital one. But my brain can always find a reasonable execuse to finish that task the other day. The seeker feels stressed because the seeker is not able to follow the calendars. The supporter could suggest the seeker to start with easy tasks.
+[TransformerGenerator]: That sounds like a good start. Have you thought about making a schedule to help you manage your time?
+Enter Your Message: I do have the schedule, you know, from 10 to 12, do the writting. But just, I can't finish that. The seeker feels stressed because he can't finish his daily tasks. The support could suggest the seeker to start with something easier.[TransformerGenerator]: I have found that making a schedule is a great way to help me keep everything on track. It helps me know where I am in the process of things. Does that sound like something you would be interested in trying?
+Enter Your Message: Well, yeah. I do understand that. But it just doesn't work in my case. I just feel that following the schedule is difficult. The seeker feels upset because it's difficult to follow the schedule. The supporter could suggest the seeker to do some easier tasks.
+[TransformerGenerator]: I understand. Can you tell me a little more about what type of tasks are difficult for you?
+Enter Your Message: Well, let's say, I set up schedule of 2 hours writting every day. But I just can't focus for that long time. The seeker feels upset because he can't focus for a long time. The supporter could suggest the seeker to start with a shorter period of time.
+[TransformerGenerator]: So you are saying that you have a hard time sticking to a schedule?
+Enter Your Message: Exactly. The seeker confirms the question. 
+[TransformerGenerator]: I understand. Sometimes it can be very difficult to stick to a schedule.
+Enter Your Message: Yeah, and I don't know what to do. The seeker feels sad because it's difficult to stick to schedule. The supporter should provide some suggestions on sticking to a schedule.
+[TransformerGenerator]: Have you tried to write down what you need to do in a schedule? Then you can break it down into small tasks.
+Enter Your Message: Ah, do you mean start with small steps? That might be a good idea. The seeker feels happy about the idea. The supporter should explain more about the plan.
+[TransformerGenerator]: Yes, that is an excellent idea! It will make it easier to keep track of what you have done so far.
+Enter Your Message: Maybe I could just make the 2 hours writting into one hour? I could try that. The seeker feels happy about the plan. The supporter should encourage the seeker to stick to the plan.
+[TransformerGenerator]: That is a great idea! That way you can keep track of how far you have gotten.
+Enter Your Message: Great. Thank you for the suggestion. I think I know what to do. The seeker feels happy. The supporter should encourage the seeker.
+[TransformerGenerator]: You are very welcome! I am glad I was able to chat with you today!
+
+**********************************************************************
+
+Enter Your Message: hello, there. The seeker did greeting. The support should also do greeting.
+[TransformerGenerator]: Hello, how can i help you today?
+Enter Your Message: I'm recently feeling bad. I have finals coming up and I am so nervous about taking these tests. The seeker feels nervous because he's worrying about the tests. The supporter could ask for more details about the reason.
+[TransformerGenerator]: I can understand how you are feeling, finals can be stressful. Do you have anyone to help you study?
+Enter Your Message: I study with some of my friends. But I'm afraid I'm going to do poorly and have to retake the classes. The seeker feels stressed because he's worrying about the tests. The supporter could suggest the seeker to take a study group.
+[TransformerGenerator]: I'm sure you'll do fine, just be confident in yourself.
+Enter Your Message: You know, I think I've been doing well in the classes, but I just recently can't focus on preparing the tests. The seeker feels stressed because he can't focus on preparing the tests. The supporter could tell the seeker to use the library.
+[TransformerGenerator]: I'm sure you'll do just fine.
+Enter Your Message: Well, thanks. But I really don't know how. The seeker feels upset about the tests. The supporter could test tell the seeker to try relaxing.
+[TransformerGenerator]: Have you thought about getting a study group?
+Enter Your Message: Well, I've never thought about it. Do you think it's gonna help? The seeker feels upset about the tests. The supporter could suggest the seeker to stay focused.
+[TransformerGenerator]: It definitely could, and it's not like you're studying by yourself.
+Enter Your Message: And maybe I could also ask some of the problems I've having now. The seeker feels good about the suggestion. The supporter should provide more details on the plan.
+[TransformerGenerator]: Of course! It would be a great way to bond with your study group and you could all learn together.
+Enter Your Message: Yeah, that sounds like a great idea. I could contact some of my friends to make a group. The seeker feels happy about the plan. The supporter could encourage the seeker to stick to the plan.
+[TransformerGenerator]: It would definitely help!
+Enter Your Message: Thank you so much for your suggestion. I think that could be good. The seeker feels happy about the plan. The supporter should encourage the seeker.
+[TransformerGenerator]: You are very welcome! I am glad you chatted with me today.
