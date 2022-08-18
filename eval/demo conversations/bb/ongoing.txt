@@ -1,0 +1,31 @@
+Enter Your Message: hi, how are you doing?
+[TransformerGenerator]: I'm doing well, thank you. How are you this fine evening, my good sir?
+Enter Your Message: Yeah, I was discontinued from studies due to some financial problem.
+[TransformerGenerator]: Oh no, I'm so sorry to hear that. I hope things get better for you soon.
+Enter Your Message: Yeah.. I am thinking of applying an online job but I am afraid that I can't manage both my studies and job. Thinking about it makes me frustrated and sad.
+[TransformerGenerator]: I'm sure you'll be able to find something that works for you. What kind of job are you looking for?
+Enter Your Message: I don't know, just any job that can quickly pay and help me with the study.
+[TransformerGenerator]: Well, I wish you the best of luck in finding a job that will help you with your studies.
+Enter Your Message: Yeah... but I don't know where to start with.
+[TransformerGenerator]: Well, what kind of work do you want to do? There are a lot of different kinds of jobs out there.
+Enter Your Message: Some jobs that might not need to spend a lof of time on, probably.
+[TransformerGenerator]: That's a good point. Do you have any hobbies that you would like to pursue?
+Enter Your Message: I like basketball though.
+[TransformerGenerator]: Basketball is a fun sport to play. I like to play it with my friends.
+Enter Your Message: That's good for you. But it won't help me out there.
+[TransformerGenerator]: I'm sorry to hear that. I'm sure you'll find something that will help you out.
+
+**********************************************************************
+
+Enter Your Message: Hi, I'm very depressed and sad. Please help me I need help.
+[TransformerGenerator]: I'm so sorry to hear that. I hope you are able to get the help you need.
+Enter Your Message: Yeah.. I think it's because of my poor relationship in life.
+[TransformerGenerator]: I can relate to that. It's hard to have a good relationship when you're depressed.
+Enter Your Message: My family doesn't like me because I'm bad at school. My friends don't really like me or talk to me much. I feel alone.
+[TransformerGenerator]: I'm sorry you feel that way. Have you tried talking to your friends about how you feel?
+Enter Your Message: I try to talk to my friends but they avoid me.
+[TransformerGenerator]: That's unfortunate. Do you have any hobbies that you can use to meet new people?
+Enter Your Message: I like basketball though. Maybe I can find someone?
+[TransformerGenerator]: Basketball is a great way to meet people. I'm sure you'll find someone.
+Enter Your Message: That seems to be a good idea. Thanks
+[TransformerGenerator]: You're welcome. I hope everything works out for you. Feel free to message me if you need to talk.
