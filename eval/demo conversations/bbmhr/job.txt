@@ -29,3 +29,31 @@ Enter Your Message: That might be a good idea.
 That might be a good idea.The seeker  feels worried about being fired. The supporter could tell the seeker that she can look for another job.
 [TransformerGenerator]: I felt so bad for doing that but there was no other way for me to get a job.
 Enter Your Message: Yeah, I think I will give it a try. Thanks for the advice.
+
+**********************************************************************
+
+Enter Your Message: Hello, there.
+ feels sad and happy. The supporter's goal is to make the seeker feel happy.
+[TransformerGenerator]: Good evening . How can I help you.
+Enter Your Message: I just start to worry about my job.
+ is worried about his job. The supporter should tell the seeker that everything is going to be OK.
+[TransformerGenerator]: So you are having anxious thoughts about your job?
+ feels anxious about her job. The supporter could help the seeker to give more details about how she feel.
+[TransformerGenerator]: I understand how you feel. I have felt the same way before. Maybe you should talk to your supervisor about your concerns?
+ feels anxious about her job. The supporter could point out that the reason for anxiety is not mentioned.
+[TransformerGenerator]: Why do you think you're not eligible for your work?
+ feels anxious about her job. The supporter could tell the seeker that it is very normal to worry about the job.
+[TransformerGenerator]: I think you should be confident in yourself. You have done very well in school, and your work has shown the company that you are worthy of a promotion..
+ feels anxious about her job. The supporter could encourage the seeker to talk with her supervisor.
+[TransformerGenerator]: I feel that you have a great personality, and you just need some confidence. Learn some new skills, and raise your confidence. I believe that you will do great at your job..
+Enter Your Message: Learn new skills. Maybe I could learn to use computer? I hope it's not too late.
+ feel anxious about his job. He thinks he's not eligible for his job. The supporter could tell the seeker he's eligible for his job.
+[TransformerGenerator]: It is never too late to learn new things. You have your whole life ahead of you, don't let this situation scare you.
+ feels anxious, frustrated and hopeless. The supporter could tell the seeker to talk to her supervisor.
+[TransformerGenerator]: Have you thought about looking for online courses that would help you?
+ feels anxious about her job and she is worrying about her eligibility. The supporter could encourage her to learn new skills as well as give her some confidence for her job.
+[TransformerGenerator]: Yes, I mean online courses that would help you.
+ feels anxious about her job. She is not sure if she is eligible for her job. The supporter could encourage her to talk to her supervisor about her concerns.
+[TransformerGenerator]: I think that would be a great idea!
+ is worried about her job. The supporter could tell the seeker to learn new skills and raise her confidence.
+[TransformerGenerator]: You are very welcome! I hope you have a great day!

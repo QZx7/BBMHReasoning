@@ -46,6 +46,12 @@ class LocalHumanReasoningAgent(Agent):
             type=str,
             help="File for the prompt."
         )
+        agent.add_argument(
+            '--use_gpt',
+            default=False,
+            type='bool',
+            help='Whether to use GPT for real time inference or local data.'
+        )
         return parser
 
     def __init__(self, opt, shared=None):
@@ -82,12 +88,12 @@ class LocalHumanReasoningAgent(Agent):
         reply['id'] = self.getID()
         try:
             reply_text = input(colorize("Enter Your Message:", 'text') + ' ')
-            self.history += f"seeker: {reply_text}\n"
-            prompt = self.prompt_prefix.replace("<conversation>", self.history)
-            print(prompt)
-            gpt_response = get_gpt_result("completion", prompt, stop_words=["\n"])["choices"][0]["text"]
-            print(gpt_response)
-            reply_text += gpt_response
+            if self.opt.get("use_gpt"):
+                self.history += f"seeker: {reply_text}\n"
+                prompt = self.prompt_prefix.replace("<conversation>", self.history)
+                gpt_response = get_gpt_result("completion", prompt, stop_words=["\n"])["choices"][0]["text"]
+                print(gpt_response)
+                reply_text += gpt_response
             # print(reply_text)
         except EOFError:
             self.finished = True
