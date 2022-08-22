@@ -214,10 +214,6 @@ def assembly_prompt(
                 yield dy_prompt
 
 
-def process_prompt_length(prompt: Text, max_lengthL: int) -> Text:
-    utterances = prompt.split("\n")
-    
-
 def load_large_model(model_name: Text):
     """Load the large language model based on model name.
 
@@ -261,7 +257,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
 
     # add padding token
 
-    sequence = tokenizer(prompt, return_tensors="pt")
+    sequence = tokenizer(prompt, return_tensors="pt", truncation=True)
     input_ids = sequence["input_ids"]
     print(f"input length: {input_ids.size()}")
     attention_mask = sequence["attention_mask"]
@@ -280,6 +276,10 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     except RuntimeError:
         gen_text = "<padding> <padding> <padding> <padding> <padding>"
     return gen_text
+
+
+def process_prompt_length(prompt: Text, max_lengthL: int, tokenizer) -> Text:
+    utterances = prompt.split("\n")
 
 
 def prompting(prompt: Text, model_name: Text, model, tokenizer) -> str:
