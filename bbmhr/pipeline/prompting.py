@@ -298,7 +298,7 @@ def add_arguments():
         "--sample_number", type=int, default=0, help="how many samples to generate"
     )
     parser.add_argument(
-        "--prompt_template", type=int, required=True, help="prompt template to use"
+        "--prompt_template", type=str, required=True, help="prompt template to use"
     )
     parser.add_argument("--start_index", type=int, default=0, help="where to start")
     parser.add_argument(
