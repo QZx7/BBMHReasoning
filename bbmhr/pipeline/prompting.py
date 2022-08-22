@@ -263,7 +263,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
 
     sequence = tokenizer(prompt, return_tensors="pt")
     input_ids = sequence["input_ids"]
-    print(f"input length: {len[input_ids]}")
+    print(f"input length: {len(input_ids)}")
     attention_mask = sequence["attention_mask"]
     model.config.pad_token_id = model.config.eos_token_id
     # print(tokenizer.eos_token)
