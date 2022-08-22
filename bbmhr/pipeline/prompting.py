@@ -396,6 +396,7 @@ def main():
             if current_length > allowed_dialog_length:
                 print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
                 prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, current_length, tokenizer))
+                print(prompt)
 
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
@@ -411,6 +412,7 @@ def main():
             if current_length > allowed_dialog_length:
                 print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
                 prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, current_length, tokenizer))
+                print(prompt)
             
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
