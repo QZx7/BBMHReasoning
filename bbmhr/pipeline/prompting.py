@@ -231,8 +231,8 @@ def load_large_model(model_name: Text):
     elif "gpt-2" == model_name:
         model_name = "gpt2"
         print(f"loading model from {model_name}")
-        tokenizer = AutoModelForCausalLM.from_pretrained(model_name)
-        model = AutoTokenizer.from_pretrained(model_name)
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(model_name)
     else:
         return None
     return model, tokenizer
