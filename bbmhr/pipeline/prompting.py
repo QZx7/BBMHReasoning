@@ -260,7 +260,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     # )
 
     # add padding token
-    print(tokenizer.truncation_side)
+    # print(tokenizer.truncation_side)
     sequence = tokenizer(
         prompt,
         return_tensors="pt",
@@ -358,7 +358,9 @@ def main():
     # get fixed template length
     fixed_sequence = tokenizer(fixed_prompt)
     fixed_length = len(fixed_sequence["input_ids"])
-    allowed_dialog_length = 1024 - 70 - fixed_length - 1
+    allowed_dialog_length = 1000 - 70 - fixed_length - 1
+    if model_name == "gpt":
+        allowed_dialog_length = 1000 - 70 - fixed_length - 1
     # allowed_dialog_length = 50
     # print(fixed_length)
 
