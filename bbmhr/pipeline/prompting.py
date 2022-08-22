@@ -1,5 +1,6 @@
 import argparse
 import json
+from pydoc import describe
 import random
 import logging
 import openai
@@ -24,7 +25,7 @@ GPT_3_TASK_COMPLETION = "completion"
 GPT_3_TASK_CLASSIFICATION = "classification"
 GPT_3_TASK_CONVERSATION = "conversation"
 
-template_path = r"./bbmhr/prompt_templates/nl_zero.txt"
+template_path = r"./bbmhr/prompt_templates/nl_utt_level.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
 test_data_path = r"./data/ESConv_test_data.json"
 response_path = r"./data/NL_response"
@@ -296,6 +297,9 @@ def add_arguments():
     parser.add_argument(
         "--sample_number", type=int, default=0, help="how many samples to generate"
     )
+    parser.add_argument(
+        "--prompt_template", type=int, required=True, help="prompt template to use"
+    )
     parser.add_argument("--start_index", type=int, default=0, help="where to start")
     parser.add_argument(
         "--response_suffix",
@@ -321,7 +325,7 @@ def main():
     model, tokenizer = load_large_model(model_name)
     # load prompt generator
     prompt_generator = assembly_prompt(
-        template_path,
+        args.prompt_template,
         seeker_utterances_only + args.response_suffix + ".jsonl",
         test_data,
         source_data,
