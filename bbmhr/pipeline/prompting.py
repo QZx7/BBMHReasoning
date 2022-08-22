@@ -259,7 +259,12 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
 
     # add padding token
 
-    sequence = tokenizer(prompt, return_tensors="pt", truncation=True)
+    sequence = tokenizer(
+        prompt,
+        return_tensors="pt",
+        truncation=True,
+        max_length=model.config.n_positions,
+    )
     input_ids = sequence["input_ids"]
     print(f"input length: {input_ids.size()}")
     attention_mask = sequence["attention_mask"]
