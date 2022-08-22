@@ -1,4 +1,5 @@
 import argparse
+from cgi import print_arguments
 import json
 import random
 import logging
@@ -174,7 +175,7 @@ def pick_up_examples(
 
 
 def assembly_prompt(
-    promt: Text,
+    prompt: Text,
     seeker_only_file: TextIO,
     test_data: List[Dict[str, str]],
     source_data: List[Dict[str, Any]],
@@ -233,7 +234,7 @@ def load_large_model(model_name: Text):
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         print(f"Model configuration: {model.config}")
     elif "gpt-2" == model_name:
-        model_name = "gpt2"
+        model_name = "distilgpt2"
         print(f"loading model from {model_name}")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name)
@@ -263,8 +264,8 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     sequence = tokenizer(
         prompt,
         return_tensors="pt",
-        truncation=True,
-        max_length=900,
+        # truncation=True,
+        # max_length=900,
     )
     input_ids = sequence["input_ids"]
     attention_mask = sequence["attention_mask"]
@@ -276,7 +277,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
             input_ids,
             do_sample=True,
             temperature=0.7,
-            max_new_tokens=80,
+            max_new_tokens=60,
             attention_mask=attention_mask,
         )
         gen_text = tokenizer.batch_decode(gen_tokens)[0]
@@ -285,10 +286,19 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     return gen_text
 
 
-def process_prompt_length(prompt: Text, max_length: int, current_length: int, tokenizer) -> Text:
+def process_prompt_length(prompt: Text, allowed_dialog_length: int, current_dialog_length: int, tokenizer) -> Text:
+    current_dialog = prompt.split("Conversation:")[-1].split("In this conversation,")[0][1:]
+    print(f"dialog before processing: \n{current_dialog}")
+    utterances = current_dialog.split("\n")[:-1]
+    utterances.pop(0)
+    tmp_text = "\n".join(utterances)
+
+    while len(tokenizer(tmp_text)["input_ids"]) > allowed_dialog_length:
+        utterances.pop(0)
+        tmp_text = "\n".join(utterances)
     
-    current_dialog = prompt.split("Conversation:")[-1]
-    
+    print(f"dialog after processing: \n{tmp_text}")
+    return tmp_text + "\n"
 
 
 def prompting(prompt: Text, model_name: Text, model, tokenizer) -> str:
@@ -347,36 +357,63 @@ def main():
 
     # get fixed template length
     fixed_sequence = tokenizer(fixed_prompt)
-    fixed_length = fixed_sequence["input_ids"].size()[1]
-    print(fixed_length)
+    fixed_length = len(fixed_sequence["input_ids"])
+    allowed_dialog_length = 1024 - 70 - fixed_length - 1
+    # allowed_dialog_length = 50
+    # print(fixed_length)
 
     # load prompt generator
-    # prompt_generator = assembly_prompt(
-    #     fixed_prompt,
-    #     seeker_only_file,
-    #     test_data,
-    #     source_data,
-    # )
+    prompt_generator = assembly_prompt(
+        fixed_prompt,
+        seeker_only_file,
+        test_data,
+        source_data,
+    )
 
-    # for _ in range(args.start_index):
-    #     next(prompt_generator)
+    for _ in range(args.start_index):
+        next(prompt_generator)
+    # prompt = next(prompt_generator)
+    # prompt = next(prompt_generator)
+    # prompt = next(prompt_generator)
+    # prompt = next(prompt_generator)
+    # print(fixed_prompt)
+    # print(prompt)
 
-    # if args.sample_number == 0:
-    #     for i in prompt_generator:
-    #         prompt = next(prompt_generator)
-    #         logger.debug(len(prompt))
-    #         response = gpt_text_generate(prompt, model, tokenizer)
-    #         response = response[len(prompt) :]
-    #         logger.info(response)
-    #         dump_response(response, response_file)
-    # else:
-    #     for i in range(args.sample_number):
-    #         prompt = next(prompt_generator)
-    #         logger.debug(len(prompt))
-    #         response = gpt_text_generate(prompt, model, tokenizer)
-    #         response = response[len(prompt) :]
-    #         logger.info(response)
-    #         dump_response(response, response_file)
+    # current_length = len(tokenizer(prompt)["input_ids"]) - fixed_length + 1
+    # print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
+    # if current_length > allowed_dialog_length:
+    #     process_prompt_length(prompt, allowed_dialog_length, current_length, tokenizer)
+    
+    if args.sample_number == 0:
+        for i in prompt_generator:
+            prompt = next(prompt_generator)
+            logger.debug(len(prompt))
+
+            current_length = len(tokenizer(prompt)["input_ids"]) - fixed_length + 1
+            print(current_length)
+            if current_length > allowed_dialog_length:
+                print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
+                prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, current_length, tokenizer))
+
+            response = gpt_text_generate(prompt, model, tokenizer)
+            response = response[len(prompt) :]
+            logger.info(response)
+            dump_response(response, response_file)
+    else:
+        for i in range(args.sample_number):
+            prompt = next(prompt_generator)
+            logger.debug(len(prompt))
+
+            current_length = len(tokenizer(prompt)["input_ids"]) - fixed_length + 1
+            print(current_length)
+            if current_length > allowed_dialog_length:
+                print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
+                prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, current_length, tokenizer))
+            
+            response = gpt_text_generate(prompt, model, tokenizer)
+            response = response[len(prompt) :]
+            logger.info(response)
+            dump_response(response, response_file)
 
 
 if __name__ == "__main__":
