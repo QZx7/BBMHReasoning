@@ -2,6 +2,7 @@ import argparse
 import json
 import random
 import logging
+from statistics import mode
 import openai
 import os
 from typing import Any, Dict, List, Optional, Text, TextIO
@@ -266,9 +267,12 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
         max_length=model.config.n_positions,
     )
     input_ids = sequence["input_ids"]
-    print(f"input length: {input_ids.size()}")
     attention_mask = sequence["attention_mask"]
+    print(f"Vocab size: {model.config.vocab_size}")
+    print(f"Tokenizer: {len(tokenizer)}")
     model.config.pad_token_id = model.config.eos_token_id
+    print(f"Vocab size: {model.config.vocab_size}")
+    print(f"Tokenizer: {len(tokenizer)}")
     # print(tokenizer.eos_token)
 
     try:
