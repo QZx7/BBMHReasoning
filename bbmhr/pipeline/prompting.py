@@ -298,7 +298,7 @@ def process_prompt_length(prompt: Text, allowed_dialog_length: int, current_dial
         tmp_text = "\n".join(utterances)
     
     print(f"dialog after processing: \n{tmp_text}")
-    print(tokenizer(tmp_text)["input_ids"])
+    print(len(tokenizer(tmp_text)["input_ids"]))
     return tmp_text + "\n"
 
 
