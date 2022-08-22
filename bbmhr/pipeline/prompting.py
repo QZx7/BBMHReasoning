@@ -337,6 +337,7 @@ def main():
     if args.sample_number == 0:
         for i in prompt_generator:
             prompt = next(prompt_generator)
+            print(len(prompt))
             logger.debug(len(prompt))
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
@@ -345,6 +346,7 @@ def main():
     else:
         for i in range(args.sample_number):
             prompt = next(prompt_generator)
+            print(len(prompt))
             logger.debug(len(prompt))
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
