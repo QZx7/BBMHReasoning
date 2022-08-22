@@ -1,20 +1,18 @@
 import argparse
 import json
-from pydoc import describe
 import random
 import logging
 import openai
 import os
-from typing import Any, Dict, List, Optional, Text
+from typing import Any, Dict, List, Optional, Text, TextIO
 
 from datetime import date
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 Log_Format = "%(levelname)s %(asctime)s - %(message)s"
 
 GPT_3_log_path = os.path.join("./log", date.today().strftime("%Y%m%d") + ".log")
-handler = logging.FileHandler(GPT_3_log_path, mode='a+', encoding='utf-8')
+handler = logging.FileHandler(GPT_3_log_path, mode="a+", encoding="utf-8")
 handler.setFormatter(logging.Formatter(Log_Format))
 logger = logging.getLogger()
 logger.addHandler(handler)
@@ -45,7 +43,12 @@ def read_prompt(prompt_path: Text) -> Text:
     return template_file.read()
 
 
-def get_gpt_result(task: Text, gpt_prompt: Optional[Text] = "", query: Optional[Text] = "", stop_words: Optional[List[Text]] = []) -> Dict:
+def get_gpt_result(
+    task: Text,
+    gpt_prompt: Optional[Text] = "",
+    query: Optional[Text] = "",
+    stop_words: Optional[List[Text]] = [],
+) -> Dict:
     """Get response from the gpt by prompt.
 
     Args:
@@ -71,18 +74,18 @@ def get_gpt_result(task: Text, gpt_prompt: Optional[Text] = "", query: Optional[
                 top_p=1,
                 frequency_penalty=0,
                 presence_penalty=0,
-                stop=stop_words
+                stop=stop_words,
             )
     elif task == GPT_3_TASK_CLASSIFICATION:
         if not query:
             print("need to provide query")
-        else: 
+        else:
             response = openai.Classification.create(
                 file="file-GVK7z8A0vGQmPvKydNavhkyi",
                 query=query,
-                search_model="ada", 
-                model="curie", 
-                max_examples=3
+                search_model="ada",
+                model="curie",
+                max_examples=3,
             )
     elif task == GPT_3_TASK_CONVERSATION:
         response = openai.Completion.create(
@@ -93,7 +96,7 @@ def get_gpt_result(task: Text, gpt_prompt: Optional[Text] = "", query: Optional[
             top_p=1.0,
             frequency_penalty=0.5,
             presence_penalty=0.0,
-            stop=stop_words
+            stop=stop_words,
         )
     logger.debug("Finished requesting GPT-3")
     return response
@@ -171,7 +174,7 @@ def pick_up_examples(
 
 def assembly_prompt(
     template: Text,
-    seeker_only: Text,
+    seeker_only_file: TextIO,
     test_data: List[Dict[str, str]],
     source_data: List[Dict[str, Any]],
 ) -> str:
@@ -187,7 +190,6 @@ def assembly_prompt(
         str: A prompt.
     """
     template_file = open(template, "r", encoding="utf-8")
-    seeker_only_file = open(seeker_only, "w+", encoding="utf-8")
     prompt = template_file.read()
     instances = pick_up_examples(test_data, 3)
 
@@ -327,13 +329,16 @@ def main():
     response_file = open(
         response_path + args.response_suffix + ".jsonl", "w+", encoding="utf-8"
     )
+    seeker_only_file = open(
+        seeker_utterances_only + args.response_suffix + ".jsonl", "w+", encoding="utf-8"
+    )
     # load model
     model_name = args.model_name
     model, tokenizer = load_large_model(model_name)
     # load prompt generator
     prompt_generator = assembly_prompt(
         args.prompt_template,
-        seeker_utterances_only + args.response_suffix + ".jsonl",
+        seeker_only_file,
         test_data,
         source_data,
     )
