@@ -259,7 +259,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     # )
 
     # add padding token
-
+    print(tokenizer.truncation_side )
     sequence = tokenizer(
         prompt,
         return_tensors="pt",
