@@ -298,6 +298,7 @@ def process_prompt_length(prompt: Text, allowed_dialog_length: int, current_dial
         tmp_text = "\n".join(utterances)
     
     print(f"dialog after processing: \n{tmp_text}")
+    print(tokenizer(tmp_text)["input_ids"])
     return tmp_text + "\n"
 
 
@@ -358,9 +359,9 @@ def main():
     # get fixed template length
     fixed_sequence = tokenizer(fixed_prompt)
     fixed_length = len(fixed_sequence["input_ids"])
-    allowed_dialog_length = 900 - 70 - fixed_length - 1
+    allowed_dialog_length = 800 - 70 - fixed_length - 1
     if model_name == "gpt":
-        allowed_dialog_length = 900 - 70 - fixed_length - 1
+        allowed_dialog_length = 800 - 70 - fixed_length - 1
     # allowed_dialog_length = 50
     # print(fixed_length)
 
