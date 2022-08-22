@@ -214,6 +214,10 @@ def assembly_prompt(
                 yield dy_prompt
 
 
+def process_prompt_length(prompt: Text, max_lengthL: int) -> Text:
+    utterances = prompt.split("\n")
+    
+
 def load_large_model(model_name: Text):
     """Load the large language model based on model name.
 
@@ -259,6 +263,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
 
     sequence = tokenizer(prompt, return_tensors="pt")
     input_ids = sequence["input_ids"]
+    print(f"input length: {len[input_ids]}")
     attention_mask = sequence["attention_mask"]
     model.config.pad_token_id = model.config.eos_token_id
     # print(tokenizer.eos_token)
@@ -339,7 +344,6 @@ def main():
     if args.sample_number == 0:
         for i in prompt_generator:
             prompt = next(prompt_generator)
-            print(len(prompt))
             logger.debug(len(prompt))
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
@@ -348,7 +352,6 @@ def main():
     else:
         for i in range(args.sample_number):
             prompt = next(prompt_generator)
-            print(len(prompt))
             logger.debug(len(prompt))
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
