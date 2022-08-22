@@ -174,7 +174,7 @@ def pick_up_examples(
 
 
 def assembly_prompt(
-    template: Text,
+    promt: Text,
     seeker_only_file: TextIO,
     test_data: List[Dict[str, str]],
     source_data: List[Dict[str, Any]],
@@ -190,8 +190,8 @@ def assembly_prompt(
     Returns:
         str: A prompt.
     """
-    template_file = open(template, "r", encoding="utf-8")
-    prompt = template_file.read()
+    # template_file = open(template, "r", encoding="utf-8")
+    # prompt = template_file.read()
     instances = pick_up_examples(test_data, 3)
 
     # Assembly prompt instances depending on the number of instances
@@ -259,7 +259,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     # )
 
     # add padding token
-    print(tokenizer.truncation_side )
+    print(tokenizer.truncation_side)
     sequence = tokenizer(
         prompt,
         return_tensors="pt",
@@ -267,7 +267,6 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
         max_length=900,
     )
     input_ids = sequence["input_ids"]
-    print(input_ids)
     attention_mask = sequence["attention_mask"]
     model.config.pad_token_id = model.config.eos_token_id
     # print(tokenizer.eos_token)
@@ -286,8 +285,10 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     return gen_text
 
 
-def process_prompt_length(prompt: Text, max_lengthL: int, tokenizer) -> Text:
-    utterances = prompt.split("\n")
+def process_prompt_length(prompt: Text, max_length: int, current_length: int, tokenizer) -> Text:
+    
+    current_dialog = prompt.split("Conversation:")[-1]
+    
 
 
 def prompting(prompt: Text, model_name: Text, model, tokenizer) -> str:
@@ -330,6 +331,8 @@ def main():
     # load arguments
     args = add_arguments()
     # load data
+    template_file = open(args.prompt_template, "r", encoding="utf-8")
+    fixed_prompt = template_file.read()
     source_data = read_source_data(source_data_path)
     test_data = read_source_data(test_data_path)
     response_file = open(
@@ -341,33 +344,39 @@ def main():
     # load model
     model_name = args.model_name
     model, tokenizer = load_large_model(model_name)
+
+    # get fixed template length
+    fixed_sequence = tokenizer(fixed_prompt)
+    fixed_length = fixed_sequence["input_ids"].size()[1]
+    print(fixed_length)
+
     # load prompt generator
-    prompt_generator = assembly_prompt(
-        args.prompt_template,
-        seeker_only_file,
-        test_data,
-        source_data,
-    )
+    # prompt_generator = assembly_prompt(
+    #     fixed_prompt,
+    #     seeker_only_file,
+    #     test_data,
+    #     source_data,
+    # )
 
-    for _ in range(args.start_index):
-        next(prompt_generator)
+    # for _ in range(args.start_index):
+    #     next(prompt_generator)
 
-    if args.sample_number == 0:
-        for i in prompt_generator:
-            prompt = next(prompt_generator)
-            logger.debug(len(prompt))
-            response = gpt_text_generate(prompt, model, tokenizer)
-            response = response[len(prompt) :]
-            logger.info(response)
-            dump_response(response, response_file)
-    else:
-        for i in range(args.sample_number):
-            prompt = next(prompt_generator)
-            logger.debug(len(prompt))
-            response = gpt_text_generate(prompt, model, tokenizer)
-            response = response[len(prompt) :]
-            logger.info(response)
-            dump_response(response, response_file)
+    # if args.sample_number == 0:
+    #     for i in prompt_generator:
+    #         prompt = next(prompt_generator)
+    #         logger.debug(len(prompt))
+    #         response = gpt_text_generate(prompt, model, tokenizer)
+    #         response = response[len(prompt) :]
+    #         logger.info(response)
+    #         dump_response(response, response_file)
+    # else:
+    #     for i in range(args.sample_number):
+    #         prompt = next(prompt_generator)
+    #         logger.debug(len(prompt))
+    #         response = gpt_text_generate(prompt, model, tokenizer)
+    #         response = response[len(prompt) :]
+    #         logger.info(response)
+    #         dump_response(response, response_file)
 
 
 if __name__ == "__main__":
