@@ -264,7 +264,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
         prompt,
         return_tensors="pt",
         truncation=True,
-        max_length=1024,
+        max_length=900,
     )
     input_ids = sequence["input_ids"]
     print(input_ids)
