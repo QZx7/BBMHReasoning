@@ -1,13 +1,13 @@
 import json
+import argparse
 from xmlrpc.client import boolean
 
-from torch import le
 from prompting import read_source_data
 from typing import Dict, List, Text
 
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
-batch_data_path = r"./data/experiments/400M/test_response_b15_17.jsonl"
-parlai_format_path = r"./data/experiments/no_reasoning/test_parlai_b15_17.txt"
+batch_data_path = r"./data/experiments/3B/gpt_2/train_response_b0_14.jsonl"
+parlai_format_path = r"./data/experiments/3B/gpt_2/train_parlai_b0_14.txt"
 
 
 def read_batch_data(batch_data_path: Text) -> List[Dict[str, str]]:
@@ -45,6 +45,8 @@ def parlai_format_from_batch(
                 annotation = batch_data[total_seeker_utterance_index]["response"].split(
                     "\n"
                 )[0]
+                if annotation == "":
+                    annotation = "<empty annotation>"
                 text += " The seeker " + annotation
             label = dialog["conversation"][index + 1]["content"]
             tmp = ""
@@ -60,14 +62,39 @@ def parlai_format_from_batch(
                 if index == len(dialog["conversation"]) - 3:
                     total_seeker_utterance_index += 1
             else:
-                output_file.write(f"text:{text}" + "\t" + f"labels:{label}" + "\n")
+                if "<empty annotation>" not in text:
+                    output_file.write(f"text:{text}" + "\t" + f"labels:{label}" + "\n")
+
+
+def add_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--source_data_path",
+        type=str,
+        default="./data/ESConv_one_speaker_one_turn.json",
+        help="Original ESConv data path",
+    )
+    parser.add_argument(
+        "--batch_data_path", type=str, required=True, help="Resposnes from PLMs."
+    )
+    parser.add_argument(
+        "--parlai_format_path", type=str, required=True, help="Output parlai file path."
+    )
+    args = parser.parse_args()
+    return args
 
 
 def main():
-    source_data = read_source_data(source_data_path)
-    batch_data = read_batch_data(batch_data_path)
+    # load arguments
+    args = add_arguments()
+
+    # load data
+    source_data = read_source_data(args.source_data_path)
+    batch_data = read_batch_data(args.batch_data_path)
+
+    # generate parlai format file
     parlai_format_from_batch(
-        batch_data, source_data, parlai_format_path, with_annotation=False
+        batch_data, source_data, args.parlai_format_path, with_annotation=True
     )
 
 
