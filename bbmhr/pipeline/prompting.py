@@ -10,6 +10,7 @@ from typing import Any, Dict, List, Optional, Text, TextIO
 
 from datetime import date
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import OpenAIGPTTokenizer, OpenAIGPTModel
 
 Log_Format = "%(levelname)s %(asctime)s - %(message)s"
 
@@ -239,6 +240,12 @@ def load_large_model(model_name: Text):
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name)
         print(f"Model configuration: {model.config}")
+    elif "gpt" == model_name:
+        model_name = "openai-gpt"
+        print(f"loading model from {model_name}")
+        model = OpenAIGPTModel.from_pretrained(model_name)
+        tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
+        print(f"Model configuration: {model.config}")
     else:
         return None
     return model, tokenizer
@@ -265,7 +272,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
         prompt,
         return_tensors="pt",
         truncation=True,
-        max_length=900,
+        max_length=500,
     )
     input_ids = sequence["input_ids"]
     attention_mask = sequence["attention_mask"]
@@ -359,9 +366,9 @@ def main():
     # get fixed template length
     fixed_sequence = tokenizer(fixed_prompt)
     fixed_length = len(fixed_sequence["input_ids"])
-    allowed_dialog_length = 800 - 70 - fixed_length - 1
+    allowed_dialog_length = 400 - 70 - fixed_length - 1
     if model_name == "gpt":
-        allowed_dialog_length = 800 - 70 - fixed_length - 1
+        allowed_dialog_length = 400 - 70 - fixed_length - 1
     # allowed_dialog_length = 50
     # print(fixed_length)
 
