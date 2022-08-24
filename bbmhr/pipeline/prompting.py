@@ -10,7 +10,7 @@ from typing import Any, Dict, List, Optional, Text, TextIO
 
 from datetime import date
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers import OpenAIGPTTokenizer, OpenAIGPTModel
+from transformers import OpenAIGPTTokenizer, OpenAIGPTLMHeadModel
 
 Log_Format = "%(levelname)s %(asctime)s - %(message)s"
 
@@ -243,7 +243,7 @@ def load_large_model(model_name: Text):
     elif "gpt" == model_name:
         model_name = "openai-gpt"
         print(f"loading model from {model_name}")
-        model = OpenAIGPTModel.from_pretrained(model_name)
+        model = OpenAIGPTLMHeadModel.from_pretrained(model_name)
         tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
         print(f"Model configuration: {model.config}")
     else:
@@ -326,7 +326,7 @@ def add_arguments():
         "--model_name",
         type=str,
         default="gpt-j",
-        help="select model name from ['gpt-j', 'gpt-2']",
+        help="select model name from ['gpt-j', 'gpt-2', 'gpt']",
     )
     parser.add_argument(
         "--sample_number", type=int, default=0, help="how many samples to generate"
