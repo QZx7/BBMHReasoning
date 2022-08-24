@@ -293,16 +293,22 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     return gen_text
 
 
-def process_prompt_length(prompt: Text, allowed_dialog_length: int, current_dialog_length: int, tokenizer) -> Text:
+def process_prompt_length(prompt: Text, allowed_dialog_length: int, tokenizer, single_utterance: bool = False) -> Text:
     current_dialog = prompt.split("Conversation:")[-1].split("In this conversation,")[0][1:]
     print(f"dialog before processing: \n{current_dialog}")
     utterances = current_dialog.split("\n")[:-1]
     utterances.pop(0)
     tmp_text = "\n".join(utterances)
 
-    while len(tokenizer(tmp_text)["input_ids"]) > allowed_dialog_length:
-        utterances.pop(0)
-        tmp_text = "\n".join(utterances)
+    if not single_utterance:
+        while len(tokenizer(tmp_text)["input_ids"]) > allowed_dialog_length:
+            utterances.pop(0)
+            tmp_text = "\n".join(utterances)
+    else:
+        if len(utterances) >= 2:
+            tmp_text = utterances[-2] + "\n" + utterances[-1]
+        else:
+            tmp_text = utterances[0]
     
     print(f"dialog after processing: \n{tmp_text}")
     print(len(tokenizer(tmp_text)["input_ids"]))
@@ -369,8 +375,6 @@ def main():
     allowed_dialog_length = 900 - 70 - fixed_length - 1
     if model_name == "gpt":
         allowed_dialog_length = 450 - 70 - fixed_length - 1
-    # allowed_dialog_length = 50
-    # print(fixed_length)
 
     # load prompt generator
     prompt_generator = assembly_prompt(
@@ -382,17 +386,6 @@ def main():
 
     for _ in range(args.start_index):
         next(prompt_generator)
-    # prompt = next(prompt_generator)
-    # prompt = next(prompt_generator)
-    # prompt = next(prompt_generator)
-    # prompt = next(prompt_generator)
-    # print(fixed_prompt)
-    # print(prompt)
-
-    # current_length = len(tokenizer(prompt)["input_ids"]) - fixed_length + 1
-    # print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
-    # if current_length > allowed_dialog_length:
-    #     process_prompt_length(prompt, allowed_dialog_length, current_length, tokenizer)
     
     if args.sample_number == 0:
         for i in prompt_generator:
@@ -403,7 +396,10 @@ def main():
             print(current_length)
             if current_length > allowed_dialog_length:
                 print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
-                prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, current_length, tokenizer))
+                if model_name == "gpt":
+                    prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, tokenizer, single_utterance=True))
+                else:
+                    prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, tokenizer))
                 print(prompt)
 
             response = gpt_text_generate(prompt, model, tokenizer)
@@ -419,7 +415,10 @@ def main():
             print(current_length)
             if current_length > allowed_dialog_length:
                 print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
-                prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, current_length, tokenizer))
+                if model_name == "gpt":
+                    prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, tokenizer, single_utterance=True))
+                else:
+                    prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, tokenizer))
                 print(prompt)
             
             response = gpt_text_generate(prompt, model, tokenizer)

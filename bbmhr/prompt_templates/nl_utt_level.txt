@@ -1,4 +1,3 @@
-Given a conversation between a seeker and supporter, predict the emotoin, reason and suggestion.
 Conversation:
 seeker: hello.
 In this conversation, the seeker did greeting. The supporter should also do greetings.
@@ -6,9 +5,5 @@ Conversation:
 supporter: How can I help you today? It is Christmas, so I expect there to be help for the lonely.
 seeker: Yeah, I'm pretty stressed today with the news from Nashville.
 In this conversation, the seeker feels stressed. The reason is not mentioned. The supporter should ask for more details.
-Conversation:
-supporter: Is there anything I can help with?
-seeker: I'm so worried about breaking up with my boyfriend that I find myself shaking at night.
-In this conversation, the seeker feels lonely and worried. The reason is that the seeker worries about breaking up with her boyfriend. The supporter should calm the seeker down and tell the seeker the there are people around her to make her feel being loved.
 Conversation:
 <conversation>In this conversation, the seeker
