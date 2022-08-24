@@ -368,7 +368,7 @@ def main():
     fixed_length = len(fixed_sequence["input_ids"])
     allowed_dialog_length = 900 - 70 - fixed_length - 1
     if model_name == "gpt":
-        allowed_dialog_length = 500 - 70 - fixed_length - 1
+        allowed_dialog_length = 450 - 70 - fixed_length - 1
     # allowed_dialog_length = 50
     # print(fixed_length)
 
