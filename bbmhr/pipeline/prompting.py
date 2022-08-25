@@ -235,7 +235,7 @@ def load_large_model(model_name: Text):
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         print(f"Model configuration: {model.config}")
     elif "gpt-2" == model_name:
-        model_name = "gpt2"
+        model_name = "distilgpt2"
         print(f"loading model from {model_name}")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name)
@@ -293,13 +293,22 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     return gen_text
 
 
-def process_prompt_length(prompt: Text, allowed_dialog_length: int, tokenizer, single_utterance: bool = False) -> Text:
-    current_dialog = prompt.split("Conversation:")[-1].split("In this conversation,")[0][1:]
-    print(f"dialog before processing: \n{current_dialog}")
-    utterances = current_dialog.split("\n")[:-1]
-    utterances.pop(0)
+def process_prompt_length(
+    prompt: Text, allowed_dialog_length: int, tokenizer, single_utterance: bool = False
+) -> Text:
+    current_dialog = prompt
+    utterances = current_dialog.split("\n")
     tmp_text = "\n".join(utterances)
+    if "Conversation:" in prompt:
+        current_dialog = prompt.split("Conversation:")[-1].split(
+            "In this conversation,"
+        )[0][1:]
+        print(f"dialog before processing: \n{current_dialog}")
+        utterances = current_dialog.split("\n")[:-1]
+        utterances.pop(0)
+        tmp_text = "\n".join(utterances)
 
+    print(len(tokenizer(tmp_text)["input_ids"]))
     if not single_utterance:
         while len(tokenizer(tmp_text)["input_ids"]) > allowed_dialog_length:
             utterances.pop(0)
@@ -309,7 +318,7 @@ def process_prompt_length(prompt: Text, allowed_dialog_length: int, tokenizer, s
             tmp_text = utterances[-2] + "\n" + utterances[-1]
         else:
             tmp_text = utterances[0]
-    
+
     print(f"dialog after processing: \n{tmp_text}")
     print(len(tokenizer(tmp_text)["input_ids"]))
     return tmp_text + "\n"
@@ -386,7 +395,7 @@ def main():
 
     for _ in range(args.start_index):
         next(prompt_generator)
-    
+
     if args.sample_number == 0:
         for i in prompt_generator:
             prompt = next(prompt_generator)
@@ -395,8 +404,13 @@ def main():
             current_length = len(tokenizer(prompt)["input_ids"]) - fixed_length + 1
             print(current_length)
             if current_length > allowed_dialog_length:
-                print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
-                prompt = prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, tokenizer))
+                print(
+                    f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively."
+                )
+                prompt = prompt.replace(
+                    "<conversation>",
+                    process_prompt_length(prompt, allowed_dialog_length, tokenizer),
+                )
                 print(prompt)
 
             response = gpt_text_generate(prompt, model, tokenizer)
@@ -411,14 +425,55 @@ def main():
             current_length = len(tokenizer(prompt)["input_ids"]) - fixed_length + 1
             print(current_length)
             if current_length > allowed_dialog_length:
-                print(f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively.")
-                prompt = fixed_prompt.replace("<conversation>", process_prompt_length(prompt, allowed_dialog_length, tokenizer))
+                print(
+                    f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively."
+                )
+                prompt = fixed_prompt.replace(
+                    "<conversation>",
+                    process_prompt_length(prompt, allowed_dialog_length, tokenizer),
+                )
                 print(prompt)
-            
+
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
             logger.info(response)
             dump_response(response, response_file)
+
+
+def inference(model_name, model, tokenizer, prompt_template: Text, current_dialog) -> Text:
+    """Inference gpt models in real time.
+
+    Args:
+        model_name (_type_): Name of reasoning model.
+        model (_type_): Reasoning model
+        tokenizer (_type_): Tokenizer of reasonin model.
+        prompt_template (Text): Prompt template.
+        current_dialog (_type_): Current updating conversation.
+
+    Returns:
+        Text: The reasoning response from the reasoning model.
+    """
+    template_file = open(prompt_template, "r", encoding="utf-8")
+    fixed_prompt = template_file.read()
+    # model, tokenizer = load_large_model(model_name)
+
+    fixed_sequence = tokenizer(fixed_prompt)
+    fixed_length = len(fixed_sequence["input_ids"])
+    allowed_dialog_length = 1000 - 80 - fixed_length - 1
+    if model_name == "gpt":
+        allowed_dialog_length = 500 - 80 - fixed_length - 1
+
+
+    prompt = fixed_prompt.replace(
+        "<conversation>",
+        process_prompt_length(current_dialog, allowed_dialog_length, tokenizer),
+    )
+    response = gpt_text_generate(prompt, model, tokenizer)
+    # response = response[len(prompt) :]
+    print(f"Original response: {response}")
+    response = response.split("In this conversation,")[-1].split(":")[0].replace("\nsupporter", "")
+    logger.info(response)
+    return response
 
 
 if __name__ == "__main__":

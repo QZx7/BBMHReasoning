@@ -16,7 +16,7 @@ from parlai.core.message import Message
 from parlai.utils.misc import display_messages, load_cands
 from parlai.utils.strings import colorize
 
-from bbmhr.pipeline.prompting import read_prompt, get_gpt_result
+from bbmhr.pipeline.prompting import read_prompt, get_gpt_result, inference, load_large_model
 
 
 class LocalHumanReasoningAgent(Agent):
@@ -50,6 +50,12 @@ class LocalHumanReasoningAgent(Agent):
             type="bool",
             help="Whether to use GPT for real time inference or local data.",
         )
+        agent.add_argument(
+            "--reasoning_model_name",
+            default=False,
+            type=str,
+            help="The reasoning model name. Choose from [gpt, gpt-2, gpt-j]",
+        )
         return parser
 
     def __init__(self, opt, shared=None):
@@ -60,6 +66,7 @@ class LocalHumanReasoningAgent(Agent):
         self.fixedCands_txt = load_cands(self.opt.get("local_human_candidates_file"))
         self.prompt_prefix = read_prompt(self.opt.get("prompt_path"))
         self.history = ""
+        self.model, self.tokenizer = load_large_model(self.opt.get("reasoning_model_name"))
         print(
             colorize(
                 "Enter [DONE] if you want to end the episode, [EXIT] to quit.",
@@ -88,10 +95,11 @@ class LocalHumanReasoningAgent(Agent):
             reply_text = input(colorize("Enter Your Message:", "text") + " ")
             if self.opt.get("use_gpt"):
                 self.history += f"seeker: {reply_text}\n"
-                prompt = self.prompt_prefix.replace("<conversation>", self.history)
-                gpt_response = get_gpt_result("completion", prompt, stop_words=["\n"])[
-                    "choices"
-                ][0]["text"]
+                # prompt = self.prompt_prefix.replace("<conversation>", self.history)
+                gpt_response = inference(self.opt.get("reasoning_model_name"), self.model, self.tokenizer, self.opt.get("prompt_path"), self.history)
+                # gpt_response = get_gpt_result("completion", prompt, stop_words=["\n"])[
+                #     "choices"
+                # ][0]["text"]
                 print(gpt_response)
                 reply_text += gpt_response
             # print(reply_text)
