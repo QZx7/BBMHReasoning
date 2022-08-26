@@ -303,12 +303,12 @@ def process_prompt_length(
         current_dialog = prompt.split("Conversation:")[-1].split(
             "In this conversation,"
         )[0][1:]
-        print(f"dialog before processing: \n{current_dialog}")
+        # print(f"dialog before processing: \n{current_dialog}")
         utterances = current_dialog.split("\n")[:-1]
         utterances.pop(0)
         tmp_text = "\n".join(utterances)
 
-    print(len(tokenizer(tmp_text)["input_ids"]))
+    # print(len(tokenizer(tmp_text)["input_ids"]))
     if not single_utterance:
         while len(tokenizer(tmp_text)["input_ids"]) > allowed_dialog_length:
             utterances.pop(0)
@@ -319,8 +319,8 @@ def process_prompt_length(
         else:
             tmp_text = utterances[0]
 
-    print(f"dialog after processing: \n{tmp_text}")
-    print(len(tokenizer(tmp_text)["input_ids"]))
+    # print(f"dialog after processing: \n{tmp_text}")
+    # print(len(tokenizer(tmp_text)["input_ids"]))
     return tmp_text + "\n"
 
 
@@ -470,8 +470,8 @@ def inference(model_name, model, tokenizer, prompt_template: Text, current_dialo
     )
     response = gpt_text_generate(prompt, model, tokenizer)
     # response = response[len(prompt) :]
-    print(f"Original response: {response}")
-    response = response.split("In this conversation,")[-1].split(":")[0].replace("\nsupporter", "")
+    # print(f"Original response: {response}")
+    response = response.split("In this conversation,")[-1].split(":")[0].replace("\nsupporter", "").replace("\nConversation", "")
     logger.info(response)
     return response
 
