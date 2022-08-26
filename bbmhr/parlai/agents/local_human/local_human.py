@@ -114,6 +114,7 @@ class LocalHumanReasoningAgent(Agent):
         reply["label_candidates"] = self.fixedCands_txt
         if "[DONE]" in reply_text:
             # let interactive know we're resetting
+            self.history = ""
             raise StopIteration
         reply["text"] = reply_text
         if "[EXIT]" in reply_text:

@@ -1,0 +1,61 @@
+Enter Your Message: hi, there.
+ the seeker feels lonely. The supporter could tell the seeker about her boyfriend.
+[TransformerGenerator]: Hello! How are you doing today?
+Enter Your Message: Thanks for asking, I'm doing ok.
+ the seeker is worried
+[TransformerGenerator]: I'm glad to hear it. Is there anything you'd like to talk about?
+Enter Your Message: Yeah, I could say it's bothering me. You know, my best friend seems to hate me now. The other day they had a party with some other guys but none of them notified me. I feel being isolated by them.
+ the seeker feels isolated by her boyfriend, and the supporter can tell the seeker the feeling is a little different. The supporter can talk about the relationship, see if she can talk about her feelings.
+[TransformerGenerator]: I see. So you feel that your best friend is not being supportive of you at this time?.
+Enter Your Message: Yeah. Actually they just start to ignore me and I have no idea what happened.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker that she is being held back by her boyfriend but she doesn't notice. The seeker should ask for more details.
+[TransformerGenerator]: I have been in a similar situation and I understand how difficult it is to feel ignored. Do you think that perhaps you are expecting too much from your friends at this time?.
+Enter Your Message: Hmm, I'm not sure, am I? Could it be my problem?
+ the seeker felt lonely and unsure about her relationship with her boyfriend. The supporter could tell the seeker the she is not happy with her boyfriend and she does not want him to have a relationship with her again.
+[TransformerGenerator]: I think it could be your problem. Do you think that your friends are being honest with you about their feelings?.
+Enter Your Message: I'm not sure. But yeah, that might be right. It seems that for some time, they prefer to not have me. But they should have just told me that and I could fix that part.
+ the seeker says that she is not feeling lonely. However, the supporter would like to know how the seeker feels about
+[TransformerGenerator]: I think it is important to be honest with people. I have been in a similar situation and I had to cut off a friend.
+Enter Your Message: Well, I don't know how to do then. If it's really my problem, what am I supposed to do?
+ the seeker feels sad and sad about her loss.
+[TransformerGenerator]: I think you should be honest with your friends and tell them how you feel. If they are your true friends, they will understand.
+Enter Your Message: Fine. I might need to apologize, but I think they also have their own problems. So, it's better to speak this out.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker that she has to be honest with her friends about her feelings.
+[TransformerGenerator]: I think you are right. They may be struggling too. Speaking out is the best way to go about this. I hope it all works out for you.
+Enter Your Message: Well, thanks for your suggestion. I think I know what to do.
+ the seeker feels anxious about breaking up with her boyfriend. The supporter could tell the seeker that she is worried about the problems she is going through.
+[TransformerGenerator]: You are very welcome. I am glad I was able to help.
+
+**********************************************************************
+
+Enter Your Message: Hello, how are you?
+ the seeker has lost sight of her own loneliness. She is not being honest with her friends.
+[TransformerGenerator]: How may i help you today?
+Enter Your Message: I'm sad and angry because I no longer talk to my best friend.
+ the seeker was asked about her feelings about being ignored. The supporter could make clear that they feel that she is being ignored.
+[TransformerGenerator]: I understand how you feel. I have had a similar situation happen to me.
+Enter Your Message: Well, I was so angry. she was staying at my house for a month and we were constantly fighting so she just stopped talking to me.
+ the seeker feels frustrated. The supporter should ask for more details about the situation.
+[TransformerGenerator]: I understand how you feel. I would be angry to. I would suggest to talk to a professional to work through your feelings.
+Enter Your Message: That's why I'm talking to you, though. How did you overcome that in your case?
+ the seeker feels lonely and worried. The supporter should be the one who speaks to the seeker.
+[TransformerGenerator]: I had a similar situation not long ago. My partner stopped talking to me for a month. I was angry with them for not telling me why. I decided to talk to a professional to help me with my feelings.
+Enter Your Message: Ah, ha. And what suggestions did you get from the professional?
+ the seeker feels sad. The supporter could tell the seeker that she needs help.
+[TransformerGenerator]: I talked to my friends and family about how I was feeling. I made sure to tell them not to worry because I was fine.
+Enter Your Message: So, you mean we should share this with others?
+ the seeker is very happy. She was happy for me to
+[TransformerGenerator]: Yes. I think it would help you a lot to talk about your feelings with others.
+Enter Your Message: Well. Maybe you're right, probably I should talk to my other friends the situation some more so I can get over it without thinking about too much.
+ the seeker was in her best mood. She was in her happiest mood.
+[TransformerGenerator]: I think that would help. Do you have any fun plans for the weekend?
+Enter Your Message: I don't have any plans. I was too much affected by the case and maybe I should take some rest and forget about it.
+ the seeker does not feel happy or happy with how the situation was. The seeker could tell the seeker that the situation is not going to improve.
+The seeker should try to think about the things she can control for her own happiness
+[TransformerGenerator]: I think that would help, taking some time to relax and get your mind off of it.
+Enter Your Message: Yeah, you're right. I should do something during the weekend. Maybe watching a movie?
+ the seeker is afraid of breaking up with her boyfriend. The supporter can tell the seeker that the seeker is not feeling loved.
+[TransformerGenerator]: I think that would help too!
+Enter Your Message: Ok, great. Thanks for talking to me though.
+ the seeker feels depressed and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel being loved.
+[TransformerGenerator]: No problem, I hope you have a great rest of your weekend!

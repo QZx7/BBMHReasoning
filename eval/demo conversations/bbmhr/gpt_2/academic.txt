@@ -1,0 +1,92 @@
+[TransformerGenerator]: Hello! How are you doing today?.
+Enter Your Message: I've been feeling a lot of pressure and stress lately due to school.
+ the seeker is in a positive mood and trying to focus on making sure that she can focus on her work and her family.
+[TransformerGenerator]: I understand. School can be very stressful. Have you been struggling with any classes?.
+Enter Your Message: Well, I am in a doctoral program, so I have to work on my thesis on the side even with all of my classes and I had a hard time managing my time and keeping track.
+ the seeker feels stressed. The seeker feels stressed. The seeker is unsure of her ability to express herself after her high school graduation. She does not feel her strength and determination to succeed.
+[TransformerGenerator]: I can understand that. Doctoral programs can take a lot of time.
+Enter Your Message: Yes, I just don't feel motivated to finish my tasks. And, you know, a lot of time has been wasted.
+ the seeker is feeling stressed and worried about something.
+Supporter
+[TransformerGenerator]: Do you have friends in your classes you can plan a study group with?
+Enter Your Message: Yeah, I think there a some people could do that. But you know, they are not so active. I'm not sure if they want to do that with me or not.
+ the seeker is worried about the feeling of stress and anxiety. The supporter thinks there is something in the way she is.
+[TransformerGenerator]: I think it would be a great way to rejuvenate your motivation!
+Enter Your Message: Yeah, it could be. If there are some people working together, I think it would be a lot of fun. Maybe I should just ask them?
+ the seeker feels shy and scared about breaking up with her boyfriend. The supporter could tell the seeker the she feels that she has to go to school with her boyfriend, but it's not clear if that is the case.
+[TransformerGenerator]: I think asking them would be a great idea! That way you can make sure that you are doing what you want to do and not just what your friends are telling you to do.
+Enter Your Message: Hmm, that sounds like a good plan to go. Hopefully I can feel more motivated while discussing with them.
+ the seeker has been having a hard time with other people. The supporter could tell the seeker that she is more worried about having other people around her. They could tell the seeker that she is worried about her life and her friends. They could tell the seeker that she is worried about her own life and her friends. They could tell the seeker that she is scared and afraid of the world. They could tell the
+[TransformerGenerator]: I think that you will feel a lot better if you just do what your friends tell you to do.
+Enter Your Message: Well, thanks for the suggestions though. I will try to organize a study group.
+ the seeker is feeling anxious and
+[TransformerGenerator]: I am sure that you will do just fine.
+Enter Your Message: Thanks. It was nice talking to you.
+ the seeker felt worried. The supporter could tell the seeker that she and the seeker have been separated. The seeker could also see that the seeker's boyfriend is worried about the breakup and that he and the seeker have been separated.
+The seeker did not see the seeker's boyfriend as concerned about the breakup. The seeker felt that the seeker's boyfriend was worried about the breakup. The seeker could see that the seeker
+[TransformerGenerator]: You are welcome.
+
+**********************************************************************
+Failed
+
+Enter Your Message: Hello, there.
+ the seeker feels stressed and anxious. The seeker could also say hello.
+[TransformerGenerator]: Hello! How are you today?
+Enter Your Message: I'm recently feeling bad. I have finals coming up and I am so nervous about taking these tests.
+ the seeker feels sad and sad. The supporter could say she is feeling happy, but that is not the case.
+The seeker should think about her and her feelings. You should think about
+[TransformerGenerator]: I'm sorry to hear you're feeling that way. Do you think you're not prepared for the tests?
+Enter Your Message: Well, I went to every single class and finished all the assignments. But I'm afraid I'm going to do poorly and have to retake the classes.
+ the seeker feels stressed and lonely. The supporter should ask for more details.
+[TransformerGenerator]: I'm sure you did fine, and if you studied as hard as you said you did, you'll do just fine.
+Enter Your Message: I know that. But I just feel so nervous and I think I will just mess it up. I can't build up confidence.
+ the seeker feels depressed and stressed. The supporter should also tell the seeker the support is needed.
+[TransformerGenerator]: I'm sure you'll do just fine.
+Enter Your Message: I'm not sure about that. I always think that I'm not doing good enough.
+ the seeker is worried about breaking up with her boyfriend. The supporter could tell the seeker that there are people around her to make her feel being loved.
+[TransformerGenerator]: I'm sure you are doing good enough.
+Enter Your Message: What if the test is super difficult? Maybe there is something I haven't looked into.
+ the seeker feels frustrated and anxious. The supporter should also ask for more information.
+[TransformerGenerator]: It's always good to prepare as much as you can.
+Enter Your Message: Right? So, I really don't know if I'm able to pass the tests.
+ the seeker feels extremely anxious about the test. The supporter could tell the seeker the test is super difficult.
+[TransformerGenerator]: I'm sure you will do your best and pass the test.
+Enter Your Message: Well, thanks anyway.
+ the seeker believes that they have been through the test and is ready to pass. The supporter could tell the seeker the test is hard to pass.
+(seeker starts to shake as well.)
+[TransformerGenerator]: I'm sure you will do your best and pass the test.
+
+**********************************************************************
+Succeeded
+
+Enter Your Message: Hello.
+ the seeker would say hello to the seeker and ask her what she thought of her boyfriend.
+[TransformerGenerator]: Hi! How are you doing today?
+Enter Your Message: I'm recently feeling bad. I have finals coming up and I am so nervous about taking these tests.
+
+[TransformerGenerator]: Oh no! I'm sure you'll do great. What are you studying?
+Enter Your Message: Computer science. I'm afraid I'm going to do poorly and have to retake the classes.
+ the seeker feels lonely. The supporter can tell the seeker that there are people around her that are trying to make her feel special and to help her feel special. In the same conversation the seeker can tell the seeker that she should be able to change her mind about her boyfriend. In the same discussion the seeker can tell the seeker that she should try to think up new hobbies to keep her feeling special.
+In
+[TransformerGenerator]: I'm sure you'll do great. Do you have a plan for studying?
+Enter Your Message: Yeah, I did follow a plan trying to cover as many content as possible. But I'm always worrying about them putting some difficult questions that I haven't reviewed.
+ the seeker is anxious about not being able to focus on what she is studying. The supporter could tell the seeker the seeker is not focusing on her and worrying about her. The seeker could tell the seeker that she is not being focused on and worrying about her.
+[TransformerGenerator]: I think that trying to cover as much as possible is the best strategy. As you said, it helps to keep you on your toes and makes you more prepared.
+Enter Your Message: Right? But I just don't know if I'm doing good enough.
+ the seeker is feeling anxious. The supporter can point her finger
+[TransformerGenerator]: I think you are, though. As long as you're trying your best, you're doing great.
+Enter Your Message: Well, I have tried my best. I have been to every single class and finished all the assignments. But I just can't build the confidence.
+ the seeker feels stressed about her work. The sponsor could also tell the seeker her work is not going well and that she needs to be focused and focused on the things she can control.
+[TransformerGenerator]: I think you're doing everything you can do on your end. If you've been doing everything you can do, then you have to just trust in yourself.
+Enter Your Message: Yeah, that's true. Well, I think that's been always my problem. I just don't have confidence doing anything...
+ the seeker finds herself feeling discouraged. The supporter should ask for more details.
+[TransformerGenerator]: I think the most important thing is to have a plan. I always make sure to have a schedule to keep me on track. Does that sound like something you could do?
+Enter Your Message: You mean, I should set up a schedule for everthing I do?                                              
+ the seeker feels stressed and worried about the stress of being stressed. The supporter could ask for more information.
+[TransformerGenerator]: Yes, that is exactly what I mean. It will help you stay on track and not get overwhelmed.
+Enter Your Message: Hmm, that sounds like something I can do. Maybe I can be more confident while looking at the tasks I've accomplished.  
+ the seeker is worried how she will continue her study. The supporter should try to make sure she is working on the tasks that
+[TransformerGenerator]: Yes, that is exactly what I mean. It will help you be more confident while looking at the tasks you've accomplished.
+Enter Your Message: Thanks. That is a really good suggestion. I will try that to build my confidence.
+ the seeker was scared of breaking up with her boyfriend. The supporter could tell the seeker that there are people around her. The supporter could tell that the seeker is looking for a support.
+[TransformerGenerator]: You are welcome. I am glad I was able to chat with you today.
