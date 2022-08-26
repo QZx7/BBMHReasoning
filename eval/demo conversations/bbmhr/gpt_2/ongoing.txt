@@ -1,0 +1,62 @@
+Enter Your Message: hi, how are you doing?
+ the seeker does not feel alone. The seeker is not alone. The supporter could also ask for more details.
+[TransformerGenerator]: I am doing well. How are you doing?
+Enter Your Message: Yes, I was discontinued from studies due to some financial problem.
+ the seeker is afraid that the support will cause her to break up with her boyfriend. The supporter should ask for more details.
+[TransformerGenerator]: That's terrible, I'm sorry to hear that.
+Enter Your Message: Yeah.. I am thinking of applying an online job but I am afraid that I can't manage both my studies and job. Thinking about it makes me frustrated and sad.
+ the
+[TransformerGenerator]: I understand that. Do you have a support system that could help you out if you needed it?
+Enter Your Message: You mean financial support from the university?
+ the seeker feels
+[TransformerGenerator]: Yes, a support system from the university or your friends?
+Enter Your Message: I have no idea about that? Is that a common thing for every student?
+ the seeker makes the connection between their study and her job. The supporter should make a suggestion to help the seeker break up with their boyfriend.
+[TransformerGenerator]: It is very common. Many students use the support of their friends to help them with their finances, and to help them study.
+Enter Your Message: That sounds like a plan to go. But it seems that it could be very competitive.
+ the seeker felt depressed and sad. The supporter could tell the seeker the lack of work would be bad for them. The seeker could tell the seeker the lack of attention would be bad for them. So the seeker would feel depressed. The seeker would feel sad.
+[TransformerGenerator]: It can be, but if you stick to your guns, you can make it work.
+Enter Your Message: Alright, maybe I could try that. Thanks for the suggestion.
+ the seeker is worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel loved.
+[TransformerGenerator]: No problem, I hope you have a good day.
+
+**********************************************************************
+
+Enter Your Message: Hi, I'm very depressed and sad. Please help me I need help.
+ the seeker feels depressed and sad. The supporter should help the seeker.
+[TransformerGenerator]: Hello, I am really sorry to hear that. I would love to help, can you tell me what is going on?.
+Enter Your Message: I think it's because of my poor relationship in life.
+ the seeker does not feel lonely. The supporter could ask for help and help.
+[TransformerGenerator]: I understand how you are feeling, I have been in a similar situation. Can you tell me what is going on?.
+Enter Your Message: My family doesn't like me because I'm bad at school. My friends don't really like me or talk to me much. I feel alone.
+ the seeker is depressed and sad. She has always loved her boyfriend.
+Seeker
+[TransformerGenerator]: I can understand why you feel bad about yourself, don't worry,.
+Enter Your Message: I don't know what to do. I try to talk to my friends but they avoid me.
+ the seeker feels lonely and scared about breaking up with
+[TransformerGenerator]: Do you have any other friends besides your family?.
+Enter Your Message: Well, I don't think they consider me as their friend.
+ the seeker is worried about her boyfriend and about her boyfriend's relationship with her. The supporter could tell the seeker that she is worried too. The
+[TransformerGenerator]: I understand how you feel. You can talk to me if you want to.
+Enter Your Message: Yeah. You know, when I talk to them, everyone just avoids me. I can't believe that even my family don't want to talk with me. I feel that I'm a useless person.
+ the seeker feels anxious about breaking up with her boyfriend. The supporter could tell the seeker that she is feeling lonely and worried about breaking up with her boyfriend.
+[TransformerGenerator]: I think it is best to try to talk to one person at a time. If you try to talk to everyone at once, they will probably avoid you.
+Enter Your Message: I don't know. The world seems so cold for me. I just want to end my life.
+ the seeker feels happy and happy. She would be happy to talk to her boyfriend.
+[TransformerGenerator]: I understand how you feel. I have felt like this for a long time. But I am hopeful that things will get better for us all soon..
+Enter Your Message: I don't know. Everything seems to be so tough for me.
+ the seeker feels depressed and anxious or happy for the first time. She feels she can be a good person and support her friends.
+[TransformerGenerator]: I have felt like this for a long time. Things will get better for you!.
+Enter Your Message: What should I do then?
+ the seeker felt sad and lonely. The supporter could tell the seeker that there is an emotional disconnect with her boyfriend.
+Seeker
+[TransformerGenerator]: Have you thought about seeing a therapist? Does your school have any free therapy programmes you could use?.
+Enter Your Message: Well, I think there might be some services. But do you think they can help me identify the problem?
+ the seeker felt
+[TransformerGenerator]: Of course! They will be able to help you identify the problem and give you ways to overcome it.
+Enter Your Message: Ok, then. I will try that.
+ the seeker felt lonely. The supporter would say to the seeker
+[TransformerGenerator]: I hope that I have been able to be of some help to you. You need to press quit now to end the conversation.
+Enter Your Message: Thanks.
+ the seeker feels lonely and worried about breaking up with her boyfriend. She can tell the seeker that she is getting too close to him. She can tell that she is afraid of breaking up with him. She can tell that she is so lonely that she can't focus on her business.
+[TransformerGenerator]: You're welcome.

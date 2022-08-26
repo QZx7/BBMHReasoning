@@ -1,0 +1,85 @@
+Enter Your Message: hello.
+ the seeker is not alone. She has been in love with the seeker for a while now. The seeker has asked the seeker to make a gift for their boyfriend, but she has been rejected. The seeker is happy about the situation with the seeker. The seeker tries to make a gift for the seeker.
+[TransformerGenerator]: Hi there, how is life treating you at the moment?.
+Enter Your Message: I'm not feeling good.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her
+[TransformerGenerator]: I am really sorry to hear that, this is a really bad time of year to be getting on board with life. Can you tell me a little about what is making you feel this way?.
+Enter Your Message: My company is currently in a critical situation and laying off employees. I think I'm one of them.
+ the seeker feels stressed and anxious. The supporter could make a suggestion if she feels like the seeker has missed a way to cope with stress.<|endoftext|>
+[TransformerGenerator]: I see, this is a very difficult time to be going through this, especially with the holidays coming up. Do you think you will be laid off soon?.
+Enter Your Message: Yes, and I don't know what to do. It's difficult to find a new job.
+ the seeker is feeling lonely and worried about this time of year. The supporter could tell the seeker that there are people around her to make her feel loved.<|endoftext|>
+[TransformerGenerator]: I completely understand, I have been struggling to find work also. Do you have a resume?.
+Enter Your Message: I do have my resume. But I'm not so cofident at it.
+ the seeker feels lonely, but the reason is not mentioned. The supporter should ask for more details.
+[TransformerGenerator]: I understand, sometimes confidence can be hard to come by. What have you done to improve your confidence?
+Enter Your Message: I mean, the resume just looks so plain. I don't think I can easily find a job with that.
+ the seeker is concerned about the status of the seeker and the person she feels betrayed by. The sponsor should also ask for more information.
+[TransformerGenerator]: I understand, sometimes a resume can look plain without additional information. What can you add to your resume to make it more interesting?
+Enter Your Message: I don't know. What would the human resource like to see in a resume?
+ the seeker feels lonely, afraid and scared about breaking up with her boyfriend. The supporter could tell the seeker that the seeker is scared, and it could help her break her down and find work.
+[TransformerGenerator]: I would suggest looking at resume help websites to see what they suggest to improve your resume.
+Enter Your Message: Oh, I didn't know that kind of websites exist. So, do they give you hints on improving your resume?
+ the seeker feels stressed and worried about breaking up with her boyfriend. The supporter
+[TransformerGenerator]: They can give suggestions on making it more readable, making it more appealing, or even finding more jobs that fit your skillset.
+Enter Your Message: That sounds like something can be instantly helpful. Thanks, I'll look into that.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel being loved.
+[TransformerGenerator]: I hope it helps. I know you are going to be just fine.
+Enter Your Message: Thanks.
+ the seeker feels extremely stressed and depressed. She feels lonely and has no energy. She feels like she is out of her body
+[TransformerGenerator]: I feel like that sometimes too. It helps me to remind myself that I can't change the future, but I can do my best to prepare for it.
+
+**********************************************************************
+Failed
+
+Enter Your Message: Hello.
+ the seeker is in a good mood and feeling more comfortable, as she is in a relationship that works on her.
+In this
+[TransformerGenerator]: How are you doing today?
+Enter Your Message: I'm doing ok, just start to worry about my job.
+ the seeker feels worried by her job. The supporter could tell the seeker the
+[TransformerGenerator]: What is your job?
+Enter Your Message: I'm just a normal employee in a finacial company.
+ the seeker feels lonely and anxious about her job. The supporter could tell the seeker that she is worrying about her job, and that she is not happy.
+[TransformerGenerator]: I understand that. I am in the same boat.
+Enter Your Message: Are you doing the same thing?
+ the seeker feels lonely. The supporter is trying to focus on the things she can control.
+[TransformerGenerator]: Yes, I am doing the same. It is very difficult time for everyone.
+Enter Your Message: Yeah, I don't know what to do. I just feel that I'm not able to do my work well. You know, I tried my best, but still can not figure those charts out. I think I might not be eligible for my work.
+ the seeker feels stressed, but the reason is not mentioned. The supporter should ask for more details.
+[TransformerGenerator]: It sounds like you are thinking that you might not be eligible for your work because of the virus. Is that right?
+Enter Your Message: Yes, exactly. It is too difficult for me to finish my tasks.
+ the seeker's mood is depressed. This is a dream come true for the seeker. She has been experiencing sadness and fear for the better part of her life. She feels like she is on the brink of death. She has no idea what is going to happen when she dies. She can't help but feel sad and alone. She is in no way alone. She is not alone. She is alone.
+[TransformerGenerator]: I can tell how anxious you are about this. I think that you really care about your job and this can affect both you and your employer. Do you think that you can talk to your employer about the situation?
+Enter Your Message: I'm not sure. That can only show that I can't do anything. Maybe he could just fire me immediately.
+ the seeker feels stressed. The supporter should ask for more details.
+[TransformerGenerator]: I think that it would be a very good idea if you talked to him about it. I am sure that he would not want to lose you.
+Enter Your Message: Well, that might be better than struggling by myself.
+ the seeker feels lonely and anxious about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel loved.
+[TransformerGenerator]: I think that it would be a very good idea if you talked to him about it. I am sure that you will make him feel very bad.
+Enter Your Message: I might need to do something to improve my skills. But I don't know if I could do that or not.
+ the seeker feels anxious and frightened about breaking up with her boyfriend. The supporter could tell the seeker the the person is not really looking for her anymore, so her feelings do not really matter.
+[TransformerGenerator]: I think that you should try to talk to him first and see how he reacts. If he is a good guy, he will accept what has happened and will try to improve himself as well.
+Enter Your Message: Well, thanks.
+ the seeker feels stressed and worried about her job. The supporter could tell the seeker the there are people around her to make her feel like being loved.
+[TransformerGenerator]: No problem. I hope that I have been able to help you today.
+
+**********************************************************************
+Failed
+
+Enter Your Message: Hi, how are you doing?
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel being loved.
+[TransformerGenerator]: I am doing well. How are you doing today?
+Enter Your Message: I'm doing ok, just start to worry about my job.
+ the
+[TransformerGenerator]: What do you do for a living?
+Enter Your Message: I'm just a normal employee in a finacial company.
+ the seeker feels lonely and worried about breaking up with her boyfriend
+[TransformerGenerator]: I understand that. I work in finance as well.
+Enter Your Message: Yeah, I don't know what to do. I just feel that I'm not able to do my work well. You know, I tried my best, but still can not figure those charts out. I think I might not be eligible for my work.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel loved.
+[TransformerGenerator]: Have you talked to your professor about this?
+Enter Your Message: You mean my boss? No, not yet. I think that can only show that I can't do anything. Maybe he could just fire me immediately.
+ the seeker feels stressed, but the reason is not mentioned. The supporter should ask for more details.
+[TransformerGenerator]: Yes, your professor. They are there to help you and I am sure they have had situations like this before.
+Enter Your Message: 

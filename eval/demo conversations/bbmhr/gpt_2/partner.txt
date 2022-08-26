@@ -1,0 +1,75 @@
+Enter Your Message: hello, how are you?
+ the seeker has found someone to be in
+[TransformerGenerator]: Hi, I'm doing well. How are you doing?
+Enter Your Message: I don't feel good.
+ the seeker feels stressed. The supporter should ask for more details.
+[TransformerGenerator]: What's going on?
+Enter Your Message: I broke up with my boyfriend.
+ the seeker feels depressed and sad. The supporter should tell the seeker that her boyfriend left her for another person, which would help her focus on the things
+[TransformerGenerator]: Oh, wow. That's a really hard thing to do, especially after being together for so long.
+Enter Your Message: You know what, he cheated on me. That is just so bad.
+ the seeker feels worried about the person who cheated on her. The supporter could tell the seeker that the person who cheated on her is cheating on herself.
+[TransformerGenerator]: I'm so sorry to hear that. That is really rough.
+Enter Your Message: I just didn't expect that. You know, I thought I met a handsome intelligent man. We dated for a month. Then out of nowhere he cheated on me. I'm so sad. I am just trying to understand what I did wrong.
+ the seeker is feeling lonely and is worried she will never be a successful match for the couple. The supporter can tell the seeker she is worried that the couple will get split
+[TransformerGenerator]: I think you did everything you could to try to help the relationship, but he was not willing to do the same. It's hard to understand, but sometimes people just don't want to change.
+Enter Your Message: Yes, you are definitely correct. But I really want to know the reason. I thought we really loved each other.
+ the seeker is able to see and feel more of a connection with the seeker. The seeker is able to think of things that could help the seeker in the future.
+In this conversation
+[TransformerGenerator]: I think it's important to remember that even though you were friends, you still had your own lives to live. It's also important to remember that even though you were friends, you still had your own lives to live.
+Enter Your Message: Yes, you're right. Maybe I should just forget about him. I just can't believe it.
+ the seeker believes she
+[TransformerGenerator]: I think that's a good idea. If you can't forget him, you can at least try to move on.
+Enter Your Message: He is handsome and intelligent. I don't know if I'm able to find another person like him.
+ the seeker and the seeker's friend are talking about how hard it is to put the romance back together. How much work is involved in getting a marriage going? Why do I have to worry about being alone?
+[TransformerGenerator]: I think you should focus on you now and plan your days ahead.
+Enter Your Message: Yes, yes. I should focus on myself. Maybe the time will help me forget about him. I should really do my own things now.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel being loved.<|endoftext|>
+[TransformerGenerator]: I think that would be a good idea.
+Enter Your Message: Thanks for the encouragement and suggestion.
+ the seeker was trying to help her to remember that something was wrong.
+[TransformerGenerator]: You are very welcome.
+
+**********************************************************************
+
+Enter Your Message: hi, there.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel being loved.
+[TransformerGenerator]: how are you doing. what is troubling you dear.
+Enter Your Message: I've just really been experiencing a very tough time lately.
+ the seeker feels stressed about her boyfriend. The supporter should ask for more information.
+[TransformerGenerator]: what is the problem you are facing. can you describe it briefly so that i can understand.
+Enter Your Message: Well, it started with a break up. My boyfriend and I dated for 7 years and suddenly out of nowhere, he dumps me over text. I keep blaming myself and my body for this.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker that she has a problem with her boyfriend and that is causing her to feel lonely.
+[TransformerGenerator]: i understand you are feeling bad about the situation and you are struggling with how to handle it.
+Enter Your Message: Yeah, I just don't know what to do, I can't get myself out of that.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker that she is suffering from a heart attack, or something similar.
+[TransformerGenerator]: you have done your best and you are dealing with the situation as best as you can. you should be proud of yourself.
+Enter Your Message: You know, he is a very good person. I think we do develop good relationship for a long time. We've been supporting each other until now. But it seems that 7 years, he has changed and everything just doesn't feel right. I know sometimes I could be selfish, but I really love him.
+ the seeker wants
+[TransformerGenerator]: you are not being selfish. you are feeling the way that anyone in your situation would feel.
+Enter Your Message: I hope he could talk to me about it. I hope that we could go back to where we started.
+ the seeker feels lonely
+[TransformerGenerator]: you know, I have been in a similar situation and I had to sit down and really think about why I was feeling the way that I was and how it could be better for both of us.
+Enter Your Message: I know, I just can't focus. I think the whole world is gone.
+ the seeker felt lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker that there are people around her to make her feel being loved.
+[TransformerGenerator]: I know that it is really hard to think that the whole world is gone, but I know that you can do it!
+Enter Your Message: I probably should calm down a little.
+ the seeker felt depressed and stressed. The supporter could tell the seeker that she
+[TransformerGenerator]: I think that you should try to focus on something that you enjoy, to get your mind off of it.
+Enter Your Message: Alright, I will try to think in that way.
+ the seeker has told the seeker that she is feeling lonely because she has lost close to a dozen friends and family members. The seeker has also been worried about her boyfriend's attitude and the person she is dating.
+Saying that it's not a problem is not helping her. It's leaving her a message that she needs to focus on whatever she needs to focus on.
+This is an important message for
+[TransformerGenerator]: I think that you will be able to get through this!
+Enter Your Message: What do you think we should do? I just don't know the reason of this whole case.
+ her boyfriend is
+[TransformerGenerator]: I think you should sit down with her and tell her how you feel. She may not have even realized that she was not being supportive of your relationship.
+Enter Your Message: I might need to talk with him for sure.
+ the seeker is feeling stressed and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel loved.
+[TransformerGenerator]: I think that is a good idea. I would want to know what is going on too.
+Enter Your Message: Thanks for your support. Maybe I will let you know how things are going on in the future.
+ the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker that the situation is very difficult to deal with.
+[TransformerGenerator]: I would love that. I hope everything works out for you.
+Enter Your Message: Thanks.
+ the seeker is being told that she must be a good person.<|endoftext|>
+[TransformerGenerator]: You're welcome.
