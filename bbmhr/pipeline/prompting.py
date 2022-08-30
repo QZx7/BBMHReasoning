@@ -381,7 +381,7 @@ def main():
     # get fixed template length
     fixed_sequence = tokenizer(fixed_prompt)
     fixed_length = len(fixed_sequence["input_ids"])
-    allowed_dialog_length = 900 - 80 - fixed_length - 1
+    allowed_dialog_length = 1000 - 80 - fixed_length - 1
     if model_name == "gpt":
         allowed_dialog_length = 500 - 80 - fixed_length - 1
 
