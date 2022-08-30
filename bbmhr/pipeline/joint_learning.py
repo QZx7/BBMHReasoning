@@ -6,8 +6,8 @@ from prompting import read_source_data
 from typing import Dict, List, Text
 
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
-batch_data_path = r"./data/experiments/3B/gpt_2/train_response_b0_14.jsonl"
-parlai_format_path = r"./data/experiments/3B/gpt_2/train_parlai_b0_14.txt"
+batch_data_path = r"./data/experiments/3B/gpt/train_response_b0_14.jsonl"
+parlai_format_path = r"./data/experiments/3B/gpt/train_parlai_b0_14.txt"
 
 
 def read_batch_data(batch_data_path: Text) -> List[Dict[str, str]]:
@@ -42,9 +42,11 @@ def parlai_format_from_batch(
 
             text = tmp + dialog["conversation"][index]["content"]
             if with_annotation:
-                annotation = batch_data[total_seeker_utterance_index]["response"].split(
-                    "\n"
-                )[0]
+                # annotation = batch_data[total_seeker_utterance_index]["response"].split(
+                #     "\n"
+                # )[0]
+                annotation = post_process_annotation(batch_data[total_seeker_utterance_index]["response"])
+                print(annotation)
                 if annotation == "":
                     annotation = "<empty annotation>"
                 text += " The seeker " + annotation
@@ -64,6 +66,19 @@ def parlai_format_from_batch(
             else:
                 if "<empty annotation>" not in text:
                     output_file.write(f"text:{text}" + "\t" + f"labels:{label}" + "\n")
+
+
+def post_process_annotation(annotation: Text):
+    if annotation[0] == " ":
+        return annotation.split("\n")[0]
+    else:
+        if not annotation.startswith("the seeker"):
+            try:
+                return annotation[annotation.index(',') + 1:].split("\n")[0]
+            except ValueError:
+                return ""
+        else:
+            return annotation.split("\n")[0]
 
 
 def add_arguments():
