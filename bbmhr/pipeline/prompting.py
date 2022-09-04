@@ -443,7 +443,7 @@ def main():
             response = response[len(prompt) :]
             logger.info(response)
             dump_response(response, response_file)
-        print(sample_index, total_token_num)
+        # print(sample_index, total_token_num)
 
 
 def inference(model_name, model, tokenizer, prompt_template: Text, current_dialog) -> Text:
