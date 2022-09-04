@@ -1,4 +1,4 @@
-Give a conversation betwee a seeker and a supporter, predict the emotion status of the seeker, the reason causing that emotion and some conversation instructions for the supporter.
+Give a conversation between a seeker and a supporter, predict the emotion status of the seeker, the reason causing that emotion and some conversation instructions for the supporter.
 Conversation:
 seeker: hello.
 In this conversation, the seeker did greeting. The supporter should also do greetings.
