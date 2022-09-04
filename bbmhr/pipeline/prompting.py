@@ -390,7 +390,7 @@ def main():
     if args.model_name == "gpt-3":
         max_input_length = 3000
         response_length = 120
-    if model_name == "gpt":
+    if args.model_name == "gpt":
         max_input_length = 500
         response_length = 80
     allowed_dialog_length = max_input_length  - response_length - fixed_length - 1
