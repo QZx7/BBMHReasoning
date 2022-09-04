@@ -385,10 +385,15 @@ def main():
     # get fixed template length
     fixed_sequence = tokenizer(fixed_prompt)
     fixed_length = len(fixed_sequence["input_ids"])
-    allowed_dialog_length = 3000 - 120 - fixed_length - 1
+    max_input_length = 1000
+    response_length = 80
+    if args.model_name == "gpt-3":
+        max_input_length = 3000
+        response_length = 120
     if model_name == "gpt":
-        allowed_dialog_length = 500 - 80 - fixed_length - 1
-
+        max_input_length = 500
+        response_length = 80
+    allowed_dialog_length = max_input_length  - response_length - fixed_length - 1
     # load prompt generator
     prompt_generator = assembly_prompt(
         fixed_prompt,
