@@ -12,13 +12,15 @@ supporter: I'm sorry you are going through that. Why do you think you are worrie
 seeker: I just miss the physical comfort and support.
 supporter: I have also struggled with that in the past. It can be difficult!
 seeker: Yes, I feel so lonely.
-supporter: Can you think of things that don't make you feel lonely? We can work on focusing on those instead.
-seeker: Yes, I guess I could try to turn things around to a positive focus on what I do have.
-supporter: That's a great idea. I think you will be headed in the right direction doing that.
-seeker: How do I stop the shaking at night?  Do you have suggestions?
-supporter: I would work on making sure you are in a positive mindset before you go to bed and try to focus on the things you can control.
-seeker: Maybe I could think of things in my life like my new nephew to cheer me up!  He is so cute and makes me smile.
-supporter: That is a wonderful idea. You are on the right track with that. You should try to think about him before bed and see if it help tonight!
 In this conversation, the seeker feels lonely and worried about breaking up with her boyfriend. The supporter could tell the seeker the there are people around her to make her feel being loved.
+Conversation:
+seeker: Not about feeling well, it is about layoff from my job.
+supporter: Sorry to hear about it. Due to COVID most of us are trap with certain problem.
+seeker: It very serious here in my company firstly it was cut off and now it is layoff.
+supporter: It's really hard time but we should keep hopes. It will end soon.
+seeker: Seriously! What I am scare of now is how to secure now job.
+supporter: I can understand it could be a hard time for you. You try to keep working on your skill. For sure you will find a way.
+seeker: I pray it works for me, I don't even dream about this at all I don't believed it can happen to me.
+In this conversation, the seeker feels fearful about losing his job. The supporter could share some similar experience and suggest the seeker to stay positive.
 Conversation:
 <conversation>In this conversation, the seeker
