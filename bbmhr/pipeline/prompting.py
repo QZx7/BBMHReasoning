@@ -1,9 +1,7 @@
 import argparse
-from cgi import print_arguments
 import json
 import random
 import logging
-from statistics import mode
 import openai
 import os
 from typing import Any, Dict, List, Optional, Text, TextIO
@@ -240,6 +238,12 @@ def load_large_model(model_name: Text):
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name)
         print(f"Model configuration: {model.config}")
+    elif "distilgpt2" == model_name:
+        model_name = "gpt2"
+        print(f"loading model from {model_name}")
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(model_name)
+        print(f"Model configuration: {model.config}")
     elif "gpt" == model_name:
         model_name = "openai-gpt"
         print(f"loading model from {model_name}")
@@ -341,7 +345,7 @@ def add_arguments():
         "--model_name",
         type=str,
         default="gpt-j",
-        help="select model name from ['gpt-j', 'gpt-2', 'gpt']",
+        help="select model name from ['gpt-j', 'gpt-2', 'gpt', 'distilgpt2']",
     )
     parser.add_argument(
         "--sample_number", type=int, default=0, help="how many samples to generate"
@@ -381,7 +385,7 @@ def main():
     # get fixed template length
     fixed_sequence = tokenizer(fixed_prompt)
     fixed_length = len(fixed_sequence["input_ids"])
-    allowed_dialog_length = 1000 - 80 - fixed_length - 1
+    allowed_dialog_length = 3000 - 120 - fixed_length - 1
     if model_name == "gpt":
         allowed_dialog_length = 500 - 80 - fixed_length - 1
 
@@ -396,27 +400,27 @@ def main():
     for _ in range(args.start_index):
         next(prompt_generator)
 
+    # total_token_num = 0
+    # sample_index = 0
+    # if generate number is 0, generate until the end.
     if args.sample_number == 0:
         for i in prompt_generator:
             prompt = next(prompt_generator)
-            logger.debug(len(prompt))
-
             current_length = len(tokenizer(prompt)["input_ids"]) - fixed_length + 1
-            print(current_length)
             if current_length > allowed_dialog_length:
                 print(
                     f"current dialog length {current_length} is longer than allowed dialog length {allowed_dialog_length}. The beginning part of the conversation will be removed adaptively."
                 )
-                prompt = prompt.replace(
+                prompt = fixed_prompt.replace(
                     "<conversation>",
                     process_prompt_length(prompt, allowed_dialog_length, tokenizer),
                 )
                 print(prompt)
-
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
             logger.info(response)
             dump_response(response, response_file)
+    # if generate number is not 0, generate the given number of samples.
     else:
         for i in range(args.sample_number):
             prompt = next(prompt_generator)
@@ -433,11 +437,13 @@ def main():
                     process_prompt_length(prompt, allowed_dialog_length, tokenizer),
                 )
                 print(prompt)
-
+            # total_token_num += len(tokenizer(prompt)["input_ids"])
+            # sample_index += 1
             response = gpt_text_generate(prompt, model, tokenizer)
             response = response[len(prompt) :]
             logger.info(response)
             dump_response(response, response_file)
+        print(sample_index, total_token_num)
 
 
 def inference(model_name, model, tokenizer, prompt_template: Text, current_dialog) -> Text:

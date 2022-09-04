@@ -109,7 +109,7 @@ def main():
 
     # generate parlai format file
     parlai_format_from_batch(
-        batch_data, source_data, args.parlai_format_path, with_annotation=True
+        batch_data, source_data, args.parlai_format_path, with_annotation=False
     )
 
 
