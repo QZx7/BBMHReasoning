@@ -250,6 +250,10 @@ def load_large_model(model_name: Text):
         model = OpenAIGPTLMHeadModel.from_pretrained(model_name)
         tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
         print(f"Model configuration: {model.config}")
+    elif "gpt-3" == model_name:
+        model_name = "gpt2"
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = None
     else:
         return None
     return model, tokenizer
@@ -345,7 +349,7 @@ def add_arguments():
         "--model_name",
         type=str,
         default="gpt-j",
-        help="select model name from ['gpt-j', 'gpt-2', 'gpt', 'distilgpt2']",
+        help="select model name from ['gpt-j', 'gpt-2', 'gpt', 'distilgpt2', 'gpt-3]",
     )
     parser.add_argument(
         "--sample_number", type=int, default=0, help="how many samples to generate"
@@ -381,10 +385,11 @@ def main():
     # load model
     model_name = args.model_name
     model, tokenizer = load_large_model(model_name)
-
+    logger.info("loaded tokenizer and model from %s", model_name)
     # get fixed template length
     fixed_sequence = tokenizer(fixed_prompt)
     fixed_length = len(fixed_sequence["input_ids"])
+    logger.info("loaded fixed template length %s", fixed_length)
     max_input_length = 1000
     response_length = 80
     if args.model_name == "gpt-3":
@@ -394,6 +399,7 @@ def main():
         max_input_length = 500
         response_length = 80
     allowed_dialog_length = max_input_length  - response_length - fixed_length - 1
+    logger.info("Set max input length to %s, response length to %s and allowed dialog length to %s", max_input_length, response_length, allowed_dialog_length)
     # load prompt generator
     prompt_generator = assembly_prompt(
         fixed_prompt,
@@ -421,8 +427,12 @@ def main():
                     process_prompt_length(prompt, allowed_dialog_length, tokenizer),
                 )
                 print(prompt)
-            response = gpt_text_generate(prompt, model, tokenizer)
-            response = response[len(prompt) :]
+            if "gpt-3" == model_name:
+                response = get_gpt_result("completion", prompt, stop_words=['\n'])
+                response = response["choices"][0]["text"]
+            else:
+                response = gpt_text_generate(prompt, model, tokenizer)
+                response = response[len(prompt) :]
             logger.info(response)
             dump_response(response, response_file)
     # if generate number is not 0, generate the given number of samples.
@@ -444,8 +454,12 @@ def main():
                 print(prompt)
             # total_token_num += len(tokenizer(prompt)["input_ids"])
             # sample_index += 1
-            response = gpt_text_generate(prompt, model, tokenizer)
-            response = response[len(prompt) :]
+            if "gpt-3" == model_name:
+                response = get_gpt_result("completion", prompt, stop_words=['\n'])
+                response = response["choices"][0]["text"]
+            else:
+                response = gpt_text_generate(prompt, model, tokenizer)
+                response = response[len(prompt) :]
             logger.info(response)
             dump_response(response, response_file)
         # print(sample_index, total_token_num)

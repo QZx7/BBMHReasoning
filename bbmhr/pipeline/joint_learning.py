@@ -42,11 +42,11 @@ def parlai_format_from_batch(
 
             text = tmp + dialog["conversation"][index]["content"]
             if with_annotation:
-                # annotation = batch_data[total_seeker_utterance_index]["response"].split(
-                #     "\n"
-                # )[0]
-                annotation = post_process_annotation(batch_data[total_seeker_utterance_index]["response"])
-                print(annotation)
+                annotation = batch_data[total_seeker_utterance_index]["response"].split(
+                    "\n"
+                )[0]
+                # annotation = post_process_annotation(batch_data[total_seeker_utterance_index]["response"])
+                # print(annotation)
                 if annotation == "":
                     annotation = "<empty annotation>"
                 text += " The seeker " + annotation
@@ -95,6 +95,9 @@ def add_arguments():
     parser.add_argument(
         "--parlai_format_path", type=str, required=True, help="Output parlai file path."
     )
+    parser.add_argument(
+        "--annotation", type=bool, default=True, help="Generate data with annotation."
+    )
     args = parser.parse_args()
     return args
 
@@ -109,7 +112,7 @@ def main():
 
     # generate parlai format file
     parlai_format_from_batch(
-        batch_data, source_data, args.parlai_format_path, with_annotation=False
+        batch_data, source_data, args.parlai_format_path, with_annotation=args.annotation
     )
 
 

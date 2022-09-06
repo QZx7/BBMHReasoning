@@ -1,12 +1,5 @@
 Give a conversation between a seeker and a supporter, predict the emotion status of the seeker, the reason causing that emotion and some conversation instructions for the supporter.
 Conversation:
-seeker: hello.
-In this conversation, the seeker did greeting. The supporter should also do greetings.
-Conversation:
-supporter: How can I help you today? It is Christmas, so I expect there to be help for the lonely.
-seeker: Yeah, I'm pretty stressed today with the news from Nashville.
-In this conversation, the seeker feels stressed, but the reason is not mentioned. The supporter should ask for more details.
-Conversation:
 seeker: I'm so worried about breaking up with my boyfriend that I find myself shaking at night.
 supporter: I'm sorry you are going through that. Why do you think you are worried?
 seeker: I just miss the physical comfort and support.
@@ -21,6 +14,10 @@ seeker: Maybe I could think of things in my life like my new nephew to cheer me 
 supporter: That is a wonderful idea. You are on the right track with that. You should try to think about him before bed and see if it help tonight!
 In this conversation, the seeker feels lonely and worried about breaking up with her boyfriend. The seeker is cheered up after the conversation. The supporter could tell the seeker the there are people around her to make her feel being loved.
 Conversation:
+supporter: How can I help you today? It is Christmas, so I expect there to be help for the lonely.
+seeker: Yeah, I'm pretty stressed today with the news from Nashville.
+In this conversation, the seeker feels stressed, but the reason is not mentioned. The supporter should ask for more details.
+Conversation:
 seeker: Hey. I am really scared about my job prospects. I am really fearful about my job situation.
 supporter: When did this fear start?
 seeker: It has been a while. I have had fears going back to my childhood traumas. I think that the work situation has only exacerbated that. The current economic climate has really made me fearful....not sure if I am going to be able to keep my job.
@@ -33,5 +30,8 @@ supporter: Hello. Academic work can be overwhelming at times. I am sure that wit
 seeker: It's just a huge amount of work that I'm struggling with and a ton of exams and they give me a lot of anxiety.
 supporter: It is perfectly fine to feel stressful whenever an important assessment is coming. Make sure that you try to be as prepared as you can. When you feel capable of doing well on said exams, you will feel a lot less pressure.
 In this conversation, the seeker feels stressful because of the exams. The supporter could suggest the seeker to set up tight time schedule or join a study group to get more motivations.
+Conversation:
+seeker: hello.
+In this conversation, the seeker did greeting. The supporter should also do greetings.
 Conversation:
 <conversation>In this conversation, the seeker
