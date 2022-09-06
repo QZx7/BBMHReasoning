@@ -49,6 +49,7 @@ def get_gpt_result(
     gpt_prompt: Optional[Text] = "",
     query: Optional[Text] = "",
     stop_words: Optional[List[Text]] = [],
+    model_type: Optional[Text] = "ada"
 ) -> Dict:
     """Get response from the gpt by prompt.
 
@@ -68,7 +69,7 @@ def get_gpt_result(
             print("need to provide prompt")
         else:
             response = openai.Completion.create(
-                engine="davinci",
+                engine=model_type,
                 prompt=gpt_prompt,
                 temperature=0.7,
                 max_tokens=100,
@@ -84,13 +85,16 @@ def get_gpt_result(
             response = openai.Classification.create(
                 file="file-GVK7z8A0vGQmPvKydNavhkyi",
                 query=query,
-                search_model="ada",
+                search_model=model_type,
                 model="curie",
                 max_examples=3,
             )
     elif task == GPT_3_TASK_CONVERSATION:
+        model_name = model_name = "text-" + model_type + "001"
+        if model_type == 'davinci':
+            model_name = "text-" + model_type + "002"
         response = openai.Completion.create(
-            engine="text-davinci-001",
+            engine=model_name,
             prompt=gpt_prompt,
             temperature=0.5,
             max_tokens=60,
@@ -352,6 +356,9 @@ def add_arguments():
         help="select model name from ['gpt-j', 'gpt-2', 'gpt', 'distilgpt2', 'gpt-3]",
     )
     parser.add_argument(
+        "--model_type", type=str, default='ada', help="Specific model type for gpt-3"
+    )
+    parser.add_argument(
         "--sample_number", type=int, default=0, help="how many samples to generate"
     )
     parser.add_argument(
@@ -393,8 +400,12 @@ def main():
     max_input_length = 1000
     response_length = 80
     if args.model_name == "gpt-3":
-        max_input_length = 3000
-        response_length = 120
+        if args.model_type == "davinci":
+            max_input_length = 3000
+            response_length = 120
+        else:
+            max_input_length = 2000
+            response_length = 80
     if args.model_name == "gpt":
         max_input_length = 500
         response_length = 80
@@ -428,7 +439,7 @@ def main():
                 )
                 print(prompt)
             if "gpt-3" == model_name:
-                response = get_gpt_result("completion", prompt, stop_words=['\n'])
+                response = get_gpt_result("completion", prompt, stop_words=['\n'], model_type=args.model_type)
                 response = response["choices"][0]["text"]
             else:
                 response = gpt_text_generate(prompt, model, tokenizer)
@@ -455,7 +466,7 @@ def main():
             # total_token_num += len(tokenizer(prompt)["input_ids"])
             # sample_index += 1
             if "gpt-3" == model_name:
-                response = get_gpt_result("completion", prompt, stop_words=['\n'])
+                response = get_gpt_result("completion", prompt, stop_words=['\n'], model_type=args.model_type)
                 response = response["choices"][0]["text"]
             else:
                 response = gpt_text_generate(prompt, model, tokenizer)
