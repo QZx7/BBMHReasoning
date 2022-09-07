@@ -68,11 +68,17 @@ def get_gpt_result(
         if not gpt_prompt:
             print("need to provide prompt")
         else:
+            model_name = model_name = "text-" + model_type + "001"
+            max_length = 80
+            if model_type == 'davinci':
+                logger.info("GPT-3 type: %s", model_type)
+                model_name = "text-" + model_type + "002"
+                max_length = 120
             response = openai.Completion.create(
                 engine=model_type,
                 prompt=gpt_prompt,
                 temperature=0.7,
-                max_tokens=100,
+                max_tokens=max_length,
                 top_p=1,
                 frequency_penalty=0,
                 presence_penalty=0,
