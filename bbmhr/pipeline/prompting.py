@@ -75,7 +75,7 @@ def get_gpt_result(
                 model_name = "text-" + model_type + "002"
                 max_length = 120
             response = openai.Completion.create(
-                engine=model_type,
+                engine=model_name,
                 prompt=gpt_prompt,
                 temperature=0.7,
                 max_tokens=max_length,
