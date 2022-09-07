@@ -68,11 +68,11 @@ def get_gpt_result(
         if not gpt_prompt:
             print("need to provide prompt")
         else:
-            model_name = model_name = "text-" + model_type + "001"
+            model_name = model_name = "text-" + model_type + "-001"
             max_length = 80
             if model_type == 'davinci':
                 logger.info("GPT-3 type: %s", model_type)
-                model_name = "text-" + model_type + "002"
+                model_name = "text-" + model_type + "-002"
                 max_length = 120
             response = openai.Completion.create(
                 engine=model_name,
@@ -96,9 +96,9 @@ def get_gpt_result(
                 max_examples=3,
             )
     elif task == GPT_3_TASK_CONVERSATION:
-        model_name = model_name = "text-" + model_type + "001"
+        model_name = model_name = "text-" + model_type + "-001"
         if model_type == 'davinci':
-            model_name = "text-" + model_type + "002"
+            model_name = "text-" + model_type + "-002"
         response = openai.Completion.create(
             engine=model_name,
             prompt=gpt_prompt,
