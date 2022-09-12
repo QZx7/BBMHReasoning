@@ -536,7 +536,7 @@ def inference(model_name, model, tokenizer, prompt_template: Text, current_dialo
     elif model_name in ["ada", "davinci"]:
         response = get_gpt_result("completion", prompt, stop_words=['\n'], model_type=model_name)
         response = response["choices"][0]["text"]
-    # print(response)
+    print(response)
     logger.info(response)
     return response
 
