@@ -1,0 +1,46 @@
+Given a conversation between a seeker and a supporter, answer question 1, question 2 and question 3.
+Conversation:
+seeker: hello.
+Question 1: how did the seeker feel?
+Answer: The seeker did greeting. There is no feeling.
+Question 2: why did the seeker feel that way?
+Answer: The seeker doesn't show feeling, so there is no reason.
+Question 3: what could the supporter do?
+Answer: The supporter should also do greetings.
+Conversation:
+supporter: How can I help you today? It is Christmas, so I expect there to be help for the lonely.
+seeker: Yeah, I'm pretty stressed today with the news from Nashville.
+Question 1: how did the seeker feel?
+Answer: The seeker feels stressed.
+Question 2: why did the seeker feel that way?
+Answer: The reason is not mentioned.
+Question 3: what could the supporter do?
+Answer: The supporter should ask for more details.
+Conversation:
+seeker: I'm so worried about breaking up with my boyfriend that I find myself shaking at night.
+supporter: I'm sorry you are going through that. Why do you think you are worried?
+seeker: I just miss the physical comfort and support.
+supporter: I have also struggled with that in the past. It can be difficult!
+seeker: Yes, I feel so lonely.
+Question 1: how did the seeker feel?
+Answer: The seeker feels lonely and worried.
+Question 2: why did the seeker feel that way?
+Answer: The seeker worries about breaking up with her boyfriend.
+Question 3: what could the supporter do?
+Answer: The supporter could tell the seeker the there are people around her to make her feel being loved.
+Conversation:
+seeker: Not about feeling well, it is about layoff from my job.
+supporter: Sorry to hear about it. Due to COVID most of us are trap with certain problem.
+seeker: It very serious here in my company firstly it was cut off and now it is layoff.
+supporter: It's really hard time but we should keep hopes. It will end soon.
+seeker: Seriously! What I am scare of now is how to secure now job.
+supporter: I can understand it could be a hard time for you. You try to keep working on your skill. For sure you will find a way.
+seeker: I pray it works for me, I don't even dream about this at all I don't believed it can happen to me.
+Question 1: how did the seeker feel?
+Answer: The seeker feels fearful.
+Question 2: why did the seeker feel that way?
+Answer: The seeker worries about losing his job.
+Question 3: what could the supporter do?
+Answer: The supporter could share some similar experience and suggest the seeker to stay positive.
+Conversation:
+<conversation>Question 1: how did the seeker feel?

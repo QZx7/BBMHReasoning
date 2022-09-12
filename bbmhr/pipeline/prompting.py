@@ -260,7 +260,7 @@ def load_large_model(model_name: Text):
         model = OpenAIGPTLMHeadModel.from_pretrained(model_name)
         tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
         print(f"Model configuration: {model.config}")
-    elif "gpt-3" == model_name:
+    elif model_name in ["ada", "davinci", "gpt-3"]:
         model_name = "gpt2"
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = None
@@ -501,19 +501,34 @@ def inference(model_name, model, tokenizer, prompt_template: Text, current_dialo
 
     fixed_sequence = tokenizer(fixed_prompt)
     fixed_length = len(fixed_sequence["input_ids"])
-    allowed_dialog_length = 1000 - 80 - fixed_length - 1
-    if model_name == "gpt":
-        allowed_dialog_length = 500 - 80 - fixed_length - 1
-
-
+    max_input_length = 1000
+    response_length = 80
+    if model_name == "davinci":
+        max_input_length = 3000
+        response_length = 120
+    elif model_name == "ada":
+        max_input_length = 2000
+        response_length = 80
+    elif model_name == "gpt":
+        max_input_length = 500
+        response_length = 80
+    allowed_dialog_length = max_input_length  - response_length - fixed_length - 1
+    # allowed_dialog_length = 1000 - 80 - fixed_length - 1
+    # if model_name == "gpt":
+    #     allowed_dialog_length = 500 - 80 - fixed_length - 1
     prompt = fixed_prompt.replace(
         "<conversation>",
         process_prompt_length(current_dialog, allowed_dialog_length, tokenizer),
     )
-    response = gpt_text_generate(prompt, model, tokenizer)
     # response = response[len(prompt) :]
     # print(f"Original response: {response}")
-    response = response.split("In this conversation,")[-1].split(":")[0].replace("\nsupporter", "").replace("\nConversation", "")
+    response = ""
+    if model_name in ["gpt", "gpt-2"]:
+        response = gpt_text_generate(prompt, model, tokenizer)
+        response = response.split("In this conversation,")[-1].split(":")[0].replace("\nsupporter", "").replace("\nConversation", "")
+    elif model_name in ["ada", "davinci"]:
+        response = get_gpt_result("completion", prompt, stop_words=['\n'], model_type=model_name)
+        response = response["choices"][0]["text"]
     logger.info(response)
     return response
 

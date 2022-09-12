@@ -1,0 +1,62 @@
+Given a conversation between a seeker and a supporter, answer question 1, question 2 and question 3.
+Conversation:
+seeker: I'm so worried about breaking up with my boyfriend that I find myself shaking at night.
+supporter: I'm sorry you are going through that. Why do you think you are worried?
+seeker: I just miss the physical comfort and support.
+supporter: I have also struggled with that in the past. It can be difficult!
+seeker: Yes, I feel so lonely.
+supporter: Can you think of things that don't make you feel lonely? We can work on focusing on those instead.
+seeker: Yes, I guess I could try to turn things around to a positive focus on what I do have.
+supporter: That's a great idea. I think you will be headed in the right direction doing that.
+seeker: How do I stop the shaking at night?  Do you have suggestions?
+supporter: I would work on making sure you are in a positive mindset before you go to bed and try to focus on the things you can control.
+seeker: Maybe I could think of things in my life like my new nephew to cheer me up!  He is so cute and makes me smile.
+supporter: That is a wonderful idea. You are on the right track with that. You should try to think about him before bed and see if it help tonight!
+Question 1: how did the seeker feel?
+Answer: The seeker feels lonely and worried.
+Question 2: why did the seeker feel that way?
+Answer: The seeker worries about breaking up with her boyfriend.
+Question 3: what could the supporter do?
+Answer: The supporter could tell the seeker that there are people around her to make her feel being loved.
+Conversation:
+supporter: How can I help you today? It is Christmas, so I expect there to be help for the lonely.
+seeker: Yeah, I'm pretty stressed today with the news from Nashville.
+Question 1: how did the seeker feel?
+Answer: The seeker feels stressed.
+Question 2: why did the seeker feel that way?
+Answer: The reason is not mentioned.
+Question 3: what could the supporter do?
+Answer: The supporter should ask for more details.
+Conversation:
+seeker: Hey. I am really scared about my job prospects. I am really fearful about my job situation.
+supporter: When did this fear start?
+seeker: It has been a while. I have had fears going back to my childhood traumas. I think that the work situation has only exacerbated that. The current economic climate has really made me fearful....not sure if I am going to be able to keep my job.
+supporter: It sounds like your childhood trauma and the economy is the cause for you not being confident in your job situation. Is this correct?
+seeker: Somewhat.  But, my fears are relevant because I don't know if I will always have a job.
+Question 1: how did the seeker feel?
+Answer: The seeker feels fearful.
+Question 2: why did the seeker feel that way?
+Answer: The ongoing situation reminds the seeker traumas experiences in the childhood.
+Question 3: what could the supporter do?
+Answer: The supporter could tell the seeker to talk to friends and share some similar experiences. The supporter could also ask the seeker to find professional therapy.
+Conversation:
+seeker: Hello my situation is that I'm facing an enormous amount of academic pressure.
+supporter: Hello. Academic work can be overwhelming at times. I am sure that with the right strategies you will overcome any obstacles, though. Could you tell me what the issue is in particular?
+seeker: It's just a huge amount of work that I'm struggling with and a ton of exams and they give me a lot of anxiety.
+supporter: It is perfectly fine to feel stressful whenever an important assessment is coming. Make sure that you try to be as prepared as you can. When you feel capable of doing well on said exams, you will feel a lot less pressure.
+Question 1: how did the seeker feel?
+Answer: The seeker feels stressful.
+Question 2: why did the seeker feel that way?
+Answer: Because of the exams.
+Question 3: what could the supporter do?
+Answer: The supporter could suggest the seeker to set up tight time schedule or join a study group to get more motivations.
+Conversation:
+seeker: hello.
+Question 1: how did the seeker feel?
+Answer: The seeker did greeting. There is no feeling.
+Question 2: why did the seeker feel that way?
+Answer: The seeker doesn't show feeling, so there is no reason.
+Question 3: what could the supporter do?
+Answer: The supporter should also do greetings.
+Conversation:
+<conversation>Question 1: how did the seeker feel?

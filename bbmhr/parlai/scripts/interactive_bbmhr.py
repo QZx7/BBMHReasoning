@@ -111,8 +111,8 @@ def interactive(opt):
         world_logger.write(opt["outfile"], world, file_format=opt["save_format"])
 
 
-@register_script("interactive", aliases=["i"])
-class Interactive(ParlaiScript):
+@register_script("interactive_bbmhr", aliases=["i"])
+class InteractiveBBMHR(ParlaiScript):
     @classmethod
     def setup_args(cls):
         return setup_args()
@@ -123,4 +123,4 @@ class Interactive(ParlaiScript):
 
 if __name__ == "__main__":
     random.seed(42)
-    Interactive.main()
+    InteractiveBBMHR.main()

@@ -54,7 +54,7 @@ class LocalHumanReasoningAgent(Agent):
             "--reasoning_model_name",
             default=False,
             type=str,
-            help="The reasoning model name. Choose from [gpt, gpt-2, gpt-j]",
+            help="The reasoning model name. Choose from [gpt, gpt-2, ada, davinci]",
         )
         return parser
 
@@ -64,7 +64,7 @@ class LocalHumanReasoningAgent(Agent):
         self.episodeDone = False
         self.finished = False
         self.fixedCands_txt = load_cands(self.opt.get("local_human_candidates_file"))
-        self.prompt_prefix = read_prompt(self.opt.get("prompt_path"))
+        # self.prompt_prefix = read_prompt(self.opt.get("prompt_path"))
         self.history = ""
         self.model, self.tokenizer = load_large_model(self.opt.get("reasoning_model_name"))
         print(
@@ -96,11 +96,25 @@ class LocalHumanReasoningAgent(Agent):
             if self.opt.get("use_gpt"):
                 self.history += f"seeker: {reply_text}\n"
                 # prompt = self.prompt_prefix.replace("<conversation>", self.history)
-                gpt_response = inference(self.opt.get("reasoning_model_name"), self.model, self.tokenizer, self.opt.get("prompt_path"), self.history)
-                # gpt_response = get_gpt_result("completion", prompt, stop_words=["\n"])[
-                #     "choices"
-                # ][0]["text"]
-                print(gpt_response)
+                gpt_response = ""
+                gpt_response = inference(
+                    self.opt.get("reasoning_model_name"),
+                    self.model,
+                    self.tokenizer,
+                    self.opt.get("prompt_path"),
+                    self.history
+                )
+                # if self.opt.get("reasoning_model_name") in ["gpt", "gpt-2"]:
+                #     gpt_response = inference(self.opt.get("reasoning_model_name"), self.model, self.tokenizer, self.opt.get("prompt_path"), self.history)
+                # else:
+                #     gpt_response = get_gpt_result(
+                #         task="completion", 
+                #         gpt_prompt=prompt, 
+                #         stop_words=["\n"], 
+                #         model_type=self.opt.get("reasoning_model_name"))[
+                #         "choices"
+                #     ][0]["text"]
+                # print(gpt_response)
                 reply_text += gpt_response
             # print(reply_text)
         except EOFError:
