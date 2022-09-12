@@ -16,7 +16,7 @@ from parlai.core.message import Message
 from parlai.utils.misc import display_messages, load_cands
 from parlai.utils.strings import colorize
 
-from bbmhr.pipeline.prompting import read_prompt, get_gpt_result, inference, load_large_model
+from bbmhr.pipeline.prompting import inference, load_large_model
 
 
 class LocalHumanReasoningAgent(Agent):
@@ -55,6 +55,12 @@ class LocalHumanReasoningAgent(Agent):
             default=False,
             type=str,
             help="The reasoning model name. Choose from [gpt, gpt-2, ada, davinci]",
+        )
+        agent.add_argument(
+            "--save_history_path",
+            default="",
+            type=str,
+            help="the file to save the dialogue history."
         )
         return parser
 
@@ -104,19 +110,7 @@ class LocalHumanReasoningAgent(Agent):
                     self.opt.get("prompt_path"),
                     self.history[:-1]
                 )
-                # if self.opt.get("reasoning_model_name") in ["gpt", "gpt-2"]:
-                #     gpt_response = inference(self.opt.get("reasoning_model_name"), self.model, self.tokenizer, self.opt.get("prompt_path"), self.history)
-                # else:
-                #     gpt_response = get_gpt_result(
-                #         task="completion", 
-                #         gpt_prompt=prompt, 
-                #         stop_words=["\n"], 
-                #         model_type=self.opt.get("reasoning_model_name"))[
-                #         "choices"
-                #     ][0]["text"]
-                # print(gpt_response)
                 reply_text += gpt_response
-            # print(reply_text)
         except EOFError:
             self.finished = True
             return {"episode_done": True}
@@ -128,6 +122,9 @@ class LocalHumanReasoningAgent(Agent):
         reply["label_candidates"] = self.fixedCands_txt
         if "[DONE]" in reply_text:
             # let interactive know we're resetting
+            if self.opt.get("save_history_path") != "":
+                with open(self.opt.get("save_history_path"), 'w+', encoding='utf-8') as file:
+                    file.write(self.history)
             self.history = ""
             raise StopIteration
         reply["text"] = reply_text
