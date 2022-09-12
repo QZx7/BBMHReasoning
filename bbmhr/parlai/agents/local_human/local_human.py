@@ -102,7 +102,7 @@ class LocalHumanReasoningAgent(Agent):
                     self.model,
                     self.tokenizer,
                     self.opt.get("prompt_path"),
-                    self.history
+                    self.history[:-1]
                 )
                 # if self.opt.get("reasoning_model_name") in ["gpt", "gpt-2"]:
                 #     gpt_response = inference(self.opt.get("reasoning_model_name"), self.model, self.tokenizer, self.opt.get("prompt_path"), self.history)
