@@ -525,7 +525,7 @@ def inference(model_name, model, tokenizer, prompt_template: Text, current_dialo
     # print(f"Original response: {response}")
     response = ""
     if model_name in ["gpt", "gpt-2"]:
-        response = gpt_text_generate(prompt.strip(), model, tokenizer)
+        response = gpt_text_generate(prompt[:-1], model, tokenizer)
         print(response)
         response = response.split("In this conversation,")[-1].split(":")[0].replace("\nsupporter", "").replace("\nConversation", "")
     elif model_name in ["ada", "davinci"]:
