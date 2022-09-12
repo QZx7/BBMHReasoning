@@ -524,11 +524,15 @@ def inference(model_name, model, tokenizer, prompt_template: Text, current_dialo
     # response = response[len(prompt) :]
     # print(f"Original response: {response}")
     response = ""
-    if model_name in ["gpt", "gpt-2"]:
+    if model_name == "gpt":
         response = gpt_text_generate(prompt, model, tokenizer)
         print(response)
         # response = response.split("in this conversation, the seeker")[-1].split(":")[0].replace("\nsupporter", "").replace("\nConversation", "")
         response = response.split("in this conversation, the seeker")[-1].split("\n")[0]
+    elif model_name == "gpt-2":
+        response = gpt_text_generate(prompt, model, tokenizer)
+        print(response)
+        response = response.split("\n")[0]
     elif model_name in ["ada", "davinci"]:
         response = get_gpt_result("completion", prompt, stop_words=['\n'], model_type=model_name)
         response = response["choices"][0]["text"]
