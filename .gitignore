@@ -153,3 +153,4 @@ cython_debug/
 
 # Repository setting
 /data/*
+/eval/human_evaluation/*

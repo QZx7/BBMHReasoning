@@ -136,6 +136,7 @@ def self_chat(opt):
     model_id = agent1.id + "_" + agent2.id
 
     world = create_task(opt, user_agents=[agent1, agent2])
+    print(type(world))
 
     # Set up world logging
     logger = WorldLogger(opt)
@@ -166,8 +167,8 @@ def self_chat(opt):
     return logger.get_logs()
 
 
-@register_script('self_chat')
-class SelfChat(ParlaiScript):
+@register_script('self_chat_mental')
+class SelfChatMental(ParlaiScript):
     @classmethod
     def setup_args(cls):
         return setup_args()
@@ -177,4 +178,4 @@ class SelfChat(ParlaiScript):
 
 
 if __name__ == '__main__':
-    SelfChat.main()
+    SelfChatMental.main()
