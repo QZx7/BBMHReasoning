@@ -6,6 +6,8 @@
 """
 Allows a model to self-chat on a given task.
 """
+from email.policy import default
+from pydoc import Helper
 from parlai.core.params import ParlaiParser
 from parlai.core.agents import create_agent, create_agent_from_model_file
 from parlai.core.worlds import create_task
@@ -78,6 +80,24 @@ def setup_args(parser=None):
         '--partner-opt-file',
         default=None,
         help='Path to file containing opts to override for partner',
+    )
+    parser.add_argument(
+        '--use-reasoning',
+        type='bool',
+        default=False,
+        help='Whether to apply reasoning'
+    )
+    parser.add_argument(
+        '--reasoning-model-name',
+        type=str,
+        default='gpt',
+        help='The name of PLM. selct from [gpt, gpt-2, ada, davinci]'
+    )
+    parser.add_argument(
+        "--prompt_path", 
+        default="",
+        type=str, 
+        help="File for the prompt."
     )
     parser.set_defaults(interactive_mode=True, task='self_chat')
     WorldLogger.add_cmdline_args(parser, partial_opt=None)

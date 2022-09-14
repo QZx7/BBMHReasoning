@@ -520,7 +520,7 @@ def inference(model_name, model, tokenizer, prompt_template: Text, current_dialo
         "<conversation>",
         process_prompt_length(current_dialog, allowed_dialog_length, tokenizer),
     )
-    # print(prompt)
+    print(prompt)
     # response = response[len(prompt) :]
     # print(f"Original response: {response}")
     response = ""
@@ -538,7 +538,7 @@ def inference(model_name, model, tokenizer, prompt_template: Text, current_dialo
         response = response["choices"][0]["text"]
     print(response)
     logger.info(response)
-    return response
+    return " The seeker " + response
 
 
 if __name__ == "__main__":
