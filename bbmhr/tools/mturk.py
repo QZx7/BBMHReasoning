@@ -26,27 +26,22 @@ def read_self_chat(path: Text):
 
 
 def generate_batch(task_name: Text):
-    dest_file_name = "./eval/human_evaluation/" + task_name + ".csv"
+    dest_file_name = "./eval/self_chat/batch_origin/" + task_name + ".csv"
     dest_file = open(dest_file_name, 'w+', encoding='utf-8', newline='')
     fieldnames = ['conversation_1', 'conversation_2']
     writer = csv.DictWriter(dest_file, fieldnames=fieldnames)
 
-    for (dirpath, dirnames, filenames) in os.walk("./eval/human_evaluation/"):
+    for (dirpath, dirnames, filenames) in os.walk("./eval/self_chat/batch_origin/"):
         print(filenames)
-    # human_academic_text = open("./eval/human_evaluation/human_academic.txt", 'r', encoding='utf-8').read()
-    # human_academic_text = open("./eval/human_evaluation/human_academic.txt", 'r', encoding='utf-8').read()
-    # human_academic_text = open("./eval/human_evaluation/human_academic.txt", 'r', encoding='utf-8').read()
-    # human_academic_text = open("./eval/human_evaluation/human_academic.txt", 'r', encoding='utf-8').read()
-    # human_academic_text = open("./eval/human_evaluation/human_academic.txt", 'r', encoding='utf-8').read()
     text_dict = {}
     for filename in filenames:
         if ".xlsx" in filename or ".csv" in filename:
             continue
         print(filename)
-        text = open("./eval/human_evaluation/" + filename, 'r', encoding='utf-8').read()
+        text = open("./eval/self_chat/batch_origin/" + filename, 'r', encoding='utf-8').read()
         
         # process
-        if "human_" not in filename and "bb_" not in filename:
+        if "human_" not in filename:
             text = text.replace("seeker","<strong>seeker</strong>")
             text = text.replace("supporter",'<strong style="background-color: aqua">supporter 2</strong>')
             text = text.replace("\n","<br>\n")
@@ -96,13 +91,13 @@ def generate_batch(task_name: Text):
 
 
 def main():
-    read_self_chat("./eval/self_chat/")
-    # generate_batch("bb")
-    # generate_batch("gpt_1")
-    # generate_batch("gpt_2")
+    # read_self_chat("./eval/self_chat/")
+    generate_batch("bb")
+    generate_batch("gpt_1")
+    generate_batch("gpt_2")
     # generate_batch("ada")
     # generate_batch("davinci")
-    # generate_batch("bbmh")
+    generate_batch("bbmh")
 
 
 if __name__ == "__main__":

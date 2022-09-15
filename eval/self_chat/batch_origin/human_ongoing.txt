@@ -1,0 +1,22 @@
+<strong>seeker</strong>: Hello, I am feeling very sad because I tested positive for Covid this week. I am in quarantine away from my family.<br>
+<strong style="background-color: lime">supporter 1</strong>: sorry to hear about that. So your test results were positive. Did I get it right?<br>
+<strong>seeker</strong>: Yes, I tested positive for the Covid virus on Wednesday.<br>
+<strong style="background-color: lime">supporter 1</strong>: It must be hard to stay alone. Are you having fever or any other sever symptoms. Hope there is someone to take care of you for a while at least.<br>
+<strong>seeker</strong>: I'm by myself in my house. My wife took the kids to stay with her father until my quarantine period is over. I have mainly cold symptoms - body aches, stuffy head, sore throat.  Nothing too serious so far.<br>
+<strong style="background-color: lime">supporter 1</strong>: I had COVID last month with mild symptoms. Good to know that you don't have any sever symptoms. You will recover fast.<br>
+<strong>seeker</strong>: I hope so. I'm on the older side (not senior citizen yet) with high blood pressure, so I'm a little nervous about how it will affect me.<br>
+<strong style="background-color: lime">supporter 1</strong>: I can understand staying alone will be devastating.  Keep monitoring your oxygen level. If  that is normal, you don't have to worry. You can read watch tv or can do video calling to your family.<br>
+<strong>seeker</strong>: Thanks for the advice.  We're doing a lot of video calls so I can see everyone.  That helps.<br>
+<strong style="background-color: lime">supporter 1</strong>: I wish for your fast recovery. Hope this COVID situation end soon somehow..<br>
+<strong>seeker</strong>: That's what is so frustrating - I feel like a couple more months or so and I'd have the vaccine.  Made it a year, then get infected during the stretch run of this pandemic.<br>
+<strong style="background-color: lime">supporter 1</strong>: Very true! It is kind of never ending. There should be some permanent solution for it.<br>
+<strong>seeker</strong>: I don't know if that will ever happen, but if it becomes rare and much less deadly like colds and flu, we should be able to return to a pre-covid life or close to it.<br>
+<strong style="background-color: lime">supporter 1</strong>: We can still hope for the best right now. Let's stay positive and fight it.<br>
+<strong>seeker</strong>: I was fighting it, but Covid won this week!<br>
+<strong style="background-color: lime">supporter 1</strong>: Think other way. You defeat it and you won.<br>
+<strong>seeker</strong>: I hope so.  I'm only in like the third inning or so right now though.<br>
+<strong style="background-color: lime">supporter 1</strong>: You are a strong person. You are almost there to win. Your family is always there with you.<br>
+<strong>seeker</strong>: Thanks for the encouragement.  10 days cannot come fast enough.<br>
+<strong style="background-color: lime">supporter 1</strong>: I know but i week has gone so rest will go too. Wishing you fast recovery and take care of yourself.<br>
+<strong>seeker</strong>: Thanks, good luck to you. Nice chatting with you.<br>
+<strong style="background-color: lime">supporter 1</strong>: Thank you! It was nice talking to you too..<br>
