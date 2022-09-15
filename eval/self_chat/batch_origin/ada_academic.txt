@@ -1,0 +1,38 @@
+seeker: Hello.
+supporter: Hello! How are you doing today?
+seeker: Yeah... I'm feeling a lot of stress on my study recently. I'm afraid that I'm gonna fail in the exams.
+supporter: I'm sorry to hear that, but don't worry. I'm sure you will do your best and pass your exams.
+seeker: I've been studying for hours every day, and I'm still not ready.
+supporter: I think you should take a break and take some deep breaths.
+seeker: I've tried that. And it does help a little, but I still feel that I'm not ready.
+supporter: I think you should take a short break and then try to review what you need to know.
+seeker: I've been doing that, and it does help a little. But I still feel that I'm not ready.
+supporter: I think you should take a break and then try to review what you need to know.
+seeker: I think that's what I'm going to do.
+supporter: I think that is a good plan.
+seeker: Thank you.
+supporter: I think it is a good plan.
+seeker: I think that's what I'm going to do.
+supporter: You are welcome.
+seeker: I think that's what I'm going to do.
+supporter: Goodbye.
+seeker: Goodbye.
+supporter: Goodbye.
+seeker: Goodbye.
+supporter: Goodbye.
+seeker: Goodbye.
+supporter: Goodbye.
+seeker: Goodbye.
+supporter: Goodbye.
+seeker: Goodbye.
+supporter: Goodbye. The supporter could say goodbye to the seeker.
+seeker: Goodbye.
+supporter: Goodbye. The supporter could say goodbye to the seeker.
+seeker: Goodbye.
+supporter: Goodbye. The supporter could say goodbye to the seeker.
+seeker: Goodbye.
+supporter: Goodbye. The supporter could say goodbye to the seeker.
+seeker: Goodbye.
+supporter: Goodbye. The supporter could say goodbye to the seeker.
+seeker: Goodbye.
+supporter: Goodbye. The supporter could say goodbye to the seeker.

@@ -1,0 +1,25 @@
+seeker: Hi, there.
+supporter: Hello, how are you?
+seeker: Yeah, I'm not doing very good. I lost my job about 4 months ago and I'm looking for some assistance.
+supporter: I'm so sorry to hear that. I can understand how frustrating that can be.
+seeker: Yeah, it is really hard.
+supporter: I know it's hard, but try to think of this as a time for self care. Do you have any hobbies or do any self care now that you're unemployed?
+seeker: I've been trying to do that, but my anxiety is getting worse and worse. I don't have any hobbies that I can do at this point.
+supporter: I understand. It's been hard for me to find new hobbies too, since I've been working from home. Have your co-workers noticed any changes in you?
+seeker: They have, but I don't think that's because of my anxiety.
+supporter: I have also had anxiety in the past when it came to finding new hobbies, but I found that talking to my co-workers and finding some common ground was a great way to start.
+seeker: That's a good idea. Maybe I should try to find some hobbies that are more solo activities.
+supporter: I think that would definitely help! What are some things you like to do?
+seeker: I like to read. I've been reading a lot of books about self-improvement, like the Power of Habit.
+supporter: That's great! I also like to read. I recently read "The Power of Habit" and it really helped me too!
+seeker: I'll have to check that one out. I'm also trying to learn how to make new friends.
+supporter: It's a great book! It talks a lot about how our minds work and how to change how we see things..
+seeker: I think that's really important. I'm not sure I'm good at seeing things from other people's perspectives.
+supporter: I understand that it can be difficult to see things from other people's perspectives, but I know you can do it!.
+seeker: I'm trying. It's not easy.
+supporter: I think that you seem like a very positive person and I appreciate how hard things must be for you right now.
+seeker: Thank you. I try to be positive. It's hard sometimes.
+supporter: I think that you being seeker is a great start and I am sure that you will find your way through this.
+seeker: Thank you. I really hope so.
+supporter: I am sure that you will. Have a good night!
+seeker: You too.
