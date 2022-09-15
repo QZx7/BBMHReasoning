@@ -1,38 +1,16 @@
-seeker: Hello.
-supporter: Oh, hi, how are you doing?
-seeker: I feel emotionally sad.
-supporter: Oh, I'm so sorry to hear that. I hope I could help you. Why are you feeling emotionally sad?
-seeker: My boyfriend broke up with me about several months ago. And he didn't even say goodbye face to face. I just don't know why..
-supporter: Oh, I'm so sorry! That is really hard when you feel betrayed like that. I think that you might be better off without him..
-seeker: I think so too..
-supporter: I've been in a similar situation and I know how hard it is..
-seeker: I don't know what to do with myself..
-supporter: Have you tried to talk to your partner about how you feel? It helps to clear the air and make sure that everyone understands everyone elses perspective..
-seeker: I have and he says he feels the same way. But I don't know what I did to make him do this..
-supporter: I think that you did nothing wrong. Sometimes people just feel different at a certain time and it can be hard for the other person to understand. I would suggest giving him some time to think about what he wants and how you feel.
-seeker: I think you're right. But I'm just not sure how long. We're not together anymore and I don't know how long to wait before I try to find someone else..
-supporter: I would give it at least a year before you try to find someone new.
-seeker: Okay, I think that's a good idea. But it's hard not to get anxious and worried about what will happen next.
-supporter: I understand it is hard to wait, but you should try to focus on things that you can control..
-seeker: I think that's also a good idea. But what if I don't find anything in the meantime? I don't want to be stuck in a relationship just because I'm waiting for something.
-supporter: I think you should try to spend more time with your friends and family. They will help you to get over your ex.
-seeker: That's also a good idea. But what if my friends and family make fun of me for being in a relationship now?.
-supporter: I think that they would not do that if you told them what is going on.
-seeker: That's also true. But what if they start to make fun of me for being in a relationship with an ex?.
-supporter: I think that they are not worth your time if they are going to make fun of you for things that happened in the past.
-seeker: That's also true. But what if my ex starts to make fun of me for things that happened in the past.
-supporter: I think that you should not let that happen. You should stand up for yourself and if they do not respect that, then maybe it is time to move on.
-seeker: That's also true. But what if my ex starts to make fun of me for things that happened in the past.
-supporter: I think that you should not let that happen either. You should stand up for yourself and if they do not respect that, then maybe it is time to move on.
-seeker: That's also true. But what if my ex starts to make fun of me for things that happened in the past.
-supporter: I think that you should not let that happen either. But what if your ex starts to make fun of you for things that happened in the past. The seeker is waiting for something bad to happen. The seeker could help you to understand that it is not worth their time to make fun of you for a relationship that is over.
-seeker: That's also true. But what if my ex starts to make fun of me for things that happened in the past.
-supporter: That would be rude of your ex and I think that would make you feel uncomfortable.
-seeker: I understand. But what if my ex starts to make fun of me for things that happened in the past.
-supporter: That would be rude of him and I think that would make you uncomfortable.
-seeker: I understand. But what if my ex starts to make fun of me for things that happened in the past.
-supporter: I think it would still make you uncomfortable even if he was joking.
-seeker: I understand. But what if my ex starts to make fun of me for things that happened in the past.
-supporter: I think that even if he was joking, it would still make you uncomfortable.
-seeker: I understand. But what if my ex starts to make fun of me for things that happened in the past.
-supporter: I think that even if he was joking, it would still make you uncomfortable.
+seeker: Hi, I think I could find some help from you.
+supporter: Oh, hi there. Sure, I'm glad to be able to provide some assistance. Did anything happen?
+seeker: Yeah, it's complicated, my life is all about making decisions right now.
+supporter: I'm sorry to hear that. What sort of things are you experiencing now?
+seeker: It's so difficult. Well, it's about my boyfriend. I found him lying about everything. When we met, he said that he was divorced, but I ended up finding out that he was still legally married. He said that he needed sometimg to make the process, but I really don't know if I could trust him or not. I don't know what to do now...
+supporter: I am so sorry that you were treated so badly. You deserve so much better than that!.
+seeker: I know, right? It's hard to let go of all the good times we had together, though. We've been together for 5 years. I don't know how to break it to him...
+supporter: I think it would be good for you to have a conversation with him about how you feel and ask him why he has been treating you so badly. I hope that I have been able to help a little!.
+seeker: You have! I'm just not sure how to start the conversation...
+supporter: I think it would be good to be honest and say "I am feeling a little bit like you are ignoring me, and I don't like that." and then maybe give him some time to think about what he has done that could be making you feel that way?.
+seeker: That sounds like a good plan. I just don't want it to blow up in my face. We are in a small town and if it gets bad enough, we will be known as the town who broke up over a boyfriend...
+supporter: I understand that. You could also tell a teacher or someone you trust about the situation. They will help you out. I know how hard this situation can be. I have been in a similar situation before..
+seeker: I think I will do that. I will tell my math teacher. I really don't want to have to deal with him anymore.
+supporter: I think that is a great idea. They will be able to help you out. I know this is hard, but I know you can make it through this!
+seeker: I know I can too. I just have to keep my head up and think positively.
+supporter: I know you will be able to make it through this!

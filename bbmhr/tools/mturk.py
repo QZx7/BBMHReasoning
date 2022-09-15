@@ -91,7 +91,7 @@ def generate_batch(task_name: Text):
 
 
 def main():
-    read_self_chat("./eval/self_chat/jsonl")
+    read_self_chat("./eval/self_chat")
     # generate_batch("bb")
     # generate_batch("gpt_1")
     # generate_batch("gpt_2")
