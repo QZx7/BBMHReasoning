@@ -3,7 +3,7 @@ python3 bbmhr/parlai/scripts/self_chat_mental.py \
 --model-file ~/dialogue_base/blenderbot/model/bbmh/seeker/bbmh_27B \
 --task blended_skill_talk \
 --num-self-chats 1 \
---selfchat-max-turns 20 \
+--selfchat-max-turns 30 \
 --partner-model-file ~/dialogue_base/blenderbot/model/bbmhr/ada/3B/bbmhr_27B \
 --use-reasoning True \
 --reasoning-model-name ada \
@@ -15,7 +15,7 @@ python3 bbmhr/parlai/scripts/self_chat_mental.py \
 --model-file ~/dialogue_base/blenderbot/model/bbmh/seeker/bbmh_27B \
 --task blended_skill_talk \
 --num-self-chats 1 \
---selfchat-max-turns 20 \
+--selfchat-max-turns 30 \
 --partner-model-file ~/dialogue_base/blenderbot/model/bbmhr/ada/3B/bbmhr_27B \
 --use-reasoning True \
 --reasoning-model-name ada \
@@ -27,7 +27,7 @@ python3 bbmhr/parlai/scripts/self_chat_mental.py \
 --model-file ~/dialogue_base/blenderbot/model/bbmh/seeker/bbmh_27B \
 --task blended_skill_talk \
 --num-self-chats 1 \
---selfchat-max-turns 20 \
+--selfchat-max-turns 30 \
 --partner-model-file ~/dialogue_base/blenderbot/model/bbmhr/ada/3B/bbmhr_27B \
 --use-reasoning True \
 --reasoning-model-name ada \
@@ -39,7 +39,7 @@ python3 bbmhr/parlai/scripts/self_chat_mental.py \
 --model-file ~/dialogue_base/blenderbot/model/bbmh/seeker/bbmh_27B \
 --task blended_skill_talk \
 --num-self-chats 1 \
---selfchat-max-turns 20 \
+--selfchat-max-turns 30 \
 --partner-model-file ~/dialogue_base/blenderbot/model/bbmhr/ada/3B/bbmhr_27B \
 --use-reasoning True \
 --reasoning-model-name ada \
@@ -51,7 +51,7 @@ python3 bbmhr/parlai/scripts/self_chat_mental.py \
 --model-file ~/dialogue_base/blenderbot/model/bbmh/seeker/bbmh_27B \
 --task blended_skill_talk \
 --num-self-chats 1 \
---selfchat-max-turns 20 \
+--selfchat-max-turns 30 \
 --partner-model-file ~/dialogue_base/blenderbot/model/bbmhr/ada/3B/bbmhr_27B \
 --use-reasoning True \
 --reasoning-model-name ada \
