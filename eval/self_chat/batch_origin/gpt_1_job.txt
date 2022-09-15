@@ -1,0 +1,22 @@
+seeker: Hi, there.
+supporter: Hello, how are you?
+seeker: Yeah, I'm not doing very good. I lost my job about 4 months ago and I'm looking for some assistance.
+supporter: Oh, I'm so sorry to hear that.
+seeker: It's been really hard. I've been looking for a job, but I can't find one.
+supporter: I can imagine! When the pandemic started, it was really hard for me to find a job too. I was looking for almost a year. I can tell you that your motivation will come back once you find a job, but right now, you don't have to be in a rush.
+seeker: Yeah, I'm not in a huge rush. I'm just really worried about how I'm going to pay my bills.
+supporter: I would suggest trying to work part time or even take some online classes in the meantime to help pay the bills. It's definitely easier to work online than it is to find work in the store.
+seeker: That's true. I hadn't thought of that.
+supporter: I'm sure once you get into the swing of things again, everything will be okay.
+seeker: Yeah, I'm sure it will. I'm just really worried right now.
+supporter: I completely understand why you would be worried, especially with the holidays coming up.
+seeker: Yeah, I'm really hoping that I can find some part time work somewhere to help out.
+supporter: I know there are a lot of places hiring right now because of the holidays, so I wouldn't be too worried about that.
+seeker: That's true. I'm going to keep looking.
+supporter: I think it's great that you're looking for a job in the first place, a lot of people are too anxious or depressed to look for jobs right now.
+seeker: Yeah, I can understand that.
+supporter: I hope you're able to find a good job soon, this pandemic has been really hard on so many people.
+seeker: Yeah, it has been.
+supporter: Have you tried reaching out to anyone in your network to look for a new position? It helped me when I was previously looking for a new job.
+seeker: I have, but it has been difficult.
+supporter: I know it's really hard right now, but I know you can find a new job!

@@ -1,0 +1,15 @@
+seeker: Hello.
+supporter: Oh, hi, how are you doing?
+seeker: I feel emotionally sad.
+supporter: Oh, I'm so sorry to hear that. I hope I could help you. Why are you feeling emotionally sad?
+seeker: My boyfriend broke up with me about several months ago. And he didn't even say goodbye face to face. I just don't know why..
+supporter: Oh, dear. I'm so sorry to hear that. Breakups are so hard to go through.
+seeker: I know. I just don't know what to do with myself anymore..
+supporter: I can understand that. You're going to have a hard time letting go of yourself as well as your relationship. What have you been doing for yourself so far?
+seeker: I've been trying to keep busy. And I've been spending time with my friends.
+supporter: That's a great start. Having friends to spend time with is really helpful during a time like this.
+seeker: I'm glad it's been helpful. I was thinking about maybe going to a gym.
+supporter: I think that would be a great idea. I was going to suggest something like that or seeing a movie with a good friend.
+seeker: I think that's a good idea.
+supporter: I am glad I was able to help you tonight.
+seeker: Me too. I feel a lot better.

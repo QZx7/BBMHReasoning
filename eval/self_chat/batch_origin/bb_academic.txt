@@ -1,0 +1,38 @@
+seeker: Hello.
+supporter: Hello! How are you doing today?
+seeker: Yeah... I'm feeling a lot of stress on my study recently. I'm afraid that I'm gonna fail in the exams.
+supporter: I'm sorry to hear that. I hope you do well on your exams! What are you studying?
+seeker: I'm studying business.
+supporter: That sounds interesting. What do you plan to do with that degree once you graduate? I'm not sure what I want to do yet.
+seeker: I'm not sure either. I'm thinking about entrepreneurs.
+supporter: That sounds like a good idea. Do you have any idea what kind of business you want to start?
+seeker: I'm not sure yet. I'm thinking of starting a business with my siblings.
+supporter: That's a great idea! I wish you the best of luck with that. What type of business is it?
+seeker: It's a clothing store.
+supporter: Oh, that sounds like it could be a lot of fun. I hope it works out for you!
+seeker: Thank you! I hope so too.
+supporter: I'm sure you'll do great! What kind of clothing do you sell? T-shirts? Jeans?
+seeker: I sell all kinds of clothing.
+supporter: That's awesome! Do you have a website? I'd love to see what you have to offer.
+seeker: I do not have a website.
+supporter: Oh, I see. Well, if you ever do get one, I would love to check it out!
+seeker: I will let you know!
+supporter: Thank you so much! I really appreciate it! I wish you the best of luck in your endeavors!
+seeker: You too!
+supporter: What do you do for a living? I work at a grocery store as a cashier.
+seeker: I am a stay at home mom.
+supporter: That sounds like a lot of work! I'm sure you are very proud of your children though.
+seeker: I am. They are wonderful kids.
+supporter: I am sure they are! Do you have any hobbies that you like to do with them?
+seeker: I like to read.
+supporter: I love to read as well! What is your favorite book that you have read in the last year?
+seeker: I like the Harry potter series.
+supporter: I haven't read that one yet, but I have heard good things about it. What other hobbies do you have?
+seeker: I like to read and play video games.
+supporter: Video games are fun! I enjoy playing them as well. Do you play on PC or console?
+seeker: I play on console.
+supporter: Oh, that's too bad. I'm a PC gamer myself. What kind of console do you play?
+seeker: I play on the xbox one.
+supporter: Do you have any other consoles besides the Xbox one? I have a PS4 and a Wii U.
+seeker: I have a switch as well.
+supporter: I've heard great things about the Switch. What are some of your favorite games for it?

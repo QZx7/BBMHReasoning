@@ -1,0 +1,16 @@
+seeker: Hi, there.
+supporter: Hello, how are you?
+seeker: Yeah, I'm not doing very good. I lost my job about 4 months ago and I'm looking for some assistance.
+supporter: Oh, I'm so sorry. I can understand how you are feeling.
+seeker: Yeah, it's been really hard. I've been looking for a job but it's been really hard.
+supporter: I can understand how hard this is for you. Have you tried reaching out to a career counselor or recruiter? They can help you find a job that fulfills your needs.
+seeker: I have but it's been hard to find someone who is good at their job and can help me.
+supporter: I understand that, I also struggle to find someone who can help me at my job. I have found that helping others has helped me in finding a more fulfilling life.
+seeker: That's a good idea. I could try reaching out to people at my job.
+supporter: Yes, that is a great idea. I am sure they would love to have you back!
+seeker: I hope so! I'll try reaching out to them.
+supporter: That sounds like a great idea. I am sure they would love to have you back!
+seeker: I hope so! Thank you for the help.
+supporter: You are very welcome!
+seeker: Have a good day!
+supporter: You too!

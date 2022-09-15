@@ -1,8 +1,28 @@
+import json
 from typing import Text
-
 
 import os
 import csv
+
+
+def read_self_chat(path: Text):
+    jsonl_files = []
+    for (dirpath, dirnames, filenames) in os.walk(path):
+        for filename in filenames:
+            if filename.endswith(".jsonl"):
+                jsonl_files.append(filename)
+    
+    print(jsonl_files)
+
+    for file in jsonl_files:
+        origin_file_name = file.replace(".jsonl", ".txt")
+        origin_file = open(origin_file_name, 'w+', encoding='utf-8')
+        self_chat_file = open(os.path.join(path, file), 'r', encoding='utf-8')
+        for line in self_chat_file.readlines():
+            chat_data = json.loads(line)
+            for utterance in chat_data['dialog']:
+                origin_file.write('seeker: ' + utterance[0]['text'].split(" The seeker ")[0] + "\n")
+                origin_file.write('supporter: ' + utterance[1]['text'] + "\n")
 
 
 def generate_batch(task_name: Text):
@@ -76,12 +96,13 @@ def generate_batch(task_name: Text):
 
 
 def main():
-    generate_batch("bb")
-    generate_batch("gpt_1")
-    generate_batch("gpt_2")
-    generate_batch("ada")
-    generate_batch("davinci")
-    generate_batch("bbmh")
+    read_self_chat("./eval/self_chat/")
+    # generate_batch("bb")
+    # generate_batch("gpt_1")
+    # generate_batch("gpt_2")
+    # generate_batch("ada")
+    # generate_batch("davinci")
+    # generate_batch("bbmh")
 
 
 if __name__ == "__main__":

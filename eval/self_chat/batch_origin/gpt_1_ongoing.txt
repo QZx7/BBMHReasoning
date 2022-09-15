@@ -1,0 +1,18 @@
+seeker: Oh, hi there.
+supporter: Hello, how are you doing?
+seeker: Well, I am feeling very sad because I tested positive for Covid this week. And I am in quarantine away from my family.
+supporter: Oh wow, that is really tough. Especially being away from your family. Especially being in quarantine away from your family..
+seeker: Yes, it's really hard. I am not sure what to do with myself.
+supporter: I would suggest doing some hobbies you enjoy to take your mind off of things. Maybe play a video game you enjoy or go on a walk.
+seeker: I have been trying to do that, but my mind just keeps wandering.
+supporter: I understand what you are going through. It can be very difficult to do nothing but wait. What would you like to do in your spare time?
+seeker: I would like to read, but I can't do that without getting exposure.
+supporter: I understand. Do you have friends who would be willing to expose you to things that would help you? What about getting a book on tape? You could listen to it while you walk or do exercise.
+seeker: I could try that. I have a friend who reads.
+supporter: I think that would be a great start and you could see how you feel after that. Is there anything else that you've been struggling with?
+seeker: I think that will help, I feel a little better. I can't think of anything else.
+supporter: I'm glad you're feeling a little better. Is there anything else I can help you with?
+seeker: No. You have been most helpful.
+supporter: I'm glad I could be helpful.
+seeker: You were. Have a good day!
+supporter: You as well!

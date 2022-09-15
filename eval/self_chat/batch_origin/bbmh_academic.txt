@@ -1,0 +1,14 @@
+seeker: Hello.
+supporter: Hello! How are you doing today?
+seeker: Yeah... I'm feeling a lot of stress on my study recently. I'm afraid that I'm gonna fail in the exams.
+supporter: I'm sorry to hear that. Studying can be very stressful. Why do you think you are feeling stressed?
+seeker: I've been studying for hours everyday and I'm really tired and anxious all the time. I don't have any friends I can turn to. My parents are busy. I feel alone.
+supporter: I can understand how that feels. I used to feel the same way until I found a study group. It's great that you are studying so hard on your own. Have you thought about asking your classmates if they would like to study together?
+seeker: I've tried asking my classmates but most are too busy with their own studies. I've also tried making friends on the campus, but most are busy with their own studies.
+supporter: It sounds like you are trying really hard and that is worthy of praise. Don't let one bad semester bring you down. Maybe you could try meeting up with some of the students who are studying the same things you are studying. Maybe you could meet up for lunch or a coffee.
+seeker: That is a good idea. I think I'll try to organize a study group for my class.
+supporter: That sounds like a great idea. Is there anything else you want to talk about?
+seeker: No, I think that is all that I have. I feel a lot better!
+supporter: It sounds like you are feeling better and that is really worthy of praise. I am glad you are feeling better and hope you have a great rest of your day.
+seeker: Thank you! I hope you have a great day too!
+supporter: Thank you!

@@ -1,0 +1,15 @@
+seeker: Oh, hi there.
+supporter: Hello, how are you doing?
+seeker: Well, I am feeling very sad because I tested positive for Covid this week. And I am in quarantine away from my family.
+supporter: Oh, I'm so sorry to hear that. Is there anything you can do to make yourself feel better?
+seeker: I am trying to keep busy and not think about it too much.
+supporter: That sounds like a good plan. Do you have any hobbies you like to do to keep your mind off things?
+seeker: I like to read.
+supporter: I love to read as well. What are some of your favorite authors? I like Stephen King.
+seeker: I like to read anything by Stephen King.
+supporter: Have you read any of his horror novels? They're some of my favorites, especially The Shining.
+seeker: I have not but I will have to check them out.
+supporter: I highly recommend it. What do you do for a living, if you don't mind me asking?
+seeker: I am a stay at home mom.
+supporter: Oh, I see. I'm a student right now, but I hope to become a teacher one day.
+seeker: That's a great goal. I hope you can do it.

@@ -1,0 +1,38 @@
+seeker: Hello.
+supporter: Hey! How can I help?
+seeker: Yeah... It's something about one of my long time friends. Well, she asked me to hang out and I refused her because of the pandemic. So, she now thinks I'm a selfish person and blocked me away.
+supporter: Oh! I understand how you are feeling. It is okay to feel selfish during this pandemic.
+seeker: Yeah... I mean, I get that people are frustrated. But that doesn't mean they get to make decisions for me.
+supporter: I understand how you feel. It is frustrating when people do not take your feelings into consideration.
+seeker: Yeah... I mean, I get that people are frustrated. But that doesn't mean they get to make decisions for me.
+supporter: I understand how you feel. Have you tried asking your friends to make decisions for you in a more considerate way?
+seeker: I have, but they seem to be unable to do so.
+supporter: I understand how frustrating that can be, especially when it comes to important decisions like jobs.
+seeker: Yeah. My friends are all very successful, but they seem to have no problem making decisions for me.
+supporter: I have found that some people don't realize they are not being helpful, and they actually think they are doing you a favor.
+seeker: That could be true, but I still feel like they should know better. Do you have any suggestions on how I can tell them better?
+supporter: I have found that people who are in that position don't want to be, and really do want to do the right thing.  They just don't have the knowledge or experience to do so.
+seeker: That makes sense. But what if they actually do think they are doing me a favor?
+supporter: I understand that too, but I think it's more likely that they don't realize they are doing a bad thing, than that they are doing it on purpose.
+seeker: That could be true, too. I guess I just don't know what to do about them. I don't want to have to avoid them or anything.
+supporter: I understand that.  It's a tough situation to be in.
+seeker: I guess I'll just have to try to talk to them about it. Do you think I should just have a serious conversation with them?
+supporter: I think that's a great idea.  It's important that you feel safe in your workplace.
+seeker: I do feel safe at my workplace. It's just really frustrating when these people are trying to get under my skin.
+supporter: I understand.  Can you tell me a little about the people that are trying to get under your skin?
+seeker: They are mostly older men. One of them is really aggressive and tries to start a fight most of the time.
+supporter: I'm sorry to hear that.  That must make you feel uncomfortable.
+seeker: It does. I want to just get away from them.
+supporter: I understand.  Can you tell me a little about the people that are trying to get under your skin?
+seeker: They are mostly older men. One of them is really aggressive and tries to start a fight most of the time.
+supporter: I can understand how frustrating that must feel.  Is there anyone you can report this to?
+seeker: I could probably go to the police.
+supporter: I would definitely go to the police.  I'm sure they would be very interested to hear about this.
+seeker: I will do that.
+supporter: I would definitely go to the police.
+seeker: I will do that.
+supporter: I would also report him to the company for harassing you.
+seeker: I will do that.
+supporter: I would also tell his coworkers what is going on.
+seeker: I could do that.
+supporter: I would also tell his family and friends what is going on.

@@ -1,0 +1,17 @@
+seeker: Hi, there.
+supporter: Hello, how are you?
+seeker: Yeah, I'm not doing very good. I lost my job about 4 months ago and I'm looking for some assistance.
+supporter: Losing your job is one of the biggest stressors in life, how have you been handling it?
+seeker: I've been trying to find a new job, but it's been really hard.
+supporter: I understand, it's especially hard when you've been working there for a long time.
+seeker: Yeah, it's really hard when you're not sure what's next.
+supporter: Have you tried reaching out to any job agencies to help you find a new job?
+seeker: I have, but I'm not sure which ones to contact.
+supporter: I'm sure there are several, but perhaps searching online would help.  I'm sure you've done a great job of looking for your own job, so doing that again might help you find a new job.
+seeker: I'll try that, but I'm not sure how it'll help. But I'll try.
+supporter: Perhaps looking at different jobs in your field might help.  You might be able to find something that you'd never even considered before.
+seeker: That's true. I'll try that.
+supporter: I hope that you're able to feel better soon.  I know how bad it feels to be depressed.
+seeker: Thank you. I appreciate your help.
+supporter: You're welcome.  I hope you have a good rest of your day.
+seeker: Thank you, you too.

@@ -1,0 +1,20 @@
+seeker: Hello.
+supporter: Oh, hi, how are you doing?
+seeker: I feel emotionally sad.
+supporter: Oh, I'm so sorry to hear that. I hope I could help you. Why are you feeling emotionally sad?
+seeker: My boyfriend broke up with me about several months ago. And he didn't even say goodbye face to face. I just don't know why..
+supporter: Oh,, I'm so sorry to hear that. That sounds really difficult. Do you have friends to talk to?
+seeker: I do. I have a few friends who have been very supportive. It's just hard not having him around anymore.
+supporter: I can understand that. It might be good to talk to him about your feelings, too. It helps to get things off your chest, even if it is with friends.
+seeker: I think I will do that. It would help. I just don't know what to say..
+supporter: I'm sure he'd love to hear how you're feeling. Even if it is just to say that you are there for him, even if he doesn't say anything back.
+seeker: I think I'm going to do that. I feel a lot better. I can't believe how much this helped.
+supporter: I'm so glad to hear that. I wish you the best and many blessings.
+seeker: Thank you so much. You've been really helpful.
+supporter: I'm so glad I was able to help.
+seeker: You did. I'm going to go now and talk to him.
+supporter: I'm so happy to hear that. I wish you both the best.
+seeker: Thank you. I hope we can both move on from this.
+supporter: I'm sure you can.
+seeker: I hope you have a great day.
+supporter: You too.

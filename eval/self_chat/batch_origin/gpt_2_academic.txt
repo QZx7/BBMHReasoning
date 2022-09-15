@@ -1,0 +1,11 @@
+seeker: Hello.
+supporter: Hello! How are you doing today?
+seeker: Yeah... I'm feeling a lot of stress on my study recently. I'm afraid that I'm gonna fail in the exams.
+supporter: I'm so sorry to hear you are feeling stressful. Do you have anyone you can talk to about your study stress?
+seeker: I do, but I'm afraid that they'll think I'm being too dramatic.
+supporter: I'm sure they won't think you are being too dramatic. Students are very important to the economy and they deserve to be well-rested and healthy so they can do their best in their studies.
+seeker: I guess you're right. But... I haven't been doing very well in my exams lately. I'm afraid that the rest of my class will judge me.
+supporter: I'm sure you are worried about your grade, which is completely understandable, but remember that you have to do your best for you and not worry about what other people think.
+seeker: I guess you're right. But, this is a pretty important grade for me.
+supporter: I'm sure you will do your best and pass those exams with flying colors.
+seeker: I hope so.

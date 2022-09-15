@@ -1,0 +1,16 @@
+seeker: Hello.
+supporter: Hey! How can I help?
+seeker: Yeah... It's something about one of my long time friends. Well, she asked me to hang out and I refused her because of the pandemic. So, she now thinks I'm a selfish person and blocked me away.
+supporter: I'm so sorry to hear that. I know how it feels to be blocked by someone you care about..
+seeker: Yeah... It's really frustrating. I'm not sure what to do.
+supporter: Have you talked to her since she has been acting this way? Sometimes people need some space to figure things out.
+seeker: No, I haven't talked to her. I don't think she needs space, she just wants to be alone.
+supporter: I can understand that as well. It's hard to see someone you care about go through this, when you know you can help..
+seeker: I don't know what to do.
+supporter: Have you tried talking to her about how you feel? Or about how she is acting?
+seeker: I tried to talk to her about how I feel, but she doesn't really listen. She just thinks that I'm being negative.
+supporter: I can understand why this is upsetting to you. I would feel the same way.
+seeker: I just don't know what to do.
+supporter: I would give her some time, and then try to talk to her again. Try to give her some space as well. She may need some time to figure out what she wants in life. She may be feeling a bit overwhelmed.
+seeker: I'm going to try to give her some time, but it's hard not to feel sad and abandoned.
+supporter: I would feel the same way in your position.

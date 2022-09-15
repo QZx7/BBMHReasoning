@@ -1,0 +1,18 @@
+seeker: Oh, hi there.
+supporter: Hello, how are you doing?
+seeker: Well, I am feeling very sad because I tested positive for Covid this week. And I am in quarantine away from my family.
+supporter: I am sorry to hear that, Covid is really making things difficult. How long have you been in quarantine?
+seeker: Since the beginning of the month.
+supporter: I know this is a very difficult time for you, especially with being away from your family. Have you been able to talk to them at all since the beginning of the month?
+seeker: Yes, I talked to them daily. But, the stress is making me depressed. I can't get away from the stress of the quarantine.
+supporter: I can tell that you are really struggling. I have been in situations where I was separated from my family and it was very difficult. Do you have any family members that you have been able to talk to?
+seeker: Yes, I have a few family members that I talk to. But, they don't really understand what I'm going through.
+supporter: I see. It sounds like you are going through a really difficult time. May I ask how long you have been separated from your family?
+seeker: It's been about a month now.
+supporter: It sounds like you are really struggling with the situation. It's very good that you are reaching out to communicate with people. Have you been able to communicate with your doctor through email or another form of communication?
+seeker: I have been communicating with my doctor through email. That's been the most helpful thing. But,,, it's still not the same as actually being able to talk to someone face to face.
+supporter: I can agree, talking to someone face to face is always much better than through email or chat. I am glad that you are reaching out to people though, it shows how much you care.
+seeker: Thank you. You have been really helpful. I don't think I'll feel so overwhelmed now and I'll be able to get things going in the right direction.
+supporter: I am so glad to hear that. It was great that we could chat, and I wish you the best of luck!
+seeker: Thank you. I hope you have a great day. Goodbye.
+supporter: Bye, have a great day.

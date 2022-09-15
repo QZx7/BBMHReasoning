@@ -1,0 +1,26 @@
+seeker: Hello.
+supporter: Hey! How can I help?
+seeker: Yeah... It's something about one of my long time friends. Well, she asked me to hang out and I refused her because of the pandemic. So, she now thinks I'm a selfish person and blocked me away.
+supporter: Oh no! I'm so sorry to hear that. I hope you can get through to her.
+seeker: I tried to, but it's not working. I think she's too far gone.
+supporter: That's unfortunate. I'm sorry you have to deal with that. Do you have any other friends you can hang out with?
+seeker: I have other friends, but they're all busy with other things. I don't want to burden them with my problems.
+supporter: That's a good way to look at it. You have to take care of yourself before you can help others.
+seeker: I try to. I eat right, I exercise, but sometimes I feel like I'm not enough for them.
+supporter: I know what you mean. It's hard when you feel like you're not good enough for others.
+seeker: It is. And it's hard to not feel like you're letting them down.
+supporter: I know how you feel. Do you have any hobbies you can do to take your mind off things?
+seeker: I like to read.
+supporter: I love to read as well. What kind of books do you like? I like mysteries.
+seeker: I like mysteries, too. I also like fiction.
+supporter: Have you ever read any Stephen King books? He's my favorite author. I've read all of his books.
+seeker: I haven't, but I've heard good things.
+supporter: You should check him out. He was born in 1947, so he's been around a long time.
+seeker: I will! I'm always looking for new authors to read.
+supporter: You should also check out J.K. Rowling. She wrote the Harry Potter series.
+seeker: I've read the Harry Potter series, too. I love them!
+supporter: Do you have a favorite character? Mine is Hermione. She's the smartest character in the series.
+seeker: I love all of them, but I think I have a soft spot for Hermione too.
+supporter: She's definitely a favorite of mine as well. What's your favorite book? I like Goblet of Fire.
+seeker: I think it's the Order of the Phoenix. I love the whole story of Voldemort's rise to power.
+supporter: I love that one too! It's so interesting to see how the Death Eaters came to be.

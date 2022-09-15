@@ -1,0 +1,24 @@
+seeker: Hello.
+supporter: Oh, hi, how are you doing?
+seeker: I feel emotionally sad.
+supporter: Oh, I'm so sorry to hear that. I hope I could help you. Why are you feeling emotionally sad?
+seeker: My boyfriend broke up with me about several months ago. And he didn't even say goodbye face to face. I just don't know why..
+supporter: Oh, that's so hard. Good relationships are so hard to come by and lose. Do you think you'll get back together with him?
+seeker: I don't know. I haven't even thought about that yet. I just need to find someone else I guess..
+supporter: I think that would be a good idea. You don't want to be with someone who doesn't want to be with you.
+seeker: That's true. I just miss being in a relationship.
+supporter: I understand that. It can be hard to find a new job when you lose your current one.
+seeker: That's true. I didn't think about that.
+supporter: I understand that you must feel betrayed as well since the person you thought was your true love is seeing other people.
+seeker: I do. He told me he didn't want a relationship but I thought we were doing well and we have a lot in common.
+supporter: That does sound like we have a lot in common.
+seeker: We do. Do you think I should call him?
+supporter: I think that would be a good idea.
+seeker: Okay. I'll do that after this conversation.
+supporter: I think it would help to talk to him about how you are feeling.
+seeker: I think you're right.
+supporter: I hope it all works out for you.
+seeker: Thank you.
+supporter: You're welcome.
+seeker: Have a good day.
+supporter: You too.

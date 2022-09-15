@@ -1,0 +1,22 @@
+seeker: Hello.
+supporter: Hello! How are you doing today?
+seeker: Yeah... I'm feeling a lot of stress on my study recently. I'm afraid that I'm gonna fail in the exams.
+supporter: I'm sorry to hear that you are stressed. What are you studying for?
+seeker: I'm studying for my CPA exam.
+supporter: I can understand how you are feeling. I was in your position not too long ago. I was studying for my CPA exam as well. I know you are doing your best at this time.. What are some things that you do to relax?
+seeker: I usually just watch netflix. But lately, I've been studying before I watch netflix. And that's a bad habit. I'm afraid that if I fail my exams, I'll just continue to watch netflix and not study.
+supporter: I think if you keep practicing mindfulness, you will be able to notice when you are getting anxious and be able to take care of it and reassure yourself that you can pass the exam regardless of what happens tonight.
+seeker: That's true. I guess I don't really have anything to lose at this point.
+supporter: You can do it! You will feel much better about it once you get the exam over with and can focus on other things in your life. I know it's hard, but I know you can get through it!
+seeker: I'm going to try and get some studying in tonight. If I fail, I'll just take it again next week. I have two more weeks to get this done.
+supporter: That's a great idea, I think that will help you feel more prepared.
+seeker: I think so too. I'm usually really good about that, but I've been really busy lately.
+supporter: I understand being busy with school and work, I'm in the same boat. But I know if I don't get this done now, I will have even more trouble when it's time to take the exam.
+seeker: Exactly. And I've got two weeks to get some studying in. I should be fine.
+supporter: I think you will be fine, just make sure to keep studying. I know you can do it!
+seeker: Thanks! I'm really hoping you're right!
+supporter: I'm sure you will do great!
+seeker: Thanks!
+supporter: You're welcome.
+seeker: Have a good day!
+supporter: You too!
