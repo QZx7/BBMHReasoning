@@ -1,423 +1,0 @@
-
-                                 /@&%###%&&@@#
-                      .,*/((((##@@@&%%#%%&&@@@&%%#/*.
-             #@@&&&%%%%##(((///*****//(((###%%%&&&@@@@@&&%#%%#.
-         .%&@@@@@&&&%%%####((((////((((####%%%&&&@@@@@&&%%#%%####,
-           ./,,#(//**,,.....,,,,***////((((########%%%%%%%%###(((
-              /*(//**,,,....,,,,***////((((########%%%%%%%%###(#%*
-               (*,...      ...,,,***//////((((((///////(/*...,/#@@@(
-               **,,..         ...,,,,,,,,,,........,,*///*...*(#@@@@&&*
-               ./,,..          ...,,,,,,,,,........,,*//*,...*#/,,,,,/%#
-                (*,..          ...,,,,,,,,,........,,*//*,..,/(      .,#(
-                **,..          ...,,,,,,,,,.........,*//*,..,((       .,(#
-                 /*,..          ....,,,,,,,.....  ..,***,,,,(#         ..#&
-                 **,..          ....,,,,,,,....   ..,***,,,*#.         .,%@
-                 ./,...       B l e n d e r B o t ...***,,,*#          .*%@
-                  /*,..          ...,,,,,,,....    .,**,,,,/#         ..(%/
-                  /*,,..         ...,,,,,,,...    ..,*,,,,,(.         ..#&
-                  ,/*,..         ...,,,,,,,...    ..,*,,,,*#         ..*%(
-                   /*,..         ...,,,,,.....    ..,*,*,,/(         ..#&
-                   /**,..        ...,,,,.....    ...,***,*(.       ,,(%.
-                    (/*,,..      ....,,.....     ...,****(&@@@&&&#,
-                     (/*,,...   .....,,......     ..,****#@,
-                     *(/*,,/....*(###%(,(%%##(*.  ./,,**(
-                      ,//**(,........,/((#.........*,**(
-                      .(#//*,,,,,,.*.,/((%/,,.....,,*/@
-                    ((######//****,/.,/(#%#***,***(&@@@@@(
-                   *&%%#####%%%%%%%#//(#%&%%&&@@@@@@@@@@@@*
-                   &&%%%###((((((####%%%%&&&&&@@@@@@@@@@&&@.
-                  *##%%%##(((((((####%%%%%&&&&@@@@@@@@@&#/*,
-                 .(##%#/,  .,*((##%%%&&&&%%%#####%&&@&&%#(/*.
-                 /(###(,   .,*/(##%%%&&&&%%%######%&&&&%#(/*,
-                */((((*.  ..,//((##%%%%%%%%#######%&&&&%%#(/*,
-               .//(((/,   .,*//((###%%%%%%########%%&&&%%#((/,.
-              .&####(((((((((######%%%%%%%%&&&&&&&@@@@@@@@@@@@@#
-               *&#.   .*/((((#######%%%%%%&&&&&&&@@@@@#/.   (&/
-2022-07-31 17:54:23,180 INFO     | building data: /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/blender/blender_90M/BST0B.tgz
-2022-07-31 17:54:23,181 INFO     | Downloading http://parl.ai/downloads/_models/blender/BST0B.tgz to /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/blender/blender_90M/BST0B.tgz
-Downloading BST0B.tgz: 0.00B [00:00, ?B/s]Downloading BST0B.tgz:   0%|          | 32.8k/161M [00:01<1:58:51, 22.6kB/s]Downloading BST0B.tgz:   0%|          | 65.5k/161M [00:01<54:33, 49.1kB/s]  Downloading BST0B.tgz:   0%|          | 164k/161M [00:01<18:02, 148kB/s]  Downloading BST0B.tgz:   0%|          | 328k/161M [00:01<08:02, 333kB/s]Downloading BST0B.tgz:   0%|          | 688k/161M [00:01<03:19, 805kB/s]Downloading BST0B.tgz:   1%|          | 1.34M/161M [00:02<01:32, 1.72MB/s]Downloading BST0B.tgz:   2%|▏         | 2.72M/161M [00:02<00:41, 3.81MB/s]Downloading BST0B.tgz:   3%|▎         | 5.47M/161M [00:02<00:19, 8.13MB/s]Downloading BST0B.tgz:   6%|▌         | 9.31M/161M [00:02<00:10, 13.8MB/s]Downloading BST0B.tgz:   8%|▊         | 13.4M/161M [00:02<00:07, 18.5MB/s]Downloading BST0B.tgz:  11%|█         | 16.9M/161M [00:02<00:06, 20.8MB/s]Downloading BST0B.tgz:  13%|█▎        | 20.9M/161M [00:02<00:06, 23.3MB/s]Downloading BST0B.tgz:  15%|█▌        | 24.8M/161M [00:03<00:05, 25.2MB/s]Downloading BST0B.tgz:  18%|█▊        | 28.8M/161M [00:03<00:04, 26.6MB/s]Downloading BST0B.tgz:  20%|██        | 32.6M/161M [00:03<00:04, 27.0MB/s]Downloading BST0B.tgz:  23%|██▎       | 36.3M/161M [00:03<00:04, 27.6MB/s]Downloading BST0B.tgz:  25%|██▍       | 40.0M/161M [00:03<00:04, 27.9MB/s]Downloading BST0B.tgz:  27%|██▋       | 43.8M/161M [00:03<00:04, 28.2MB/s]Downloading BST0B.tgz:  30%|██▉       | 47.8M/161M [00:03<00:03, 28.9MB/s]Downloading BST0B.tgz:  32%|███▏      | 51.5M/161M [00:03<00:03, 28.9MB/s]Downloading BST0B.tgz:  35%|███▍      | 55.5M/161M [00:04<00:03, 28.4MB/s]Downloading BST0B.tgz:  37%|███▋      | 59.3M/161M [00:04<00:03, 28.6MB/s]Downloading BST0B.tgz:  39%|███▉      | 63.2M/161M [00:04<00:03, 28.7MB/s]Downloading BST0B.tgz:  42%|████▏     | 66.9M/161M [00:04<00:03, 28.6MB/s]Downloading BST0B.tgz:  44%|████▍     | 70.5M/161M [00:04<00:03, 28.1MB/s]Downloading BST0B.tgz:  46%|████▌     | 73.7M/161M [00:04<00:03, 27.2MB/s]Downloading BST0B.tgz:  48%|████▊     | 77.8M/161M [00:04<00:02, 28.3MB/s]Downloading BST0B.tgz:  51%|█████     | 81.7M/161M [00:04<00:02, 28.9MB/s]Downloading BST0B.tgz:  53%|█████▎    | 85.4M/161M [00:05<00:02, 28.7MB/s]Downloading BST0B.tgz:  55%|█████▌    | 88.9M/161M [00:05<00:02, 27.5MB/s]Downloading BST0B.tgz:  58%|█████▊    | 92.7M/161M [00:05<00:02, 28.4MB/s]Downloading BST0B.tgz:  60%|██████    | 96.6M/161M [00:05<00:02, 28.9MB/s]Downloading BST0B.tgz:  62%|██████▏   | 100M/161M [00:05<00:02, 28.8MB/s] Downloading BST0B.tgz:  65%|██████▍   | 104M/161M [00:05<00:01, 28.8MB/s]Downloading BST0B.tgz:  67%|██████▋   | 108M/161M [00:05<00:01, 28.6MB/s]Downloading BST0B.tgz:  69%|██████▉   | 112M/161M [00:06<00:01, 28.7MB/s]Downloading BST0B.tgz:  72%|███████▏  | 115M/161M [00:06<00:01, 28.9MB/s]Downloading BST0B.tgz:  74%|███████▍  | 119M/161M [00:06<00:01, 28.8MB/s]Downloading BST0B.tgz:  76%|███████▋  | 123M/161M [00:06<00:01, 28.9MB/s]Downloading BST0B.tgz:  79%|███████▉  | 127M/161M [00:06<00:01, 28.9MB/s]Downloading BST0B.tgz:  81%|████████  | 130M/161M [00:06<00:01, 28.8MB/s]Downloading BST0B.tgz:  83%|████████▎ | 134M/161M [00:06<00:00, 27.4MB/s]Downloading BST0B.tgz:  86%|████████▌ | 138M/161M [00:06<00:00, 28.7MB/s]Downloading BST0B.tgz:  88%|████████▊ | 142M/161M [00:07<00:00, 26.4MB/s]Downloading BST0B.tgz:  91%|█████████ | 146M/161M [00:07<00:00, 27.6MB/s]Downloading BST0B.tgz:  93%|█████████▎| 149M/161M [00:07<00:00, 26.8MB/s]Downloading BST0B.tgz:  95%|█████████▌| 153M/161M [00:07<00:00, 27.6MB/s]Downloading BST0B.tgz:  97%|█████████▋| 156M/161M [00:07<00:00, 27.7MB/s]Downloading BST0B.tgz: 100%|█████████▉| 160M/161M [00:07<00:00, 28.3MB/s]Downloading BST0B.tgz: 100%|██████████| 161M/161M [00:07<00:00, 20.6MB/s]2022-07-31 17:54:45,225 WARNING  | Overriding opt["datatype"] to valid (previously: train)
-2022-07-31 17:54:45,225 WARNING  | Overriding opt["task"] to fromfile:parlaiformat (previously: internal:blended_skill_talk,wizard_of_wikipedia,convai2,empathetic_dialogues)
-2022-07-31 17:54:45,226 WARNING  | Overriding opt["model_file"] to /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/blender/blender_90M/model (previously: /checkpoint/edinan/20200210/baseline_BST_retnref/lr=7.5e-06_attention-dropout=0.0_relu-dropout=0.0/model)
-2022-07-31 17:54:45,240 WARNING  | Loading model with `--beam-block-full-context false`
-2022-07-31 17:54:45,295 INFO     | Using CUDA
-2022-07-31 17:54:45,310 INFO     | loading dictionary from /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/blender/blender_90M/model.dict
-2022-07-31 17:54:45,448 INFO     | num words = 54944
-2022-07-31 17:54:46,463 WARNING  | DEPRECATED: XLM should only be used for backwards compatibility, as it involves a less-stable layernorm operation.
-2022-07-31 17:54:51,647 INFO     | Total parameters: 87,508,992 (87,508,992 trainable)
-2022-07-31 17:54:51,647 INFO     | Loading existing model params from /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/blender/blender_90M/model
-2022-07-31 17:54:51,883 INFO     | Opt:
-2022-07-31 17:54:51,883 INFO     |     activation: gelu
-2022-07-31 17:54:51,883 INFO     |     adafactor_eps: '[1e-30, 0.001]'
-2022-07-31 17:54:51,883 INFO     |     adam_eps: 1e-08
-2022-07-31 17:54:51,883 INFO     |     add_p1_after_newln: False
-2022-07-31 17:54:51,883 INFO     |     aggregate_micro: False
-2022-07-31 17:54:51,883 INFO     |     allow_missing_init_opts: False
-2022-07-31 17:54:51,883 INFO     |     area_under_curve_class: None
-2022-07-31 17:54:51,883 INFO     |     area_under_curve_digits: -1
-2022-07-31 17:54:51,883 INFO     |     attention_dropout: 0.0
-2022-07-31 17:54:51,883 INFO     |     batchsize: 16
-2022-07-31 17:54:51,883 INFO     |     beam_block_full_context: False
-2022-07-31 17:54:51,883 INFO     |     beam_block_list_filename: None
-2022-07-31 17:54:51,883 INFO     |     beam_block_ngram: 3
-2022-07-31 17:54:51,884 INFO     |     beam_context_block_ngram: 3
-2022-07-31 17:54:51,884 INFO     |     beam_delay: 30
-2022-07-31 17:54:51,884 INFO     |     beam_length_penalty: 0.65
-2022-07-31 17:54:51,884 INFO     |     beam_min_length: 20
-2022-07-31 17:54:51,884 INFO     |     beam_size: 10
-2022-07-31 17:54:51,884 INFO     |     betas: '[0.9, 0.999]'
-2022-07-31 17:54:51,884 INFO     |     bpe_add_prefix_space: None
-2022-07-31 17:54:51,884 INFO     |     bpe_debug: False
-2022-07-31 17:54:51,884 INFO     |     bpe_dropout: None
-2022-07-31 17:54:51,884 INFO     |     bpe_merge: None
-2022-07-31 17:54:51,884 INFO     |     bpe_vocab: None
-2022-07-31 17:54:51,884 INFO     |     checkpoint_activations: False
-2022-07-31 17:54:51,884 INFO     |     compute_tokenized_bleu: False
-2022-07-31 17:54:51,884 INFO     |     datapath: /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data
-2022-07-31 17:54:51,884 INFO     |     datatype: valid
-2022-07-31 17:54:51,884 INFO     |     delimiter: '\n'
-2022-07-31 17:54:51,884 INFO     |     dict_class: parlai.core.dict:DictionaryAgent
-2022-07-31 17:54:51,884 INFO     |     dict_endtoken: __end__
-2022-07-31 17:54:51,884 INFO     |     dict_file: /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/blender/blender_90M/model.dict
-2022-07-31 17:54:51,884 INFO     |     dict_include_test: False
-2022-07-31 17:54:51,884 INFO     |     dict_include_valid: False
-2022-07-31 17:54:51,884 INFO     |     dict_initpath: None
-2022-07-31 17:54:51,884 INFO     |     dict_language: english
-2022-07-31 17:54:51,884 INFO     |     dict_loaded: True
-2022-07-31 17:54:51,884 INFO     |     dict_lower: True
-2022-07-31 17:54:51,884 INFO     |     dict_max_ngram_size: -1
-2022-07-31 17:54:51,884 INFO     |     dict_maxexs: -1
-2022-07-31 17:54:51,885 INFO     |     dict_maxtokens: -1
-2022-07-31 17:54:51,885 INFO     |     dict_minfreq: 0
-2022-07-31 17:54:51,885 INFO     |     dict_nulltoken: __null__
-2022-07-31 17:54:51,885 INFO     |     dict_starttoken: __start__
-2022-07-31 17:54:51,885 INFO     |     dict_textfields: text,labels
-2022-07-31 17:54:51,885 INFO     |     dict_tokenizer: bpe
-2022-07-31 17:54:51,885 INFO     |     dict_unktoken: __unk__
-2022-07-31 17:54:51,885 INFO     |     display_examples: False
-2022-07-31 17:54:51,885 INFO     |     download_path: None
-2022-07-31 17:54:51,885 INFO     |     dropout: 0.1
-2022-07-31 17:54:51,885 INFO     |     dynamic_batching: None
-2022-07-31 17:54:51,885 INFO     |     embedding_projection: random
-2022-07-31 17:54:51,885 INFO     |     embedding_size: 512
-2022-07-31 17:54:51,885 INFO     |     embedding_type: random
-2022-07-31 17:54:51,885 INFO     |     embeddings_scale: True
-2022-07-31 17:54:51,885 INFO     |     eval_batchsize: None
-2022-07-31 17:54:51,885 INFO     |     evaltask: None
-2022-07-31 17:54:51,885 INFO     |     ffn_size: 2048
-2022-07-31 17:54:51,885 INFO     |     force_fp16_tokens: True
-2022-07-31 17:54:51,885 INFO     |     fp16: True
-2022-07-31 17:54:51,885 INFO     |     fp16_impl: safe
-2022-07-31 17:54:51,885 INFO     |     fromfile_datapath: ../data/no_reasoning/test_parlai_b4.txt
-2022-07-31 17:54:51,885 INFO     |     fromfile_datatype_extension: False
-2022-07-31 17:54:51,885 INFO     |     gpu: -1
-2022-07-31 17:54:51,885 INFO     |     gradient_clip: 0.1
-2022-07-31 17:54:51,885 INFO     |     hide_labels: False
-2022-07-31 17:54:51,885 INFO     |     history_add_global_end_token: None
-2022-07-31 17:54:51,886 INFO     |     history_reversed: False
-2022-07-31 17:54:51,886 INFO     |     history_size: -1
-2022-07-31 17:54:51,886 INFO     |     image_cropsize: 224
-2022-07-31 17:54:51,886 INFO     |     image_mode: raw
-2022-07-31 17:54:51,886 INFO     |     image_size: 256
-2022-07-31 17:54:51,886 INFO     |     include_checked_sentence: True
-2022-07-31 17:54:51,886 INFO     |     include_knowledge: True
-2022-07-31 17:54:51,886 INFO     |     include_knowledge_separator: False
-2022-07-31 17:54:51,886 INFO     |     inference: beam
-2022-07-31 17:54:51,886 INFO     |     init_model: /checkpoint/parlai/zoo/new_reddit/newreddit_trained20190909_usedfordodeca/model
-2022-07-31 17:54:51,886 INFO     |     init_opt: None
-2022-07-31 17:54:51,886 INFO     |     interactive_mode: False
-2022-07-31 17:54:51,886 INFO     |     invsqrt_lr_decay_gamma: -1
-2022-07-31 17:54:51,886 INFO     |     is_debug: False
-2022-07-31 17:54:51,886 INFO     |     label_truncate: 128
-2022-07-31 17:54:51,886 INFO     |     label_type: response
-2022-07-31 17:54:51,886 INFO     |     learn_positional_embeddings: True
-2022-07-31 17:54:51,886 INFO     |     learningrate: 7.5e-06
-2022-07-31 17:54:51,886 INFO     |     log_every_n_secs: 2
-2022-07-31 17:54:51,886 INFO     |     log_keep_fields: all
-2022-07-31 17:54:51,886 INFO     |     loglevel: info
-2022-07-31 17:54:51,886 INFO     |     lr_scheduler: reduceonplateau
-2022-07-31 17:54:51,886 INFO     |     lr_scheduler_decay: 0.5
-2022-07-31 17:54:51,886 INFO     |     lr_scheduler_patience: 3
-2022-07-31 17:54:51,886 INFO     |     max_lr_steps: -1
-2022-07-31 17:54:51,886 INFO     |     max_train_time: -1
-2022-07-31 17:54:51,887 INFO     |     metrics: default
-2022-07-31 17:54:51,887 INFO     |     model: transformer/generator
-2022-07-31 17:54:51,887 INFO     |     model_file: /home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/blender/blender_90M/model
-2022-07-31 17:54:51,887 INFO     |     model_parallel: False
-2022-07-31 17:54:51,887 INFO     |     momentum: 0
-2022-07-31 17:54:51,887 INFO     |     multitask_weights: '[1.0, 3.0, 3.0, 3.0]'
-2022-07-31 17:54:51,887 INFO     |     mutators: None
-2022-07-31 17:54:51,887 INFO     |     n_decoder_layers: -1
-2022-07-31 17:54:51,887 INFO     |     n_encoder_layers: -1
-2022-07-31 17:54:51,887 INFO     |     n_heads: 16
-2022-07-31 17:54:51,887 INFO     |     n_layers: 8
-2022-07-31 17:54:51,887 INFO     |     n_positions: 512
-2022-07-31 17:54:51,887 INFO     |     n_segments: 0
-2022-07-31 17:54:51,887 INFO     |     nesterov: True
-2022-07-31 17:54:51,887 INFO     |     no_cuda: False
-2022-07-31 17:54:51,887 INFO     |     num_epochs: -1
-2022-07-31 17:54:51,887 INFO     |     num_examples: -1
-2022-07-31 17:54:51,887 INFO     |     num_topics: 5
-2022-07-31 17:54:51,887 INFO     |     numthreads: 1
-2022-07-31 17:54:51,887 INFO     |     nus: [0.7]
-2022-07-31 17:54:51,887 INFO     |     optimizer: adamax
-2022-07-31 17:54:51,887 INFO     |     output_scaling: 1.0
-2022-07-31 17:54:51,887 INFO     |     override: "{'datatype': 'valid', 'task': 'fromfile:parlaiformat', 'fromfile_datapath': '../data/no_reasoning/test_parlai_b4.txt', 'model_file': '/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/data/models/blender/blender_90M/model'}"
-2022-07-31 17:54:51,887 INFO     |     parlai_home: /private/home/edinan/ParlAI
-2022-07-31 17:54:51,887 INFO     |     person_tokens: False
-2022-07-31 17:54:51,887 INFO     |     rank_candidates: False
-2022-07-31 17:54:51,887 INFO     |     relu_dropout: 0.0
-2022-07-31 17:54:51,888 INFO     |     report_filename: 
-2022-07-31 17:54:51,888 INFO     |     save_after_valid: True
-2022-07-31 17:54:51,888 INFO     |     save_every_n_secs: 60.0
-2022-07-31 17:54:51,888 INFO     |     save_format: conversations
-2022-07-31 17:54:51,888 INFO     |     share_word_embeddings: True
-2022-07-31 17:54:51,888 INFO     |     short_final_eval: False
-2022-07-31 17:54:51,888 INFO     |     show_advanced_args: False
-2022-07-31 17:54:51,888 INFO     |     skip_generation: False
-2022-07-31 17:54:51,888 INFO     |     special_tok_lst: None
-2022-07-31 17:54:51,888 INFO     |     split_lines: False
-2022-07-31 17:54:51,888 INFO     |     starttime: Feb10_07-25
-2022-07-31 17:54:51,888 INFO     |     task: fromfile:parlaiformat
-2022-07-31 17:54:51,888 INFO     |     temperature: 1.0
-2022-07-31 17:54:51,888 INFO     |     tensorboard_log: False
-2022-07-31 17:54:51,888 INFO     |     tensorboard_logdir: None
-2022-07-31 17:54:51,888 INFO     |     text_truncate: 512
-2022-07-31 17:54:51,888 INFO     |     topk: 10
-2022-07-31 17:54:51,888 INFO     |     topp: 0.9
-2022-07-31 17:54:51,888 INFO     |     train_experiencer_only: False
-2022-07-31 17:54:51,888 INFO     |     truncate: -1
-2022-07-31 17:54:51,888 INFO     |     update_freq: 1
-2022-07-31 17:54:51,888 INFO     |     use_reply: label
-2022-07-31 17:54:51,888 INFO     |     validation_cutoff: 1.0
-2022-07-31 17:54:51,888 INFO     |     validation_every_n_epochs: 0.25
-2022-07-31 17:54:51,888 INFO     |     validation_every_n_secs: -1
-2022-07-31 17:54:51,888 INFO     |     validation_max_exs: 20000
-2022-07-31 17:54:51,888 INFO     |     validation_metric: ppl
-2022-07-31 17:54:51,889 INFO     |     validation_metric_mode: min
-2022-07-31 17:54:51,889 INFO     |     validation_patience: 15
-2022-07-31 17:54:51,889 INFO     |     validation_share_agent: False
-2022-07-31 17:54:51,889 INFO     |     variant: xlm
-2022-07-31 17:54:51,889 INFO     |     verbose: False
-2022-07-31 17:54:51,889 INFO     |     warmup_rate: 0.0001
-2022-07-31 17:54:51,889 INFO     |     warmup_updates: -1
-2022-07-31 17:54:51,889 INFO     |     weight_decay: None
-2022-07-31 17:54:51,889 INFO     |     world_logs: 
-2022-07-31 17:54:52,289 INFO     | Evaluating task fromfile:parlaiformat using datatype valid.
-2022-07-31 17:54:52,291 INFO     | creating task(s): fromfile:parlaiformat
-2022-07-31 17:54:52,293 WARNING  | You are using this fromfile data as a valid or test set without setting fromfile_datatype_extension to true. Please be aware this uses directly the file you indicated, make sure this is not the same as your training file.
-2022-07-31 17:54:52,293 INFO     | Loading ParlAI text data: ../data/no_reasoning/test_parlai_b4.txt
-2022-07-31 17:55:07,526 INFO     | 1.2% complete (6 / 487), 0:00:10 elapsed, 0:13:45 eta
-    accuracy   bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 6.75e-09   221   221 128.9       0          0 .5830    6 .1322   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         24.17   .01013 39.33 2.933 39.33 22.93       0          0 18.78      .4237   
-    token_em   tpb   tps  
-           0 260.3 151.8
-2022-07-31 17:55:13,028 INFO     | 3.7% complete (18 / 487), 0:00:20 elapsed, 0:08:59 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .009418 200.8 197.8 172.1   .1111          3 .8701   18 .1762   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.17   .01073 29.44  3.03 29.44 25.62       0          0 20.71      .4132   
-    token_em   tpb   tps  
-           0 227.3 197.8
-2022-07-31 17:55:23,228 INFO     | 8.4% complete (41 / 487), 0:00:30 elapsed, 0:05:36 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0  .00414 373.5 276.1 366.5   .3171      97.34 1.327   41 .1724   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-          23.1   .01093 23.22 2.959 23.22 30.82       0          0 19.28      .4023   
-    token_em   tpb   tps  
-           0 299.3 397.3
-2022-07-31 17:55:33,480 INFO     | 13.3% complete (65 / 487), 0:00:41 elapsed, 0:04:27 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .006524 325.4 257.2 406.3   .2615      68.23  1.58   65 .1696   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.12   .01092 23.32 2.795 23.32 36.85       0          0 16.37      .4222   
-    token_em   tpb   tps  
-           0 280.5 443.2
-2022-07-31 17:55:43,807 INFO     | 17.9% complete (87 / 487), 0:00:51 elapsed, 0:03:57 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .007385 343.5 272.5 460.7   .2759      70.98  1.69   87 .1715   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.21    .0108 23.17 2.757 23.17 39.17       0          0 15.76      .4311   
-    token_em   tpb   tps  
-      .01149 295.7 499.9
-2022-07-31 17:55:54,143 INFO     | 22.0% complete (107 / 487), 0:01:01 elapsed, 0:03:40 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .006005 363.5 287.6   498   .2897      75.93 1.731  107 .1768   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.39   .01108 24.35 2.761 24.35 42.15       0          0 15.82      .4215   
-    token_em  tpb   tps  
-     .009346  312 540.1
-2022-07-31 17:56:04,604 INFO     | 26.9% complete (131 / 487), 0:01:12 elapsed, 0:03:16 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .005638 338.6 276.6 501.4   .2366      62.02 1.813  131 .1797   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.27   .01019 22.46 2.769 22.46 40.71       0          0 15.95      .4225   
-    token_em  tpb   tps  
-     .007634  299 542.1
-2022-07-31 17:56:14,627 INFO     | 31.2% complete (152 / 487), 0:01:22 elapsed, 0:03:01 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0  .00559 348.2 287.5   531   .2566      60.68 1.847  152 .1796   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.18   .01084 24.39 2.819 24.39 45.06       0          0 16.76      .4051   
-    token_em   tpb   tps  
-     .006579 311.9 576.1
-2022-07-31 17:56:24,698 INFO     | 35.7% complete (174 / 487), 0:01:32 elapsed, 0:02:46 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .004884 337.6   284   535   .2299      53.64 1.884  174 .1780   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.16    .0109 24.25 2.786 24.25 45.69       0          0 16.22      .4095   
-    token_em   tpb   tps  
-     .005747 308.2 580.7
-2022-07-31 17:56:34,896 INFO     | 40.2% complete (196 / 487), 0:01:42 elapsed, 0:02:32 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .005846 330.1 280.6 536.4   .2143      49.43 1.911  196 .1792   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen  ppl  token_acc  \
-         23.24   .01069 23.96 2.741 23.96  45.8       0          0 15.5      .4137   
-    token_em   tpb   tps  
-     .005102 304.6 582.2
-2022-07-31 17:56:45,277 INFO     | 45.2% complete (220 / 487), 0:01:52 elapsed, 0:02:17 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .006486 336.5   286 557.1   .2364       50.5 1.948  220 .1781   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.18   .01073 23.35 2.782 23.35 45.48       0          0 16.15      .4108   
-    token_em   tpb   tps  
-     .004545 309.3 602.6
-2022-07-31 17:56:55,331 INFO     | 49.5% complete (241 / 487), 0:02:02 elapsed, 0:02:06 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .005921 346.6   293 574.2   .2531      53.51 1.959  241 .1757   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen  ppl  token_acc  \
-         23.21   .01105 25.07 2.809 25.07 49.12       0          0 16.6      .4051   
-    token_em   tpb   tps  
-     .004149 318.1 623.3
-2022-07-31 17:57:05,609 INFO     | 54.4% complete (265 / 487), 0:02:13 elapsed, 0:01:52 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .007418 351.7 292.8 582.3   .2566      58.84 1.988  265 .1804   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.25   .01084 25.86 2.799 25.86 51.41       0          0 16.42      .4067   
-    token_em   tpb   tps  
-     .003774 318.7 633.7
-2022-07-31 17:57:15,828 INFO     | 59.1% complete (288 / 487), 0:02:23 elapsed, 0:01:39 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .007122 351.3 296.3 594.7   .2535      54.96 2.007  288 .1802   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen  ppl  token_acc  \
-         23.25   .01069 25.66 2.797 25.66  51.5       0          0 16.4      .4050   
-    token_em  tpb   tps  
-     .003472  322 646.2
-2022-07-31 17:57:26,195 INFO     | 64.1% complete (312 / 487), 0:02:33 elapsed, 0:01:26 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .006576   339   288 584.1   .2372      50.96 2.028  312 .1835   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.24   .01084 25.58  2.78 25.58 51.87       0          0 16.11      .4083   
-    token_em   tpb  tps  
-     .003205 313.6  636
-2022-07-31 17:57:36,292 INFO     | 68.6% complete (334 / 487), 0:02:43 elapsed, 0:01:15 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .006143 349.3 290.6   592   .2485      58.75 2.037  334 .1838   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.22   .01103 25.55 2.769 25.55 52.06       0          0 15.94      .4089   
-    token_em   tpb   tps  
-     .002994 316.1 644.1
-2022-07-31 17:57:46,355 INFO     | 73.3% complete (357 / 487), 0:02:54 elapsed, 0:01:03 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0  .00601 347.6 292.5 600.2   .2381       55.1 2.052  357 .1803   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.23   .01068 24.96 2.783 24.96 51.21       0          0 16.17      .4082   
-    token_em   tpb   tps  
-     .002801 317.5 651.4
-2022-07-31 17:57:56,475 INFO     | 78.0% complete (380 / 487), 0:03:04 elapsed, 0:00:52 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0  .00604 349.6 295.6   610   .2421      53.98 2.064  380 .1811   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.22   .01078 25.32 2.788 25.32 52.26       0          0 16.25      .4075   
-    token_em   tpb   tps  
-     .002632 320.9 662.3
-2022-07-31 17:58:06,742 INFO     | 83.0% complete (404 / 487), 0:03:14 elapsed, 0:00:40 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .006483 342.1 290.3 603.3   .2327      51.76 2.078  404 .1804   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.21   .01066 25.09  2.79 25.09 52.15       0          0 16.28      .4063   
-    token_em   tpb   tps  
-     .002475 315.4 655.4
-2022-07-31 17:58:17,211 INFO     | 87.7% complete (427 / 487), 0:03:24 elapsed, 0:00:29 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .006768 342.5 291.3 607.2   .2365      51.18 2.084  427 .1810   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.27   .01073    25 2.784    25 52.11       0          0 16.19      .4077   
-    token_em   tpb   tps  
-     .002342 316.3 659.3
-2022-07-31 17:58:27,764 INFO     | 92.4% complete (450 / 487), 0:03:35 elapsed, 0:00:18 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .006967 348.2 293.8 613.6   .2444      54.46 2.089  450 .1819   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.27   .01089 25.78 2.808 25.78 53.85       0          0 16.58      .4067   
-    token_em   tpb   tps  
-     .002222 319.5 667.5
-2022-07-31 17:58:38,136 INFO     | 96.7% complete (471 / 487), 0:03:45 elapsed, 0:00:08 eta
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .007357 344.9 292.1 609.4   .2399      52.73 2.086  471 .1828   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.27   .01114 26.07 2.826 26.07 54.38       0          0 16.87      .4050   
-    token_em   tpb   tps  
-     .004246 318.2 663.8
-2022-07-31 17:58:45,839 REPORT   | Report for fromfile:parlaiformat:
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .008978 340.8 289.8 604.4   .2320      50.99 2.086  487 .1850   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.32   .01028 25.97 2.816 25.97 54.15       0          0 16.71      .4062   
-    token_em   tpb   tps  
-     .004107 315.8 658.6
-2022-07-31 17:58:45,839 INFO     | Finished evaluating tasks ['fromfile:parlaiformat'] using datatype valid
-
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-/home/u00395/anaconda3/envs/persona/lib/python3.8/site-packages/parlai/core/torch_generator_agent.py:1728: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
-  hyp_ids = best_idxs // voc_size
-    accuracy  bleu-4  clen  ctpb  ctps  ctrunc  ctrunclen  exps  exs    f1  \
-           0 .008978 340.8 289.8 604.4   .2320      50.99 2.086  487 .1850   
-    gen_n_toks  gpu_mem  llen  loss  ltpb  ltps  ltrunc  ltrunclen   ppl  token_acc  \
-         23.32   .01028 25.97 2.816 25.97 54.15       0          0 16.71      .4062   
-    token_em   tpb   tps  
-     .004107 315.8 658.6
