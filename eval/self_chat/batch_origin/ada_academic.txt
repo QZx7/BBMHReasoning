@@ -1,38 +1,26 @@
-seeker: Hello.
-supporter: Hello! How are you doing today?
-seeker: Yeah... I'm feeling a lot of stress on my study recently. I'm afraid that I'm gonna fail in the exams.
-supporter: I'm sorry to hear that, but don't worry. I'm sure you will do your best and pass your exams.
-seeker: I've been studying for hours every day, and I'm still not ready.
-supporter: I think you should take a break and take some deep breaths.
-seeker: I've tried that. And it does help a little, but I still feel that I'm not ready.
-supporter: I think you should take a short break and then try to review what you need to know.
-seeker: I've been doing that, and it does help a little. But I still feel that I'm not ready.
-supporter: I think you should take a break and then try to review what you need to know.
-seeker: I think that's what I'm going to do.
-supporter: I think that is a good plan.
+seeker: Hi, how are you?
+supporter: Doing good. How are you?
+seeker: Oh, I'm feeling really anxious recently.
+supporter: I'm sorry to hear that, could you tell me more details?
+seeker: The online course is too difficult for me. Our school started online course because of the Covid. But just can't focus on study when I'm doing the online course.
+supporter: I understand how you feel. It is very difficult to study online. It is often times harder than in person.
+seeker: Yes, it is. I just don't know what to do to help myself focus.
+supporter: Have you thought about taking breaks and taking a walk or reading a book to help you focus?
+seeker: I try that, but my classes are all online, so I don't really have a way to meet with my friends to take breaks.
+supporter: I understand that. Have you thought about talking to your professors about the situation? They are usually understanding when it comes to academic situations.
+seeker: I have, but they're all on break right now, too. They said they're also trying to figure out how to deal with it.
+supporter: I think that they will have more helpful tips than we can give you. They have been in the same situation you are in, and they probably want to help you too.
+seeker: That's true. I guess I'm just worried that I won't find a way to cope with the stress and I'll end up failing or something.
+supporter: I think that if you take your time and study as much as you can, you will be fine.
+seeker: That's true. I'm also really worried about my grades during the pandemic. I'm worried that I'll be too stressed to study and I'll end up failing.
+supporter: I think that if you study hard and be consistent, you will do just fine.
+seeker: That's true. I guess I'm just worried that I'll make a mistake and forget to study for a day or two.
+supporter: I think if you study hard for a few days, you will be able to remember everything.
+seeker: That's true. I guess I'll have to just put my mind to it and really try.
+supporter: I think that will help you.
+seeker: I think so too.
+supporter: I hope you feel better soon and can find some peace in your situation.
 seeker: Thank you.
-supporter: I think it is a good plan.
-seeker: I think that's what I'm going to do.
-supporter: You are welcome.
-seeker: I think that's what I'm going to do.
-supporter: Goodbye.
-seeker: Goodbye.
-supporter: Goodbye.
-seeker: Goodbye.
-supporter: Goodbye.
-seeker: Goodbye.
-supporter: Goodbye.
-seeker: Goodbye.
-supporter: Goodbye.
-seeker: Goodbye.
-supporter: Goodbye. The supporter could say goodbye to the seeker.
-seeker: Goodbye.
-supporter: Goodbye. The supporter could say goodbye to the seeker.
-seeker: Goodbye.
-supporter: Goodbye. The supporter could say goodbye to the seeker.
-seeker: Goodbye.
-supporter: Goodbye. The supporter could say goodbye to the seeker.
-seeker: Goodbye.
-supporter: Goodbye. The supporter could say goodbye to the seeker.
-seeker: Goodbye.
-supporter: Goodbye. The supporter could say goodbye to the seeker.
+supporter: You're welcome.
+seeker: Have a good day!
+supporter: you too.
