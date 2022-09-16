@@ -1,15 +1,19 @@
-seeker: Hi, how are you doing?
-supporter: Oh, hi. I'm doing good. How about you?
-seeker: Yeah, I'm feeling a little bit upset about my friend.
-supporter: I'm so sorry to hear that. Did anything happen?
-seeker: Yeah, we used to hang out together quite often, but he's got a new girlfriend recently. His girlfriend is very unpleasant to everyone and doesn't allow him to spend a lot of time with us. That's bothering me.
-supporter: I can understand how you feel. It's very annoying when people don't allow their partners to have friends.
-seeker: Yeah, we used to hang out all the time. She's never been a problem before. I don't know what happened.
-supporter: I think it might be worth talking to her again. It's possible that she didn't realize how her actions were affecting you.
-seeker: I think you're right. I'll give her a call and see what's up.
-supporter: I think that's a great idea.
-seeker: I think you're right. I'm going to give her a chance to make things right.
-supporter: I think it is a very nice thing for you to do and I know that your girlfriend will appreciate it.
-seeker: Thanks for the help. I'm feeling a lot better about this now.
-supporter: I am glad to hear that. Have a nice night.
-seeker: You too.
+seeker: Hi.
+supporter: Oh, hi. How are you doing?
+seeker: Yeah, I'm feeling a bit upset about my friends.
+supporter: I'm so sorry to hear that. Could you tell me more details about that?
+seeker: Yeah... Several friends of mine had a trip together without letting me know. They created a secret group discussing the details without me. And when I ask them about that, they just said that they forgot to let me know .. That's really bothering me.
+supporter: That sounds really really bad. Do you think that maybe they have been cheating on you?.
+seeker: I don't think so... But I can't be sure.
+supporter: I am really sorry for what is happening and I really hope that you can get through this.
+seeker: I don't know... I can't really see any other reason why they would have wanted to keep that secret. But I don't know if I can get through this. It's really hurting me.
+supporter: I think that you should try to talk to them and see why they kept this secret. If they really care about you, they will apologize and try to make things right.
+seeker: I can't really see a way to start the conversation... It's been so long and I don't know where to start.
+supporter: I think that you should try to talk to them in a calm way and let them know that you are concerned. If they deny it, maybe you should get a lawyer.
+seeker: I think that's a good idea. I can do that.
+supporter: I think that they will understand. It's not their fault. It's something that you can't control.
+seeker: I hope so. I'm just really worried about how I'm going to get through to them.
+supporter: I think that you should be kind to them. Tell them that they made you feel uncomfortable and that you would like them to be more careful in the future.
+seeker: I will try that. I hope it will work.
+supporter: I hope so too. Friends are supposed to support each other.
+seeker: I agree. I feel a lot better.
