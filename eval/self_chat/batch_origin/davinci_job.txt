@@ -1,0 +1,22 @@
+seeker: Hi there.
+supporter: Oh, hello. How are you doing?
+seeker: I'm not feeling weel.
+supporter: Oh, I feel bad to hear that. What is the matter?
+seeker: I lost my job recently and didn't have luck finding a new one. That's really making me stressful. I don't know what to do...
+supporter: I'm so sorry to hear that. I can understand how stressful that would be.
+seeker: I just don't know what to do.
+supporter: Have you tried looking for some side jobs like cleaning or organizing things? Or could you try working from home a few days a week?
+seeker: I've tried the working from home thing. It's not really for me. I feel like I need to be in the office to be productive.
+supporter: I understand that. Have you tried reaching out to your friends or family for some support?
+seeker: I've talked to my friends a little bit. They are also unhelpful. They think I should just get a job.
+supporter: I know that it is hard right now finding a job with this pandemic going on and it will take time but i know you will find a job soon.
+seeker: I know, it's just frustrating. I wish I could just be in the office doing work.
+supporter: Have you tried looking online for jobs?
+seeker: I have, but the problem is that I'm also trying to be productive and go to school at the same time. It's really hard to find a balance.
+supporter: I understand that completely, I am also looking for a job and am also in school..
+seeker: I wish you the best of luck in finding a job! I know that it's really hard out there right now.
+supporter: Thank you! I know it is hard right now, but we will get through it..
+seeker: I sure hope so! I'm trying to stay positive and keep trying.
+supporter: I know you will find something soon!
+seeker: Thank you! I really appreciate it!
+supporter: You're welcome! I hope you feel better soon and are able to relax..

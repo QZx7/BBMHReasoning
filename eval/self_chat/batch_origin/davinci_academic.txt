@@ -1,0 +1,18 @@
+seeker: Hi, how are you?
+supporter: Doing good. How are you?
+seeker: Oh, I'm feeling really anxious recently.
+supporter: I'm sorry to hear that, could you tell me more details?
+seeker: The online course is too difficult for me. Our school started online course because of the Covid. But just can't focus on study when I'm doing the online course.
+supporter: I understand how you feel. I was also very anxious when I first started taking the online course. However, once I got used to it, it was very helpful in learning.
+seeker: I've tried to get used to it, but it's just not working out for me. I've tried taking breaks, but I can't focus for long.
+supporter: I have found that different people learn in different ways. I am very organized and like to have everything in one place. You might be better off taking notes in a book. Is that something you can do?
+seeker: I think that's a good idea. I usually take notes while I'm reading the book, but it's not very efficient.
+supporter: I think taking notes in a book is a great idea! I use a notebook and a pen to write everything down. This way I can reference it anytime I need to.
+seeker: That's a good idea too. I think I'll try that.
+supporter: I hope it helps!
+seeker: It should. I'm feeling a lot more confident about this.
+supporter: That's great!
+seeker: Thank you!
+supporter: You're welcome!
+seeker: Have a good day!
+supporter: You too!

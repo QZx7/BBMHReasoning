@@ -1,0 +1,19 @@
+seeker: Hello.
+supporter: Hi, how are you?
+seeker: Thanks for asking. To be honest, I am very depressed recently.
+supporter: Oh, I'm so sorry to hear that. What happened?
+seeker: It is about helping to raise my grandson and his dad is not helping at all. His dad doesn't care about my feelings and I really start to feel it difficult taking care of kids. I'm losing my patience.
+supporter: I can understand how you feel. It sounds like you're being treated very poorly, and it's making you feel depressed. Is that right?
+seeker: Yes, it is.
+supporter: I can tell how anxious and upset that is making you feel. I know how it feels to be anxious and upset, too.
+seeker: Thank you. I'm just so tired.
+supporter: I think it would help to talk to your son about the situation and let him know how you feel.
+seeker: I have tried that, but he doesn't seem to care.
+supporter: I am sorry to hear that, have you tried other people or a group of people who have been through the same thing?
+seeker: No, I haven't yet.
+supporter: I am sure that if you were to find a group of people who had been through the same thing, they could help you through your depression.
+seeker: I think you're right.
+supporter: I think it would help a lot!
+seeker: I think I will do that.
+supporter: I'm so glad I was able to chat with you today!
+seeker: Me too! It really helped.
