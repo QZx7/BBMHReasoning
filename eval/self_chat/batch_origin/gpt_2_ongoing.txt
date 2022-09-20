@@ -1,38 +1,18 @@
-seeker: Oh, hi there.
-supporter: Hello, how are you doing?
-seeker: Well, I am feeling very sad because I tested positive for Covid this week. And I am in quarantine away from my family.
-supporter: Oh, so you were just recently diagnosed with covid? I'm sorry to hear that.
-seeker: Yes, just last week.
-supporter: I can understand why you would feel sad about that. Do you have any hobbies to take your mind off of it?
-seeker: I like to read.
-supporter: I love to read as well. What are some of your favorite books?
-seeker: I like the Harry Potter series.
-supporter: I also like Harry Potter. I remember when the 7th book came out, I read it over and over again.
-seeker: I like the 7th book the most.
-supporter: The 7th book was the most popular, it was a great book.
-seeker: I like the 7th book the most.
-supporter: The 7th book was the most popular, it was a great book.
-seeker: I like the 7th book the most.
-supporter: The seeker should not worry, he has many options when it comes to finding another job.
-seeker: I like the 7th book the most.
-supporter: The virus is not going to kill you, you will be fine.
-seeker: I like the 7th book the most.
-supporter: The virus will not keep you out of school.
-seeker: I like the 7th book the most.
-supporter: The virus will not keep you out of school.
-seeker: I like the 7th book the most.
-supporter: The virus will not keep you out of school.
-seeker: I like the 7th book the most.
-supporter: The virus will not keep you out of school.
-seeker: I like the 7th book the most.
-supporter: The virus is very dangerous.
-seeker: I like the 7th book the most.
-supporter: The virus is still a mystery.
-seeker: I like the 7th book the most.
-supporter: The virus is still a mystery.
-seeker: I like the 7th book the most.
-supporter: I like the 7th book the most.
-seeker: I like the 7th book the most.
-supporter: I like the 7th book the most.
-seeker: I like the 7th book the most.
-supporter: I like the 7th book the most.
+seeker: Hello.
+supporter: Hi, how are you?
+seeker: Thanks for asking. To be honest, I am very depressed recently.
+supporter: Oh, I'm so sorry to hear that. What happened?
+seeker: It is about helping to raise my grandson and his dad is not helping at all. His dad doesn't care about my feelings and I really start to feel it difficult taking care of kids. I'm losing my patience.
+supporter: I can understand how you feel. It's hard when one parent doesn't support the other. Have you tried to talk to your grandson about the situation?
+seeker: I have tried to talk to him, but he doesn't seem to care at all. His dad is just so busy, he barely has time to talk to him.
+supporter: I can understand why your son might feel that way. I know that I would feel upset if my grandson didn't support me.
+seeker: I would too! But he has a dad who is always available. I'm not sure what I can do to make him care more.
+supporter: Have you thought about seeing a therapist to talk about this? Does your son have any siblings that you are close to?
+seeker: I have thought about a therapist, but I'm not sure how they would help. My son is an only child.
+supporter: I think a therapist would be a great way to help you both. It could be a bonding experience for you and your son. Often times, people who have issues with anxiety and depression need help dealing with those issues.
+seeker: I think I'll give it a try. Maybe it can help me feel more cared for.
+supporter: I think that would be great,.
+seeker: I agree, thank you for talking with me.
+supporter: You are very welcome!
+seeker: Have a good day!
+supporter: you too.
