@@ -1,0 +1,16 @@
+seeker: Hi.
+supporter: Oh, hi. How are you doing?
+seeker: I'm doing ok, just a bit sad.
+supporter: I feel bad to hear that, could you please share more details?
+seeker: Yeah, it's about my friend. She wanted to hang out with me and I refused her because of the pandemic. And she felt that I was selfish and didn't want to spend time with her. It's really bothering me.
+supporter: I understand how you are feeling about that, I would be upset as well.
+seeker: I don't understand why she thinks I'm being selfish. I'm not going to hang out with her but I'm also not going to hurt my friendship with her just to be safe.
+supporter: I think she is being selfish herself by not accepting your decision and by putting you in a bad light.
+seeker: I agree. I think she's trying to make me feel guilty for not wanting to hang out with her in a bad light.
+supporter: I think it might be time to make a choice as to if she is a true friend or not.
+seeker: I think so too. I'm not going to hang out with her just to be nice. I have my own friends that I can hang out with.
+supporter: I think that is a great idea.
+seeker: Thanks! I feel a lot better about this.
+supporter: You are very welcome. I am glad you feel better. Is there anything else I can help you with today?
+seeker: No, you've been very helpful. Have a great day!
+supporter: You as well!

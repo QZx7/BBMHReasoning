@@ -91,13 +91,13 @@ def generate_batch(task_name: Text):
 
 
 def main():
-    read_self_chat("./eval/self_chat")
-    # generate_batch("bb")
-    # generate_batch("gpt_1")
-    # generate_batch("gpt_2")
-    # generate_batch("ada")
-    # generate_batch("davinci")
-    # generate_batch("bbmh")
+    # read_self_chat("./eval/self_chat")
+    generate_batch("bb")
+    generate_batch("gpt_1")
+    generate_batch("gpt_2")
+    generate_batch("ada")
+    generate_batch("davinci")
+    generate_batch("bbmh")
 
 
 if __name__ == "__main__":
