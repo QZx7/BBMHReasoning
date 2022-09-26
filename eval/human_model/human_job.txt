@@ -1,0 +1,24 @@
+<strong>seeker</strong>: Hello.<br>
+<strong style="background-color: lime">supporter 1</strong>: Hello, how are you doing today?<br>
+<strong>seeker</strong>: I was looking for some assistance. I lost my job 4 month ago.<br>
+<strong style="background-color: lime">supporter 1</strong>: Losing your job is one of the biggest stressors in life, how have you been handling it?<br>
+<strong>seeker</strong>: Well first few month was kind off alright, Was looking for a job in different places without success. And now I am really depressed and I feel so useless.<br>
+<strong style="background-color: lime">supporter 1</strong>: I know what it's like to lose a job, and when it's hard to find a new one it can really make you feel low. What activities have you been doing in addition to seeking new employment?<br>
+<strong>seeker</strong>: Nice that you understand me, I was trying job websites alongside with jobcenter in town centre. I have job seeker allowance but it will not cover the rent.<br>
+<strong style="background-color: lime">supporter 1</strong>: I am living in a high-rent city and the only way I was able to keep my apartment was to find a roommate. Are there ways you can get help from friends or family until a new job opens up?<br>
+<strong>seeker</strong>: I am renting just a room at the moment, Before I had a girlfriend so we had to split the bill. After she left I had to take all responsibility just on myself to pay bills. I have few friends but don't think they could lend me a lot of money anyway.<br>
+<strong style="background-color: lime">supporter 1</strong>: One possible solution, if it's possible for you, could be to sub-lease your room to someone else and stay with friends or family. Even if they can't loan you money, they may be able to let you stay with them for a week while you make money renting your room as an airbnb.<br>
+<strong>seeker</strong>: Oh AirBnB might be a solution actually. I will speak to my cousin if I could stay couple of nights at his place.<br>
+<strong style="background-color: lime">supporter 1</strong>: What sort of employment are you looking for? Perhaps we can brainstorm some places you can go to make connections for potential work.<br>
+<strong>seeker</strong>: I was working in IKEA warehouse before I got redundant.<br>
+<strong style="background-color: lime">supporter 1</strong>: Working in a warehouse shows you have great skills for several other types of jobs. Have you checked small independent-contractor sites like TaskRabbit or Lyft to make extra funds while you search for a new permanent job?<br>
+<strong>seeker</strong>: I even haven't heard about those. I am really useless sometimes... What kind of jobs I can find there do you know?<br>
+<strong style="background-color: lime">supporter 1</strong>: Well, if you didn't know about them, that's not your fault. It's possible that you could find a new job opportunity while working on smaller tasks or by volunteering for a local organization. You could meet new folks who could provide you with new connections for employment!<br>
+<strong>seeker</strong>: I Will definitely try that. You are really helpful. Have you been doing any jobs through those websites?<br>
+<strong style="background-color: lime">supporter 1</strong>: Yes I am able to make a little spending money by doing small tasks like delivering real estate papers, or delivery take-out food. You can google a list of sites like RentSons.com where you can sign up to do an assortment of tasks, and your warehouse skills will come in handy!<br>
+<strong>seeker</strong>: That's cool, I feel now a lot better. Maybe I will be able to find even a girlfriend somewhere on those jobs. I feel lonely after my girlfriend left me.<br>
+<strong style="background-color: lime">supporter 1</strong>: We all feel lonely when life gets hard, but getting yourself out there to do tasks will help you feel useful AND you could meet your future wife, you never know! I wish you the absolute best!<br>
+<strong>seeker</strong>: Thank you very much for you help. I learned something new today and feel much better.<br>
+<strong style="background-color: lime">supporter 1</strong>: You're welcome. I think you'll do great.<br>
+<strong>seeker</strong>: Have a lovely afternoon!<br>
+<strong style="background-color: lime">supporter 1</strong>: You too!<br>

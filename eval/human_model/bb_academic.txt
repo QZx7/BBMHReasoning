@@ -1,0 +1,16 @@
+<strong>seeker</strong>: Hi.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Hi! How are you? I just got home from a long day at work. I'm exhausted.<br>
+<strong>seeker</strong>: Thanks for asking. I am unable to focus on my studies due to stress. I am afraid that I am gonna fail.<br>
+<strong style="background-color: aqua">supporter 2</strong>: I'm sorry to hear that. What are you studying? I'm sure you'll do great!<br>
+<strong>seeker</strong>: Well, I have a lot of exams going on, like math, physics and some major related subjects like, computer architecture. I just feel that there are so many things that I don't know.<br>
+<strong style="background-color: aqua">supporter 2</strong>: That's understandable. I hope you do well on your exams. Do you have any hobbies?<br>
+<strong>seeker</strong>: Yeah, I like playing basketball.<br>     
+<strong style="background-color: aqua">supporter 2</strong>: That's cool. I'm not much of a basketball player, but I do enjoy watching it.<br>
+<strong>seeker</strong>: That's good. But I am not really able to play recently because of the exams.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Oh, I'm sorry to hear that. Is there anything you can do to take your mind off of it?<br>
+<strong>seeker</strong>: I don't know. I don't have the confidence to pass the exams and I can't sleep at night.<br>
+<strong style="background-color: aqua">supporter 2</strong>: I know how you feel. I've been having trouble sleeping lately, too. I think it's because I'm stressed out.<br>
+<strong>seeker</strong>: Yeah, anyway. I think I don't have other options but to work even harder.<br>
+<strong style="background-color: aqua">supporter 2</strong>: That's a good way to look at it. Do you have any hobbies that help you relax?<br>
+<strong>seeker</strong>: Well, thanks anyway.<br>
+<strong style="background-color: aqua">supporter 2</strong>: You're welcome. I hope things get better for you. I'm here if you need someone to talk to.<br>

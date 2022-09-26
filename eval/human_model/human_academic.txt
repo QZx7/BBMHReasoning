@@ -1,0 +1,22 @@
+<strong>seeker</strong>: Hi.<br>
+<strong style="background-color: lime">supporter 1</strong>: hello.<br>
+<strong>seeker</strong>: I am unable to focus on my studies due to stress. I am afraid that I am gonna fail.<br>
+<strong style="background-color: lime">supporter 1</strong>: so you mean you are afraid you will fail because you are stressed out with your studies.<br>
+<strong>seeker</strong>: yes, due to stress and anxiety it is hard to concentrate.<br>
+<strong style="background-color: lime">supporter 1</strong>: that can be hard but you can do it. knowing that you are scared is enough motivation for you to push through.<br>
+<strong>seeker</strong>: I can't sleep at night and having bad dreams that I will fail in my exams or I am unable to answer questions.<br>
+<strong style="background-color: lime">supporter 1</strong>: i can sense your feeling, i once had same mind stress before.<br>
+<strong>seeker</strong>: So what you did? how you came out of it?<br>
+<strong style="background-color: lime">supporter 1</strong>: i stop reading alone. I read with my friends. girlfriend or read in a public place like the library.<br>
+<strong>seeker</strong>: That is a great idea but due to COVID it could be risky to meet up daily and library is closed where I live.<br>
+<strong style="background-color: lime">supporter 1</strong>: yes, covid has made things messy but you can always connect with someone online and chat about what you have read so far. I did same thing during the lockdown.<br>
+<strong>seeker</strong>: That's what I can do. Thanks! It might make me feel better. What else can I do to control my anxiety?<br>
+<strong style="background-color: lime">supporter 1</strong>: always make sure you get enough rest and when ever you are getting the feeling next time, distract your self with something you love and then continue after a while.<br>
+<strong>seeker</strong>: Thank you so much for all your suggestion. Hope it will help me.<br>
+<strong style="background-color: lime">supporter 1</strong>: and make sure you eat well. and exercise to control your breathing.<br>
+<strong>seeker</strong>: Is there any specific exercise?<br>
+<strong style="background-color: lime">supporter 1</strong>: you can do bit of yoga and meditating. You should be fine with that.<br>
+<strong>seeker</strong>: Thank you so much. I am feeling motivated now . I will try to start it tomorrow onwards.<br>
+<strong style="background-color: lime">supporter 1</strong>: good is there any other thing i can help you with?<br>
+<strong>seeker</strong>: I think that's enough to start with. Hope it will work out. Thanks for all your help. byee.<br>
+<strong style="background-color: lime">supporter 1</strong>: you are very welcome and good luck with your studies.<br>

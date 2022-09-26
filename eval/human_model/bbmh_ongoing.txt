@@ -1,0 +1,27 @@
+seeker: Hello, how are you?
+supporter: Hello good how are you.
+seeker: well, I can't say I'm feeling well because I tested positive for Covid this week. I am doing quarantine at my house by myself.
+supporter: Oh no I'm sorry to hear that, it must be tough.
+seeker: Yeah, it is. And recently, the symptoms started to show up. I've got fever and caughing.
+supporter: I'm sorry to hear that, are you showing symptoms?
+seeker: Yes, light ones though.
+supporter: I'm sorry, is there anything you can do to help yourself?
+seeker: I don't know, there are some medicines I could use. So, that might be all about it?
+supporter: Yeah, some medicines can help, I suggest you try them out.
+seeker: Yeah.. Well, the thing I feel bad about is the feeling of lonely. You know, It's difficult to be alone for quite a long time.
+supporter: Yeah, but you can't really help that. All you can do is try to stay positive.
+seeker: That's ture. I miss my wife and kids. They are currently staying at my wife's father's house to be away from me.
+supporter: That's really rough. It's good that you have your family around to help you out though.
+seeker: Yeah, we couldn't stay together, but we do a lot of video calls, that helps.
+supporter: That's good. I'm sure that helps a lot.
+seeker: Yeah, indeed. Thanks to the technology.
+supporter: It really is a blessing.
+seeker: Yes, exactly.
+supporter: Do you have any hobbies?
+seeker: Well, I like travelling. But, I can't really do that now, haha.
+supporter: I love to travel too. I love to go to new places and see the sights.
+seeker: Yeah, maybe we could share some of the travel thoughts from time to time.
+supporter: That sounds like a plan.
+seeker: Great. well, thanks for talking with me.
+supporter: You as well, have a great day.
+seeker: You, too.

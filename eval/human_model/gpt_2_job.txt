@@ -1,0 +1,26 @@
+seeker: Hello, there.
+supporter: Hello, how are you doing today?
+seeker: I was looking for some assistance. I lost my job 4 month ago.
+supporter: Oh, I'm so sorry. I can understand how you are feeling.
+seeker: Yeah, in the first few months, it was kind of alright. I was looking for a job in different places without success. And now I really depressed and I feel so useless.
+supporter: I know how you feel, I have been looking for a job for almost a year now.
+seeker: Oh, so, you are also unemployed? That's so bad.
+supporter: Yes, I am. I have a BA in English and I want to work in the public sector.
+seeker: Oh, is that so? Well, I have tried some job websites alongside with job centers in the town. But they didn't help me much.
+supporter: What is your field of work?
+seeker: I work as a salesperson for a factory.
+supporter: I see. Have you talked to your advisor about this?
+seeker: Well, technically, I don't have an advisor. I tried to visit some job websites, but I did not get much help. And the thing I'm worrying about is that I probably can't afford the rent for next month.
+supporter: I see. Have you talked to your landlord?
+seeker: Well, I don't think that's gonna help much. I probably have to move out.
+supporter: I understand. I had a similar situation when the pandemic first started. I was so anxious about the possibility of losing my apartment.
+seeker: Oh, how did you solve that in the end?
+supporter: I had to move back in with my parents. It was very hard, but I managed to find a new job pretty quickly. Have you been looking for another job?
+seeker: Yeah, that sounds like a great idea. Maybe I will also have to bother my parents. But I don't want them to think that I'm a useless person.
+supporter: I think they would rather you bother them than not bother them and leave them wondering what is going on.
+seeker: Well, that is so true. Maybe I could just borrow a room from them and as long as I could find a job fast, it should be fine.
+supporter: I am sure they would not think you were useless if you were looking for a job and had a resume ready. I think they would be more worried about you than you worrying about bothering them.
+seeker: Yeah, thanks for the explanation. That makes me feel much better. I think I know what to do now.
+supporter: I am glad it does :D. I am sure you will be fine!
+seeker: Thanks! It's nice talking with you.
+supporter: It was nice talking to you as well! Take care!

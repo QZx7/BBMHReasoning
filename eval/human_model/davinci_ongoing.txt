@@ -1,0 +1,21 @@
+seeker: Hi, there.
+supporter: Hello! How are you doing today?
+seeker: Well, I couldn't say very well. I tested positive for Covid this week. And I am doing quarantine at my own house by myself now.
+supporter: That sounds really scary. I'm so sorry to hear that. You're not alone in feeling this way. I'm feeling pretty down myself right now.
+seeker: Oh, thanks for being so considerate. I'm still doing ok. I've got some light symptoms but that's not a big deal. I'm just feeling a bit lonely to be myself.
+supporter: I'm glad you're still doing ok. We all feel lonely at this time. It's been a very long year. You're not alone in feeling this way.
+seeker: Yeah, I need to do the quarantine for 2 weeks, and still 10 days to go...
+supporter: I know you said you're not interested in online communities, but have you considered using social media to connect with friends and family back home?
+seeker: I don't usually use social media. But I do a lot video calls with my wife and kids. They are current at my wife's father's house to be away from me.
+supporter: I understand. I'm also very close to my family and I know how important that is. I was just wondering if that was something you considered.
+seeker: Yeah, indeed. I miss my kids a lot. But thanks to the video chatting tool, we can still have talks.
+supporter: That's wonderful! It's really nice to be able to talk to your loved ones even if you are far away.
+seeker: Exactly. Hopefully I could also stay healthy when I could see them in person.
+supporter: I'm sure you will! It's great that you are able to video chat them. That's a really great way to stay connected.
+seeker: Thanks for saying that. Well, I tried move my body a bit everyday, but the Covid just makes my body so heavy.
+supporter: I can understand that. I'm sure it's not easy for you. But you are doing your best and that is important. I'm sure in a few weeks or months you will be able to go back to normal.
+seeker: Yeah, I also think so. Well, I want my kids to see their dad being strong as always, haha.
+supporter: I know that you will be a great parent and make sure to always be there for your kids.
+seeker: Thanks a lot for talking with me. That helps me.
+supporter: You are welcome. I hope you have a great day and make sure to keep your head up.
+seeker: Thanks.

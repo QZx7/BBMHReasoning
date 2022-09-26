@@ -1,0 +1,18 @@
+<strong>seeker</strong>: Hello.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Hi there! How are you? I'm just relaxing after a long day at the office.<br>
+<strong>seeker</strong>: Well, I'm feeling very sad because I tested positive for Covid this week. I need to be in quarantine for about two weeks.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Oh no! I'm so sorry to hear that. Is there anything you can do to ease your mind?<br>
+<strong>seeker</strong>: Not really. It jsut started to get worse as the symptoms show up. I started to have fever and caughing.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Oh my goodness! I hope you feel better soon. Maybe you can take some time off work?<br>
+<strong>seeker</strong>: Yeah, actually I have been off work about 2 days ago. Just I started to feel lonely all by myself. My wife and kids are now living in my wife's father's house to be away from me.<br>
+<strong style="background-color: aqua">supporter 2</strong>: That's so sad. I'm sorry you're feeling so lonely. I hope things start looking up for you soon.<br>
+<strong>seeker</strong>: Thanks for saying that. But it was good that we could still do video chats. That really helps.<br>
+<strong style="background-color: aqua">supporter 2</strong>: I'm glad to hear that. It's always good to have someone to talk to, even if it's just over the phone.<br>
+<strong>seeker</strong>: Yes, that's so true. I could still see my kids and hear them sharing something in the school. That is quite fun.<br>
+<strong style="background-color: aqua">supporter 2</strong>: That sounds like a lot of fun. I wish I could have done that with my parents when I was younger.<br>
+<strong>seeker</strong>: Yeah. Thanks to the technology and internet. <br>
+<strong style="background-color: aqua">supporter 2</strong>: That's for sure. I'm grateful that my parents were able to have me when they did.<br>
+<strong>seeker</strong>: Yeah. So, what I can do is trying to stay healthy so that I could see them in no time.<br>
+<strong style="background-color: aqua">supporter 2</strong>: That's a good idea. I try to do the same with my kids. I want them to have a long life.<br>
+<strong>seeker</strong>: Yeah, well, thanks for talking with me.<br>
+<strong style="background-color: aqua">supporter 2</strong>: No problem. It was nice chatting with you. Have a great day!   P.S. I love your username.<br>

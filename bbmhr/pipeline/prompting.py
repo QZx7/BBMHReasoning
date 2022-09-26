@@ -185,16 +185,15 @@ def pick_up_examples(
 
 def assembly_prompt(
     prompt: Text,
-    seeker_only_file: TextIO,
-    test_data: List[Dict[str, str]],
     source_data: List[Dict[str, Any]],
+    seeker_only_file: Optional[TextIO] = None,
 ) -> str:
     """Assembly the final prompt with the given template and the source data.
        The method yield one prompt at a time. Each time, a user turn with previous
        dialogue history will be assigned as question of current prompt.
     Args:
         template (Text): A template with main factors representated by tokens with <>.
-        text_data (List[Dict[str, str]]): Some annotated data pool from which examples are chosen.
+        seeker_only_file (Optional[TextIO]): The file IO stream to write the seeker utterances.
         source_data (List[Dict[str, Any]]): The dialogue data to annotate.
 
     Returns:
@@ -202,17 +201,17 @@ def assembly_prompt(
     """
     # template_file = open(template, "r", encoding="utf-8")
     # prompt = template_file.read()
-    instances = pick_up_examples(test_data, 3)
+    # instances = pick_up_examples(test_data, 3)
 
     # Assembly prompt instances depending on the number of instances
-    for index in range(len(instances)):
-        prompt = prompt.replace(
-            f"<conversation_{index}>", instances[index]["conversation"]
-        )
-        # replace <> tokens with real content as prompt instances
-        prompt = prompt.replace(f"<feel_{index}>", instances[index]["feel"])
-        prompt = prompt.replace(f"<reason_{index}>", instances[index]["reason"])
-        prompt = prompt.replace(f"<suggestion_{index}>", instances[index]["suggestion"])
+    # for index in range(len(instances)):
+    #     prompt = prompt.replace(
+    #         f"<conversation_{index}>", instances[index]["conversation"]
+    #     )
+    #     # replace <> tokens with real content as prompt instances
+    #     prompt = prompt.replace(f"<feel_{index}>", instances[index]["feel"])
+    #     prompt = prompt.replace(f"<reason_{index}>", instances[index]["reason"])
+    #     prompt = prompt.replace(f"<suggestion_{index}>", instances[index]["suggestion"])
 
     # Assembly question and yield one prompt one time
     for data in source_data:
@@ -220,9 +219,10 @@ def assembly_prompt(
         for utterance in data["conversation"]:
             current_dialog += utterance["speaker"] + ": " + utterance["content"] + "\n"
             if utterance["speaker"] == "seeker":
-                seeker_only_file.write(
-                    json.dumps({"utterance": utterance["content"]}) + "\n"
-                )
+                if seeker_only_file:
+                    seeker_only_file.write(
+                        json.dumps({"utterance": utterance["content"]}) + "\n"
+                    )
                 dy_prompt = prompt.replace("<conversation>", current_dialog)
                 yield dy_prompt
 
@@ -278,14 +278,7 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     Returns:
         str: The generated answer.
     """
-    # prompt = (
-    #     "In a shocking finding, scientists discovered a herd of unicorns living in a remote, "
-    #     "previously unexplored valley, in the Andes Mountains. Even more surprising to the "
-    #     "researchers was the fact that the unicorns spoke perfect English."
-    # )
 
-    # add padding token
-    # print(tokenizer.truncation_side)
     sequence = tokenizer(
         prompt,
         return_tensors="pt",
@@ -295,7 +288,6 @@ def gpt_text_generate(prompt: Text, model, tokenizer) -> str:
     input_ids = sequence["input_ids"]
     attention_mask = sequence["attention_mask"]
     model.config.pad_token_id = model.config.eos_token_id
-    # print(tokenizer.eos_token)
 
     try:
         gen_tokens = model.generate(
@@ -321,12 +313,11 @@ def process_prompt_length(
         current_dialog = prompt.split("Conversation:")[-1].split(
             "In this conversation,"
         )[0][1:]
-        # print(f"dialog before processing: \n{current_dialog}")
+
         utterances = current_dialog.split("\n")[:-1]
         utterances.pop(0)
         tmp_text = "\n".join(utterances)
 
-    # print(len(tokenizer(tmp_text)["input_ids"]))
     if not single_utterance:
         while len(tokenizer(tmp_text)["input_ids"]) > allowed_dialog_length:
             utterances.pop(0)
@@ -337,8 +328,6 @@ def process_prompt_length(
         else:
             tmp_text = utterances[0]
 
-    # print(f"dialog after processing: \n{tmp_text}")
-    # print(len(tokenizer(tmp_text)["input_ids"]))
     return tmp_text + "\n"
 
 
@@ -388,7 +377,7 @@ def main():
     template_file = open(args.prompt_template, "r", encoding="utf-8")
     fixed_prompt = template_file.read()
     source_data = read_source_data(source_data_path)
-    test_data = read_source_data(test_data_path)
+    # test_data = read_source_data(test_data_path)
     response_file = open(
         response_path + args.response_suffix + ".jsonl", "w+", encoding="utf-8"
     )
@@ -421,7 +410,6 @@ def main():
     prompt_generator = assembly_prompt(
         fixed_prompt,
         seeker_only_file,
-        test_data,
         source_data,
     )
 
@@ -513,16 +501,12 @@ def inference(model_name, model, tokenizer, prompt_template: Text, current_dialo
         max_input_length = 500
         response_length = 80
     allowed_dialog_length = max_input_length  - response_length - fixed_length - 1
-    # allowed_dialog_length = 1000 - 80 - fixed_length - 1
-    # if model_name == "gpt":
-    #     allowed_dialog_length = 500 - 80 - fixed_length - 1
     prompt = fixed_prompt.replace(
         "<conversation>",
         process_prompt_length(current_dialog, allowed_dialog_length, tokenizer),
     )
     print(prompt)
-    # response = response[len(prompt) :]
-    # print(f"Original response: {response}")
+
     response = ""
     if model_name == "gpt":
         response = gpt_text_generate(prompt, model, tokenizer)

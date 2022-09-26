@@ -1,0 +1,17 @@
+seeker: hi, how are you?
+supporter: I am good, how are you feeling?
+seeker: I'm doing ok. Just I am unable to focus on my studies due to stress. I am afraid that I am gonna fail.
+supporter: I see, do you have people you can talk to about this? Friends, family?
+seeker: Well, I'm not sure if my parents could help me or not. I don't want to make them worry, either.
+supporter: I see. Do you think that you are making things worse by not talking to them? I know that I was very hesitant to talk to my family about some things, but I found that they were very helpful.
+seeker: Is that so? Maybe I should try. Well, you know, I can't sleep and feel it's hard to concentrate for quite a long time. It's really bothering me.
+supporter: I understand that very well. Have you tried meditating or practicing mindfulness? It really helps me with my concentration issues.
+seeker: Oh, that sounds like something could be useful! But I don't know how to meditate? Is there any instruction on that?
+supporter: There are many different techniques, but I like the guided meditation apps. They have a lot of great instructions.
+seeker: Oh, that sounds great. So, I can jsut download that app on my phone and it will teach me how to do meditation. Is that correct?
+supporter: Yes, that is correct. I use one that has a bunch of different sounds, and it tells you to breathe in an out. The sounds change as you get closer and closer to falling asleep. It is very soothing.
+seeker: That really sounds like something can calm me down. I would definitely try it.
+supporter: I am glad I could help. Is there anything else you would like to talk about?
+seeker: Well, that's probably all about it. Thanks for your good suggestions, I will start doing meditation from tomorrow.
+supporter: You are more than welcome. I hope you have a lovely festive season..
+seeker: Thanks, you too.

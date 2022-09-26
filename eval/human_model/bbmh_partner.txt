@@ -1,0 +1,22 @@
+seeker: Hi, there.
+supporter: Hello, how are you today.
+seeker: Well, I feel emotionally sad.
+supporter: Can you tell me a little about what is making you feel emotionally sad?
+seeker: Yeah, I broke up with my boyfriend about several months ago.
+supporter: Breakups are really hard and can make you feel really sad.
+seeker: Yeah, I just could not get this out of my mind. It feels so bad.
+supporter: Breakups always feel really bad.  They can even take a long time to process. .
+seeker: It takes a long time for me to get adapt to that. And the pandemic is also making everything worse for me.
+supporter: Breakups are hard.  They happen for a reason, and sometimes it just takes time to process all the emotions. .
+seeker: I just don't know how to move forward.
+supporter: I think the best thing you can do is to hang out with your friends and talk to them about it.  Get your mind off of it.
+seeker: Yeah, that could be a good option if there's no pandemic. I don't want to put my friends in danger because of me.
+supporter: I think you will be okay.  You seem like a very strong person.  You have taken the right steps to get help.  And I know that you will make the right choices.
+seeker: Well, we could have some video calls though.
+supporter: That could be a good way to get some closure on the situation.
+seeker: Yes, maybe i should try to organize an online party. Hopefully I could forget about the bad things while having fun with my friends.
+supporter: That sounds like a great idea.  You can use that stress that has been building up to have some fun instead.
+seeker: I hope that could happen, though.            
+supporter: Do you need any other help?
+seeker: I think that's all about it, thank you for talking with me.
+supporter: You are very welcome.  I am glad I could help.

@@ -1,0 +1,20 @@
+seeker: Hi there.
+supporter: Hello! How are you doing today?
+seeker: I'm not doing so well recently. I lost my job and finding a new one, but it didn't go well.
+supporter: Oh no! I'm so sorry to hear that. I can definitely understand why that would be upsetting.
+seeker: Yeah, I need to find a job as soon as possible as I probably can't afford the rent for next month.
+supporter: I know the feeling. I'm in the same boat myself. I hope you can find something soon.
+seeker: So, you've also lost your job?
+supporter: Yes, I have. I was very worried at first, but then I realized that I could use this time to get some experience.
+seeker: Ok, so what did you do to find a new job?
+supporter: I went online and looked for jobs. I applied for a lot of them. I got a few interviews and got a job at a call center. I was worried at first, but once I started the job, I didn't worry at all.
+seeker: It sounds like a quite tough process. I'm not sure. I have tried some job websites and the job centers in the town, but they just don't help.
+supporter: Have you talked to anyone in your family and see if they can help you out? They might be able to give you some advice on what to do.
+seeker: Ah, I've thought about that, but I don't want to bother them and I don't want them to feel that I'm a useless person.
+supporter: I'm sure they would not feel that way. I'm sure they would love to help you. It is always good to reach out and talk to people about things that are bothering you.
+seeker: I'm not sure. But yeah, maybe you're right. I could probably ask them for help.
+supporter: I'm sure they would be more than happy to help. I'm sure you will not lose your job anytime soon.
+seeker: Yeah, I really need somewhere to live now. Maybe I can borrow a room from them before I could find a new job.
+supporter: I'm sure you could ask them if you could do that.
+seeker: Yeah. That sounds like a good idea for me. Thanks for the suggestion.
+supporter: I'm glad I could help. I hope everything works out for you.

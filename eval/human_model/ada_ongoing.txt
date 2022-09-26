@@ -1,0 +1,23 @@
+seeker: Hello.
+supporter: Hello. How are you today?
+seeker: I am feeling very sad because I tested positive for Covid this week. I am in quarantine away from my family.
+supporter: Oh, that is very sad. I can understand why you would feel that way.
+seeker: Yeah, I need to be alone for 2 weeks and still 10 days to go.
+supporter: I am sure that the situation will be resolved in the near future. We are all going through a tough time right now.
+seeker: Yeah, it just makes me feel lonely. My wife took the kids to stay with her father until my quarantine period is over. I have mainly cold symptoms - body aches, stuffy head, sore throat.  Nothing too serious so far.
+supporter: Have you tried to do any exercise? Exercise can help to relieve some of the stress that you are feeling.
+seeker: Yeah, just a little bit though. I do some exercise everyday when I woke up. But the Covid is just making my body feel so heavy.
+supporter: I understand. Sometimes the virus is so heavy that it feels like you are never going to get better. It is hard to get any sleep at all..
+seeker: Yes, exactly. I feel like the body is not under my control. You know, I'm kind of the age with high blood pressure and I'm really worrying about that.
+supporter: I think that it is really great that you are seeking help for this. Many people are not as fortunate. You can also try to find activities that you enjoy doing that are healthy. For example, you could try to do a 30 minute walk every day. That is a great way to start and you are doing something good for yourself.
+seeker: Oh, that is a really good suggestion. I also think I should have my body move more frequently. Well, my house is big enough to have a walk, haha.
+supporter: That is a great idea. You could also try to do a 30 minute walk every day. That is a great way to start and you are doing something good for yourself.
+seeker: I will do that from tomorrow. I really hope I could be better soon to see my kids. I miss them a lot.
+supporter: I understand that missing your children can be very hard. Do you have any contact with them?
+seeker: Well, I can't go out. But thanks to the technology, I have a lot video calls with them. That really helps.
+supporter: That is very helpful. I also find that having time to spend with my children helps me to stay sane during these hard times.
+seeker: Exactly. Well, then I will need to keep myself healthy to spend more time with them, haha.
+supporter: I agree. It is important to stay healthy so that you can continue to provide your children with a healthy and happy life.
+seeker: Thanks for your suggestion. And it was nice talking with you.
+supporter: You are welcome! I hope you are able to find some peace in your situation. I hope you have a nice night!
+seeker: Thanks, you too.

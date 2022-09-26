@@ -1,0 +1,22 @@
+seeker: Hi, how are you doing?
+supporter: I'm doing well. How are you doing?
+seeker: I'm doing ok. Just I am unable to focus on my studies due to stress. I am afraid that I am gonna fail.
+supporter: I can understand how you feel. Studying for tests can be very stressful. Have you been studying?
+seeker: Yes, I've been studying hard. But I feel it's so difficult and I can't focus.
+supporter: I have been there myself. Sometimes it is very difficult to study for tests. Have you tried to go to therapy?
+seeker: What kind of therapy do you think can be helpful in my situation?
+supporter: I think any kind of therapy would be helpful at this point. I think you need to talk to someone and get some things off your chest.
+seeker: So, you mean that is because I'm having too much pressure on myself?
+supporter: I think that could be a part of it. I also think that your parents' actions are not okay.
+seeker: Ah, that could be. They are having a lot of expectations on my exams. So, basically I couldn't afford any kinds of failure. That really doesn't feel good.
+supporter: I think that you should try to be as prepared as you can for the exams, and then you won't feel so pressure.
+seeker: I really want to. But I still think the exams are so difficult. There are a lot of questions I don't know how to answer.
+supporter: I think that you should try to talk to your parents about the way they are making you feel and see if you can come to some sort of arrangement with them.
+seeker: Emm, you mean I should tell them that I might fail in the exams? Do you think that would work?
+supporter: Yes that is what I mean and I think that it would work. They are your parents and I am sure that they care about you.
+seeker: Yeah, maybe that's the direction I can go. There is something I really can't do, like the exams. I hope they will understand.
+supporter: I think that they will understand.
+seeker: Well, thanks anyway for your suggestion. I will talk with them.
+supporter: I know that you can do it!
+seeker: Thanks.
+supporter: You're welcome! I hope you guys can work things out.

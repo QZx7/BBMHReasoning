@@ -1,0 +1,18 @@
+seeker: hi, how are you?
+supporter: I am doing well, thank you. How are you doing?
+seeker: I'm doing ok. Just I am unable to focus on my studies due to stress. I am afraid that I am gonna fail.
+supporter: I have been in that position too. Do you have an academic councelor you can talk to?
+seeker: Well, I don't have a specific councelor to talk to, but I did talk to my professor. But he just said that I should try harder, which was not so helpful...
+supporter: I was in a similar situation last semester. I was struggling in my classes and had very little motivation to study. My professor helped me a lot with my assignments and I found that going to class and doing the work helped more than I thought it would.
+seeker: Yeah, actually that's also what said by my professor. I just can't concentrate even when I am sitting in the class. I don't feel motivated and I can't sleep at night and have dreams that I will fail in my exams. Is that some illness?
+supporter: I had a similar experience in my college days. I had a hard time concentrating in class and found that I did better when I went to the classes and did the work myself. I found that my professor didn't help me at all. Have you tried other people in your class?
+seeker: I don't if other people are having the exact same feelings or not. Maybe I should talk with them?
+supporter: I found that the other people in my class had the same problems as me. They were also very upset and upset and upset and the other person had to be in a bad mood because the other person was thinking about something else.
+seeker: Yeah, everyone can have their own things to worry about. What did you do then? How you came out of it?
+supporter: I just tried to distract myself with other things. I tried to think that the other person was also struggling.
+seeker: So, you mean I should probably try to do something else before I could re-focus on my study?
+supporter: I think that's a good idea. Do you have any friends in your class you could talk to?.
+seeker: Yeah, I do have a lot of friends. But we barely hang out together recently due to the Covid. Maybe we should have a party from time to time, just for relax.
+supporter: That sounds like a great idea! It's always good to have some fun every now and then.
+seeker: Ok, that's what I can do. Thanks for the suggestion.
+supporter: That sounds like a great idea. I'm glad I could help.

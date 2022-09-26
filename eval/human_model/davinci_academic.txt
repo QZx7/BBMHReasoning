@@ -1,0 +1,23 @@
+seeker: Hi, how are you?
+supporter: I am good, how are you?
+seeker: I'm doing ok. Just I am unable to focus on my studies due to stress. I am afraid that I am gonna fail.
+supporter: I see, do you have any tutors you can talk to?
+seeker: Yeah, I talked to the teaching assistant but he jsut said that I should work harder, which was not helpful at all...
+supporter: I think you are doing the right things, you should not be afraid to fail, you will never know if you don't try.
+seeker: Yeah, I understand that. It's just so stressful for me now. I feel the exams are so difficult. There are a lot of content I don't know. I don't have the confident to pass the exams.
+supporter: I can tell how stressed you are about this, do you study by yourself or with someone?
+seeker: Well, I have been studying by myself until now.
+supporter: I can feel how stressed you are about this, do you study by yourself or with someone?
+seeker: Well, I have been studying by myself until now. Is it better to study with someone?
+supporter: I think it's better to study with someone, I always study with someone and we make sure to study together every day.
+seeker: Well, that might be ture. But you know, I don't want anyone to think that I'm stupid. Other guys are so great at studying...
+supporter: I think you are putting too much pressure on yourself.
+seeker: Ah.. I'm not sure about it... Maybe you are right? 
+supporter: I think if you join a study group, you will be even more stressed because you will be worried about failing if you don't have a study group.
+seeker: Yeah.. I probably should take it easy and learn from other guys.
+supporter: I think you will be surprised how many people are in the same situation. You will be able to study together and make sure that you don't get lost in the crowd.
+seeker: That is true. I know there are also other guys who feel the exams are difficult, maybe we all should learn from the good guys...
+supporter: I was in a similar situation last semester. I was struggling with my studying and I felt alone in this. I decided to join a study group and it was the best decision I made. I learned from my friends and it helped me a lot.
+seeker: That's very insightful. Thank you for sharing. I will try that, then.
+supporter: I am glad I could help. I wish you the best of luck. If you ever need anything else, don't be afraid to reach out again.
+seeker: Thanks a lot.

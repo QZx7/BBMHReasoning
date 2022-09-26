@@ -1,0 +1,21 @@
+seeker: Hello, how are you?
+supporter: Hello, I am sorry to hear that. What is bothering you today?
+seeker: I am feeling very sad because I tested positive for Covid this week. I am in quarantine away from my family.
+supporter: Oh no, I am sorry to hear that. How long will you be away from your family?
+seeker: In total 2 weeks, and still 10 days to go.
+supporter: That is a long time, I am sure you are feeling a bit lonely. Do you have any friends close by that you can talk to?
+seeker: Well, I can only stay by myself according to the rules. But I could do video chats with my wife and kids. That really helps.
+supporter: That would be a great way to help relieve some stress from your situation. I am sure your family would love to have you around for as long as you can.
+seeker: Yeah, I would like to stay with them, too. You know, it just started to get worse as I started to have symptoms. I start to have fever and caughing. Eh, it just feels bad.
+supporter: I am sorry to hear that. I hope you are able to get some rest and feel better soon!
+seeker: Yeah, I am basically trying to sleep as much as possible. I don't know when can I recover from it.
+supporter: I would suggest doing that as long as you can. Try to get some rest and feel better soon!
+seeker: Yeah, that probably is the only thing I can do now. I just want the Covid to end quickly.
+supporter: I understand that completely. The Covid is making everything so stressful.
+seeker: Yeah, it is really frustrating. I feel like a couple more months or so and I'd have the vaccine. Made it a year, then get infected during the stretch run of this pandemic.
+supporter: I'm glad that you are able to see the positive aspects of the vaccine.
+seeker: Yeah, I'm really hoping it could help us out. You know, from time to time, we have to stay positive.
+supporter: I'm sure it will.
+seeker: Well, thanks a lot for talking with me. That makes me feel much better.
+supporter: You're welcome. I hope you have a great day.
+seeker: You, too!

@@ -1,0 +1,20 @@
+seeker: Hello, how are you?
+supporter: I am doing well. How are you?
+seeker: I am feeling very sad because I tested positive for Covid this week. I am in quarantine away from my family.
+supporter: Oh no, that is so sad! I can understand why you would feel that way. Do you have any friends or family that you can talk to?
+seeker: Yeah, I do have someone comforting me. But It just feels so lonely by myself. And I started to show some symptoms. I started to have fever and coughing. It just feels so bad.
+supporter: I think that's great that you have someone to talk to. I'm sure it's a lot easier to deal with this stuff when you have someone to talk to about it.
+seeker: Yeah, my wife took the kids to stay with her father until my quarantine period is over. I really miss them.
+supporter: That's really sweet of her. I'm sure it's hard to be away from your kids.
+seeker: Yeah, It was good that we could do a lot of video chats. That helps a lot.
+supporter: That's a great idea. It's good to have someone to talk to about it.
+seeker: Yeah. But the Covid is really frustrating. I feel like a couple more months or so and I'd have the vaccine. Made it a year, then get infected during the stretch run of this pandemic.
+supporter: I understand, the pandemic has really been a challenge. Have you talked to your doctor about it?
+seeker: Yeah, the doctor also kind of keeps negative about the ongoing situation about the pandemic. Hope there would be a solution for this as soon as possible.
+supporter: I'm sorry to hear that, I hope you get the help you need.
+seeker: Well, I could only stay positive.
+supporter: That's very true, and I feel the same about you.
+seeker: Thanks, well I probably have to be like that, though the Covid won this week.
+supporter: I understand. I'm glad that you're doing okay though.
+seeker: Thanks for talking with me. It helps when I still have to stay by myself for 10 days.
+supporter: I'm glad it does.

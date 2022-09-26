@@ -1,0 +1,20 @@
+seeker: Hi.
+supporter: Hello! How are you doing today?
+seeker: I'm feeling a lot of stress on my study. I'm afraid that I'm going to fail in the exams.
+supporter: I'm so sorry to hear that. From what I've seen, studying for tests can be really stressful. Do you have anyone to help you study?
+seeker: I don't have anyone to help me with my study. But I did have a talk with the teaching assistant. He told me to work harder, which was not helpful at all.
+supporter: I've had teachers like that before. They don't seem to realize that different students learn better in different ways.
+seeker: Exactly, I also feel that way. I just don't know what to do to improve my grades.
+supporter: Have you thought about going to a tutor to help you study?.
+seeker: Well, I don't know about that. What is a tutor?
+supporter: A tutor is a person who helps you learn the material. They can be a friend, family member, or professional.
+seeker: I don't know if the teachers are willing to do that for me or not...
+supporter: I'm sure that they would not want to do that for you if it is not something that you need. Have you tried talking to your friends or family about how you are feeling about your grades?
+seeker: No, I didn't. I don't want my family to worry about me...
+supporter: I can understand that, but I think it would be worth talking to them to see how they feel. They might be able to give you some support.
+seeker: Well, that might be ture... But It might be good if I could handle this by myself.
+supporter: I know that it can be hard to handle it by yourself, but I think that you can do it.
+seeker: Yeah, I'm not sure, but I will try.      
+supporter: I know that you can do it, and I know that you will do well.
+seeker: Thanks for the suggestion.
+supporter: You're welcome. I'm glad I was able to talk to you tonight.

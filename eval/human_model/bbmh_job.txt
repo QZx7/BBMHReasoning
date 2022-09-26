@@ -1,0 +1,22 @@
+seeker: Hi, there.
+supporter: Hello, how are you today.
+seeker: I don't really feel good. I lost my job recently and I don't know what to do..
+supporter: Oh, wow I am sorry to hear that. It can be hard to lose a job.
+seeker: Yeah, the company is being critical and I was fired.
+supporter: I know how you feel, I have lost a job before. It was hard for a while, but I got through it. Have you started looking for a new job?
+seeker: Yeah, I have tried some job centers for additional information. But that did not help much.
+supporter: Have you tried looking for a job outside of your area? I know that I have looked for jobs outside of my area just to get away from my horrible boss.
+seeker: I'm not sure, I used to work in a warehouse as a worker. I don't know if I could be able to do some other jobs or not.
+supporter: I know that it can be very difficult to find work in these times. What about looking for an online job? I know that there are a lot of online jobs out there that you could do to make a little money while you look for a better job in your area.
+seeker: Oh, that sounds a way to go? Where can I find the online job?   
+supporter: I'm not sure of all the places that you can find online jobs, but I know that there are a lot of different platforms that you can use to look for jobs. I would recommend starting by searching for them on the internet. You may be able to find a lot of different jobs that way.
+seeker: Ok, that might help. I'm not so familiar with the internet, but if that could help me find a job.     
+supporter: I'm sure that you will be able to find plenty of jobs by searching online. Just make sure that you make sure that you are searching for jobs that are appropriate for your skill level.
+seeker: That's ture. I know some of my friends who are also fired found some jobs that they were not suited are suffering from the work. I'd better be careful about that.
+supporter: Yes, you have to be careful about that. You have to make sure that the job description and the company itself are clear about what kind of work you will be doing.
+seeker: Great, thanks a lot for your suggestion. That really helps.
+supporter: You are very welcome. I am glad I could help. Is there anything else I can help you with?
+seeker: I think that's all about it. Thanks.
+supporter: You're welcome! Have a good day.
+seeker: You, too.
+supporter: Thanks! Can you press quit from your end first as alas I can't do it from mine.

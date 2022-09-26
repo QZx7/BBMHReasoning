@@ -1,0 +1,16 @@
+seeker: Hello, there.
+supporter: Good evening . How can I help you.
+seeker: It is about my friend. I had a long time friend who recently blocked me from everything. The reason was I refused to hang out with her during coivd and she questioned our friendship. She thought I was selfish and won't spend time with a special friend.
+supporter: I understand how upsetting it is when people block you. I had a similar situation a few months ago.
+seeker: Yeah, you know. I just didn't want to get us exposed to the Covid. It was all for her sake. But she was just being so mean.
+supporter: I understand that as well. It's really frustrating when you try to be there for someone and they don't want to be there for you.
+seeker: Yes. We used to be very good friends. But I don't know why she has changed a lot. Could it be the pandemic?
+supporter: I think that could be a reason. I had a similar situation a few months ago with a friend. I ended up having to explain to them that I was still there for them, but they had to make the changes to improve themselves first.
+seeker: So, it looks like a common issue. Well, in my case, I just can't reach out to her right now.
+supporter: I understand that it is difficult to open up about what is bothering you. It is important to be able to vent to people, and I'm sure that your friend is willing to listen.
+seeker: Well, I'm not so sure about that part. But it might take some time before we could talk to each other again.
+supporter: I understand that too. Sometimes it takes a while for us to open up to people again. It's not a perfect solution, but could you try sending her a message after a while has passed? It might make you feel a bit better.
+seeker: Yes, I think that could definitely be helpful. Maybe after a while, she will recover.
+supporter: I hope I have been able to help you a little and helped you feel a bit better! You have a great night!
+seeker: Thanks for your suggestion. It was nice talking with you.
+supporter: You're welcome! Feel free to chat anytime you need anything!

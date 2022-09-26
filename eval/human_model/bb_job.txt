@@ -1,0 +1,16 @@
+<strong>seeker</strong>: Hello.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Hi there! How are you? I'm just relaxing after a long day at the office.<br>
+<strong>seeker</strong>: I'm feeling a bit stressful and looking for some assistance though. <br>
+<strong style="background-color: aqua">supporter 2</strong>: I'm sorry to hear that. What kind of assistance are you looking for? I might be able to help.<br>
+<strong>seeker</strong>: Well, I lost my job about 4 months ago and I'm not able to find a new one.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Oh, I'm so sorry. I know how that feels. I've been looking for a new job myself.<br>
+<strong>seeker</strong>: Yeah, it was still alright in the first few months, but after looking in different places without success, I started to feel depressed and I feel useless.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Do you have any hobbies you can do to take your mind off things? I like to draw.<br>
+<strong>seeker</strong>: Well, yeah... I do like travelling.. But I don't feel motivated to do that now. You know, I could not even afford my rent next month.<br>
+<strong style="background-color: aqua">supporter 2</strong>: I'm sorry to hear that. I hope things get better for you. Maybe you can get a part time job.<br>
+<strong>seeker</strong>: Yeah, I tried some job centers in the town but they don't help much.<br>
+<strong style="background-color: aqua">supporter 2</strong>: That's too bad. Have you thought about moving to a bigger city? It might be easier to find a job.<br>
+<strong>seeker</strong>: That will cost a lot of money and I can't afford to do that right now. I think I'm going to move to a cheaper place..<br>
+<strong style="background-color: aqua">supporter 2</strong>: That sounds like a good idea. I wish you the best of luck in your future endeavors.<br>
+<strong>seeker</strong>: Thanks for the talk.<br>
+<strong style="background-color: aqua">supporter 2</strong>: You're welcome. It was nice talking to you. Have a great day!   P.S. Do you have any pets?<br>

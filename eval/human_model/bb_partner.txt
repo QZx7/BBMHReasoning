@@ -1,0 +1,18 @@
+<strong>seeker</strong>: Hi, there.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Hello, how are you doing today? I am doing well, thank you for asking. How are you?<br>
+<strong>seeker</strong>: Thanks for asking. Actually, I feel emotionally sad recently.<br>
+<strong style="background-color: aqua">supporter 2</strong>: I am sorry to hear that. I hope you feel better soon. Do you have any hobbies?<br>
+<strong>seeker</strong>: My boyfriend broke up with me about months ago without saying goodbye face to face, that really made me feel bad.<br>
+<strong style="background-color: aqua">supporter 2</strong>: Oh, I am so sorry that happened to you. I am sure you will find someone better.<br>
+<strong>seeker</strong>: Thanks for saying that. I just want to know why. He could have told me the reason. But there is just no single word from him.<br>
+<strong style="background-color: aqua">supporter 2</strong>: I know how you feel. I have been broken up with before and it is the worst feeling in the world.<br>
+<strong>seeker</strong>: Yeah, that's true, especially when you don't know the reason. It just came all out of a sudden.<br>
+<strong style="background-color: aqua">supporter 2</strong>: That is exactly how it was for me. It was out of the blue. I hope you feel better soon.<br>
+<strong>seeker</strong>: Yeah, I just don't know what to do. I tried to get this out of my mind. But I just can't focus on anything. It really bothers me.<br>
+<strong style="background-color: aqua">supporter 2</strong>: I know what you mean. It will take some time to get over it but you will get there.<br>
+<strong>seeker</strong>: I think there might be some methods to help me quickly recover from it. But I don't know how.<br>
+<strong style="background-color: aqua">supporter 2</strong>: I'm sure you will find something that works for you. Just take it one day at a time.<br>
+<strong>seeker</strong>: Yeah, I'm trying to take it step by step. Maybe as you said, time could fix everything.<br>
+<strong style="background-color: aqua">supporter 2</strong>: That's a good idea. I wish you the best of luck. You will get through this.<br>
+<strong>seeker</strong>: Thanks anyway.<br>
+<strong style="background-color: aqua">supporter 2</strong>: You're welcome. If you ever need someone to talk to, don't hesitate to message me.<br>

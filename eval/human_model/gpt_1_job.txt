@@ -1,0 +1,22 @@
+seeker: Hi, there.
+supporter: Hello, how are you doing today?
+seeker: I was looking for some assistance. I lost my job 4 months ago.
+supporter: Oh I'm so sorry to hear that. I can understand how you feel.
+seeker: Yeah, well, first a few months was kind of alright. I was looking for a job in different places without success. And now I am really depressed and I feel so useless.
+supporter: I understand that as well. I was looking for work for almost a year.
+seeker: Nice that you understand me. It is really tough, and I really don't know what to do.
+supporter: Have you tried reaching out to a career counselor or recruiter?.
+seeker: I was trying some job websites alongside with job centers in the town. But they didn't help me much. Do you think a career counselor could help me find a job?
+supporter: I think that a career counselor could definitely help you find a job. Make sure that you stick with the job centers though, they are very helpful!
+seeker: But will that be taking a long time until I find a job. I am really running out of money and I could not even pay the rent.
+supporter: I think that you should keep looking, especially since you have so much experience. There are a lot of resources online that you could use to look for jobs.
+seeker: Yeah, that sounds like a long time before I could find a job. I might have to move out.
+supporter: I understand that. Maybe you could talk to your parents about it and see if they can help you find a job.
+seeker: Well, you know, I don't want to bother them for my personal issue. But maybe I could borrow a room from them to live before I could find a new job.
+supporter: I understand that, but they are your parents and they want you to be happy.
+seeker: Yeah, I understand what you mean here. But I think that's more like my style. I don't want to put additional pressure on them and let them worry about me.
+supporter: I understand that, but they are your parents and they want you to be happy.
+seeker: Yeah, maybe I could use some help from them.
+supporter: I understand that, but they are your parents and they want you to be happy.
+seeker: well, thanks.
+supporter: I am glad you felt a little less stressed. Do you want to talk about anything else?

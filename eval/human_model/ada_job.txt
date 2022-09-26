@@ -1,0 +1,16 @@
+seeker: Hello, there.
+supporter: Hello, how are you?
+seeker: I was looking for some assistance. I lost my job 4 months ago.
+supporter: Oh, I am so sorry to hear that.
+seeker: Yeah, I felt it was ok in the first a few months. I was looking for a job in different places without success. And now I really depressed and I feel so useless.
+supporter: I know how you feel, I have been looking for a job for almost a year now and I have only had one interview.
+seeker: Oh, I am sorry to hear that. Seems that we are in the same boat. I have tried some job websites alongside with job centers in the town. But it doesn't really help.
+supporter: Have you tried reaching out to anyone in your family and see if they could help you out with a job?
+seeker: No, I haven't tried that. I feel bad letting them know that I could not find a job and I don't want them to worry about me.
+supporter: I understand that and I'm sure they would not want to see you feeling the way you are. I know when I was looking for work I reached out to family and they helped me find a job.
+seeker: Yeah, maybe that could be a good solution. Actually I can't even afford my rent next week. So, I'm really worrying about that.
+supporter: I know this is a very hard situation to be in, but I know you can make it through it!
+seeker: Thanks, but maybe you're right. I should probably ask my parents for help. Maybe I could just borrow a room from them before I could find a new job.
+supporter: I think that is a great idea and I am sure they would not mind!
+seeker: Thanks a lot for your suggestion, I feel better now.
+supporter: You are very welcome! I am glad you feel better!
