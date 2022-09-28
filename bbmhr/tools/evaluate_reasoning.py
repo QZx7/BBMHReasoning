@@ -4,6 +4,7 @@ from torchmetrics.text.bleu import BLEUScore
 from torchmetrics.text.rouge import ROUGEScore
 from evaluate import load
 
+from bart_score import BARTScorer
 from transformers import DebertaTokenizer, RobertaTokenizer
 from transformers import DebertaForSequenceClassification, RobertaForSequenceClassification
 from transformers import pipeline
@@ -33,6 +34,12 @@ def calculate_score(preds: List[Text], refes: Union[List[Text], List[List[Text]]
         results = bertscore.compute(predictions=preds, references=refes, model_type="roberta-large", lang="en")
         average_f1 = sum(results["f1"]) / len(results["f1"])
         return average_f1
+    elif metric == "bart":
+        bart_scorer = BARTScorer(device='cuda:0', checkpoint='facebook/bart-large-cnn')
+        bart_scorer.load(path=r"D:\\project\\dataset\\bart_score\\bart_score.pth")
+        results = bart_scorer.score(preds, refes, batch_size=4)
+        print(results)
+        return results
     return metric(preds, refes)
 
 
