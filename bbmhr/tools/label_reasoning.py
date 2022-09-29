@@ -113,15 +113,24 @@ def prepare_turk_data(reasoning_data_path: Text, csv_data_path: Text):
     reasoning_data_file = open(reasoning_data_path, 'r', encoding='utf-8')
     csv_data_file = open(csv_data_path, 'w+', newline='', encoding='utf-8')
 
-    fieldnames = ["dialog", "gpt_1", "gpt_2", "ada", "davinci", "human"]
+    fieldnames = ["dialog", "gpt_1", "gpt_2", "ada", "davinci"]
     csv_writer = csv.DictWriter(csv_data_file, fieldnames=fieldnames)
     csv_writer.writeheader()
 
     for line in reasoning_data_file.readlines():
         line_data = json.loads(line.strip())
-        csv_writer.writerow(line_data["content"])
+        sample = line_data["content"]
+        del sample['human']
+        print(sample)
+        sample['dialog'] = sample['dialog'].replace('\n', '\n<br>')
+        sample['dialog'] = sample['dialog'].replace("seeker:", "<strong>seeker:</strong>")
+        sample['dialog'] = sample['dialog'].replace("supporter:", "<strong>supporter:</strong>")
+        sample['gpt_2'] = "the seeker " + sample['gpt_2']
+        sample['ada'] = "the seeker " + sample['ada']
+        sample['davinci'] = "the seeker " + sample['davinci']
+        csv_writer.writerow(sample)
 
 
 if __name__ == "__main__":
     # pick_up_sample_conversations("./eval/reasoning_evaluation/samples.jsonl")
-    prepare_turk_data(r"./eval/reasoning_evaluation/samples.jsonl", r"./eval/reasoning_evaluation/samples.csv")
+    prepare_turk_data(r"./eval/reasoning_evaluation/samples.jsonl", r"./eval/reasoning_evaluation/samples_no_human.csv")
