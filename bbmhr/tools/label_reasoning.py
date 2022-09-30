@@ -1,7 +1,9 @@
 import csv
 import json
 import random
-from typing import Dict, Text
+import numpy as np
+from typing import Dict, List, Text
+from collections import Counter
 from bbmhr.pipeline.prompting import assembly_prompt, read_source_data
 
 
@@ -131,6 +133,100 @@ def prepare_turk_data(reasoning_data_path: Text, csv_data_path: Text):
         csv_writer.writerow(sample)
 
 
+def approve_reject(results_path: Text, bad_worker: Text):
+    results_file = open(results_path, 'r', newline='', encoding='utf-8')
+    reader = csv.reader(results_file)
+    worker = {}
+    fields = {}
+
+    raw_results = []
+
+    bad_workers = []
+    if bad_worker:
+        bad_worker_file = open(bad_worker, 'r', encoding='utf-8')
+        for l in bad_worker_file.readlines():
+            bad_workers.append(l.strip())
+    
+    # print(bad_workers)
+
+    header = next(reader)
+    for index in range(len(header)):
+        fields[index] = header[index]
+    # print(fields)
+
+    for line in reader:
+        if line[15] in bad_workers or line[21] != "":
+            continue
+
+        tmp = []
+        start = 32
+        while start < 68:
+            for item_number in range(start, start + 3):
+                if line[item_number] == "true":
+                    tmp.append((item_number - 32) % 3)
+            start += 3
+        raw_results.append(tmp.copy())
+
+        tmp.extend(line[68: 83])
+        tmp.append(line[23])
+
+        if line[15] in worker:
+            worker[line[15]].append(tmp)
+        else:
+            worker[line[15]] = [tmp]
+
+    return raw_results
+    # for key, values in worker.items():
+    #     print(key)
+    #     for value in values:
+    #         print(value)
+
+
+def calculate_rates(raw: List[List[int]]):
+    numbers = {
+        "davinci": [],
+        "gpt_1": [],
+        "gpt_2": [],
+        "ada": []
+    }
+
+
+    for item in raw:
+        davinci = [item[0], item[4], item[8]]
+        gpt_1 = [item[1], item[5], item[9]]
+        gpt_2 = [item[2], item[6], item[10]]
+        ada = [item[3], item[7], item[11]]
+
+        numbers["davinci"].append(davinci)
+        numbers["gpt_1"].append(gpt_1)
+        numbers["gpt_2"].append(gpt_2)
+        numbers["ada"].append(ada)
+    
+    for key, value in numbers.items():
+        print(f"calculating {key}")
+
+        print(f"emotion: ")
+        choices_dict = Counter(np.array(value)[:, 0].tolist())
+        print(choices_dict[0] / (choices_dict[0] + choices_dict[1] + choices_dict[2]))
+
+        print(f"reason: ")
+        choices_dict = Counter(np.array(value)[:, 1].tolist())
+        print(choices_dict[0] / (choices_dict[0] + choices_dict[1] + choices_dict[2]))
+
+        print(f"suggestion: ")
+        choices_dict = Counter(np.array(value)[:, 2].tolist())
+        print(choices_dict[0] / (choices_dict[0] + choices_dict[1] + choices_dict[2]))
+
+        all_dict = Counter(np.array(value).flatten().tolist())
+        print(all_dict[0] / (all_dict[0] + all_dict[1] + all_dict[2]))
+
+
 if __name__ == "__main__":
     # pick_up_sample_conversations("./eval/reasoning_evaluation/samples.jsonl")
-    prepare_turk_data(r"./eval/reasoning_evaluation/samples.jsonl", r"./eval/reasoning_evaluation/samples_no_human.csv")
+    # prepare_turk_data(r"./eval/reasoning_evaluation/samples.jsonl", r"./eval/reasoning_evaluation/samples_no_human.csv")
+    raw_results = approve_reject(
+        r"./eval/Turkresults/reasoning/reasoning.csv",
+        r"./eval/Turkresults/workers/reasoning/bad worker"
+        )
+
+    calculate_rates(raw_results)
