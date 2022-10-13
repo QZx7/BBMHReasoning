@@ -241,7 +241,8 @@ def prompt_from_dialog_data(prompt: Text, dialog_data: List[Text]) -> str:
         str: A prompt.
     """
     for data in dialog_data:
-        dy_prompt = prompt.replace("<conversation>", data.replace("\nIn this conversation, the seeker", "\n"))
+        data = data.replace("\nIn this conversation, the seeker", "\n")
+        dy_prompt = prompt.replace("<conversation>", data)
         yield dy_prompt
 
 
