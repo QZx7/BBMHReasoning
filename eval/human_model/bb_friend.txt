@@ -1,18 +1,18 @@
-<strong>seeker</strong>: Hello.<br>
-<strong style="background-color: aqua">supporter 2</strong>: Hi there! How are you? I'm just relaxing after a long day at the office.<br>
-<strong>seeker</strong>: Oh, that's good for you. I'm not feeling well though...<br>
-<strong style="background-color: aqua">supporter 2</strong>: I'm sorry to hear that. I hope you feel better soon. Do you have any plans for the weekend?<br>
-<strong>seeker</strong>: No, I don't have plans. I don't feel good because of a friend. I refused to hang out with her because of the Covid. And she felt that I am a selfish person and blocked me from everything.<br>
-<strong style="background-color: aqua">supporter 2</strong>: I'm so sorry that happened to you. You shouldn't have to put up with that kind of behavior.<br>
-<strong>seeker</strong>: Yeah, I tried to reach out to her to tell her that she was the selfish one. But she blocked me..<br>      
-<strong style="background-color: aqua">supporter 2</strong>: That's unfortunate. Hopefully you can find someone better to spend time with in the future.<br>
-<strong>seeker</strong>: I don't know. I don't think she is a person like this. That is really bothering me.<br>
-<strong style="background-color: aqua">supporter 2</strong>: I'm sorry you have to deal with that. I hope you find someone who treats you better.<br>
-<strong>seeker</strong>: Yeah, maybe I should try to talk to some friends. Hopefully that will make me feel better.<br>
-<strong style="background-color: aqua">supporter 2</strong>: Yes, I think that would be a good idea. Friends are always good to have.<br>
-<strong>seeker</strong>: Yeah, recently we are not able to hang out often due to the pandemic. <br>
-<strong style="background-color: aqua">supporter 2</strong>: I'm so sorry to hear that. Do you have any other friends you can hang out with?<br>
-<strong>seeker</strong>: Yeah, maybe we could have a online party through video calls.<br>
-<strong style="background-color: aqua">supporter 2</strong>: That sounds like a lot of fun. I would love to be a part of something like that.<br>
-<strong>seeker</strong>: That sounds good. I will let you know later. <br>
-<strong style="background-color: aqua">supporter 2</strong>: I look forward to hearing from you. Have a great evening. Take care of yourself. :)<br>
+seeker: Hello.
+supporter: Hi there! How are you? I'm just relaxing after a long day at the office.
+seeker: Oh, that's good for you. I'm not feeling well though...
+supporter: I'm sorry to hear that. I hope you feel better soon. Do you have any plans for the weekend?
+seeker: No, I don't have plans. I don't feel good because of a friend. I refused to hang out with her because of the Covid. And she felt that I am a selfish person and blocked me from everything.
+supporter: I'm so sorry that happened to you. You shouldn't have to put up with that kind of behavior.
+seeker: Yeah, I tried to reach out to her to tell her that she was the selfish one. But she blocked me..      
+supporter: That's unfortunate. Hopefully you can find someone better to spend time with in the future.
+seeker: I don't know. I don't think she is a person like this. That is really bothering me.
+supporter: I'm sorry you have to deal with that. I hope you find someone who treats you better.
+seeker: Yeah, maybe I should try to talk to some friends. Hopefully that will make me feel better.
+supporter: Yes, I think that would be a good idea. Friends are always good to have.
+seeker: Yeah, recently we are not able to hang out often due to the pandemic. 
+supporter: I'm so sorry to hear that. Do you have any other friends you can hang out with?
+seeker: Yeah, maybe we could have a online party through video calls.
+supporter: That sounds like a lot of fun. I would love to be a part of something like that.
+seeker: That sounds good. I will let you know later. 
+supporter: I look forward to hearing from you. Have a great evening. Take care of yourself. :)

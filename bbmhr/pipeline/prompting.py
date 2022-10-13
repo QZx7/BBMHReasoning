@@ -26,6 +26,7 @@ GPT_3_TASK_CONVERSATION = "conversation"
 
 template_path = r"./bbmhr/prompt_templates/nl_utt_level.txt"
 source_data_path = r"./data/ESConv_one_speaker_one_turn.json"
+dialog_data_path = r"./eval/reasoning_evaluation/samples.jsonl"
 test_data_path = r"./data/ESConv_test_data.json"
 response_path = r"./data/NL_response"
 seeker_utterances_only = r"./data/seeker_only"
@@ -154,6 +155,21 @@ def read_source_data(source_path: Text) -> List[Dict[str, str]]:
     return source_data
 
 
+def read_dialog_data(dialog_path: Text) -> List[Text]:
+    """Read dialog directly from dialog style files.
+
+    Args:
+        dialog_path (Text): Path to the dialog data file path.
+
+    Returns:
+        List[Text]: Return the dialog data as list of strings.
+    """
+    dialog_data = []
+    with open(dialog_data, 'r', encoding='utf-8') as file:
+        dialog_data.append(json.loads(line) for line in file.readlines())
+    return dialog_data
+
+
 def pick_up_examples(
     test_data: List[Dict[str, str]], number: int
 ) -> List[Dict[str, str]]:
@@ -185,7 +201,7 @@ def pick_up_examples(
 
 def assembly_prompt(
     prompt: Text,
-    source_data: List[Dict[str, Any]],
+    source_data: List[Dict[Text, Any]],
     seeker_only_file: Optional[TextIO] = None,
 ) -> str:
     """Assembly the final prompt with the given template and the source data.
@@ -199,20 +215,6 @@ def assembly_prompt(
     Returns:
         str: A prompt.
     """
-    # template_file = open(template, "r", encoding="utf-8")
-    # prompt = template_file.read()
-    # instances = pick_up_examples(test_data, 3)
-
-    # Assembly prompt instances depending on the number of instances
-    # for index in range(len(instances)):
-    #     prompt = prompt.replace(
-    #         f"<conversation_{index}>", instances[index]["conversation"]
-    #     )
-    #     # replace <> tokens with real content as prompt instances
-    #     prompt = prompt.replace(f"<feel_{index}>", instances[index]["feel"])
-    #     prompt = prompt.replace(f"<reason_{index}>", instances[index]["reason"])
-    #     prompt = prompt.replace(f"<suggestion_{index}>", instances[index]["suggestion"])
-
     # Assembly question and yield one prompt one time
     for data in source_data:
         current_dialog = ""
@@ -225,6 +227,22 @@ def assembly_prompt(
                     )
                 dy_prompt = prompt.replace("<conversation>", current_dialog)
                 yield dy_prompt
+
+
+def prompt_from_dialog_data(prompt: Text, dialog_data: List[Text]) -> str:
+    """Assembly prompt, however from existing dialog style data instead of utterance based
+       data.
+
+    Args:
+        prompt (Text): A template with main factors represented by tokens with <>.
+        dialog_data (List[Text]): A list of dialogues for prompting.
+
+    Returns:
+        str: A prompt.
+    """
+    for data in dialog_data:
+        dy_prompt = prompt.replace("<conversation>", data)
+        yield dy_prompt
 
 
 def load_large_model(model_name: Text):
@@ -366,6 +384,7 @@ def add_arguments():
         default="default_batch",
         help="folder to save the results",
     )
+    parser.add_argument("--use_dialog", type=bool, default=False, help="weather to use dialog data")
     args = parser.parse_args()
     return args
 
@@ -377,6 +396,7 @@ def main():
     template_file = open(args.prompt_template, "r", encoding="utf-8")
     fixed_prompt = template_file.read()
     source_data = read_source_data(source_data_path)
+    dialog_data = read_dialog_data(dialog_data_path)
     # test_data = read_source_data(test_data_path)
     response_file = open(
         response_path + args.response_suffix + ".jsonl", "w+", encoding="utf-8"
@@ -407,11 +427,19 @@ def main():
     allowed_dialog_length = max_input_length  - response_length - fixed_length - 1
     logger.info("Set max input length to %s, response length to %s and allowed dialog length to %s", max_input_length, response_length, allowed_dialog_length)
     # load prompt generator
-    prompt_generator = assembly_prompt(
-        fixed_prompt,
-        seeker_only_file,
-        source_data,
-    )
+    prompt_generator = None
+
+    if args.use_dialog:
+        prompt_generator = prompt_from_dialog_data(
+            fixed_prompt,
+            dialog_data
+        )
+    else:
+        prompt_generator = assembly_prompt(
+            fixed_prompt,
+            seeker_only_file,
+            source_data,
+        )
 
     for _ in range(args.start_index):
         next(prompt_generator)
