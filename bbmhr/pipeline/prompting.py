@@ -165,7 +165,7 @@ def read_dialog_data(dialog_path: Text) -> List[Text]:
         List[Text]: Return the dialog data as list of strings.
     """
     dialog_data = []
-    with open(dialog_data, 'r', encoding='utf-8') as file:
+    with open(dialog_path, 'r', encoding='utf-8') as file:
         dialog_data.append(json.loads(line) for line in file.readlines())
     return dialog_data
 
