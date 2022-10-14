@@ -166,7 +166,8 @@ def read_dialog_data(dialog_path: Text) -> List[Text]:
     """
     dialog_data = []
     with open(dialog_path, 'r', encoding='utf-8') as file:
-        dialog_data.append(json.loads(line) for line in file.readlines())
+        for line in file.readlines():
+            dialog_data.append(json.loads(line.strip())["content"]["dialog"])
     return dialog_data
 
 
@@ -449,8 +450,8 @@ def main():
     # sample_index = 0
     # if generate number is 0, generate until the end.
     if args.sample_number == 0:
-        for i in prompt_generator:
-            prompt = next(prompt_generator)
+        for prompt in prompt_generator:
+            # prompt = next(prompt_generator)
             current_length = len(tokenizer(prompt)["input_ids"]) - fixed_length + 1
             if current_length > allowed_dialog_length:
                 print(

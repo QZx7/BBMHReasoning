@@ -77,14 +77,14 @@ def entailment_score(preds: List[Text], refes: List[Text], model_name: Text = "r
 
 if __name__ == '__main__':
 
-    # for metric in ["bleu", "rouge", "bert"]:
-    #     print(f"score: {metric}")
-    #     for task in ["gpt_1", "gpt_2", "ada", "davinci"]:
-    #         preds, refes = read_reasoning_data(r"./eval/reasoning_evaluation/samples.jsonl", task)
-    #         print(f"task: {task}")
-    #         print(calculate_score(preds, refes, metric))
+    for metric in ["bleu", "rouge", "bert", "bart"]:
+        print(f"score: {metric}")
+        for task in ["distilgpt2"]:
+            preds, refes = read_reasoning_data(r"./eval/reasoning_evaluation/new_samples.jsonl", task)
+            print(f"task: {task}")
+            print(calculate_score(preds, refes, metric))
 
-    for task in ["gpt_1", "gpt_2", "ada", "davinci"]:
-        preds, refes = read_reasoning_data(r"./eval/reasoning_evaluation/samples.jsonl", task, "entailment")
-        print(f"task: {task}")
-        print(entailment_score(preds, refes, model_name="roberta"))
+    # for task in ["distilgpt2"]:
+    #     preds, refes = read_reasoning_data(r"./eval/reasoning_evaluation/new_samples.jsonl", task, "entailment")
+    #     print(f"task: {task}")
+    #     print(entailment_score(preds, refes, model_name="roberta"))

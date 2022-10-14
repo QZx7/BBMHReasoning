@@ -13,7 +13,7 @@ def process_response(response: Text, task: Text) -> Text:
             return response.split('\n')[0]
         else:
             return response.split(',')[1].split('\n')[0]
-    elif task == "gpt_2":
+    elif task == "gpt_2" or task == "distilgpt2":
         return response.split('\n')[0]
 
 def pick_up_sample_conversations(sample_file_path, sample_number: int = 100):
@@ -109,6 +109,20 @@ def pick_up_sample_conversations(sample_file_path, sample_number: int = 100):
             }
             current_number += 1
             current_sample_file.write(json.dumps(new_data) + "\n")
+
+
+def add_distil_data(reasoning_data_path: Text, distil_data_path: Text, distil_reasoning_path: Text):
+    distil_file = open(distil_data_path, 'r', encoding='utf-8')
+    reasoning_file = open(reasoning_data_path, 'r', encoding='utf-8')
+    distil_reasoning_file = open(distil_reasoning_path, 'w', encoding='utf-8')
+
+    distil_lines = distil_file.readlines()
+    reasoning_lines = reasoning_file.readlines()
+
+    for index in range(len(reasoning_lines)):
+        reasoning_data = json.loads(reasoning_lines[index].strip())
+        reasoning_data["content"]["distilgpt2"] = process_response(json.loads(distil_lines[index].strip())["response"], "distilgpt2")
+        distil_reasoning_file.write(json.dumps(reasoning_data) + "\n")
 
 
 def prepare_turk_data(reasoning_data_path: Text, csv_data_path: Text):
@@ -224,9 +238,14 @@ def calculate_rates(raw: List[List[int]]):
 if __name__ == "__main__":
     # pick_up_sample_conversations("./eval/reasoning_evaluation/samples.jsonl")
     # prepare_turk_data(r"./eval/reasoning_evaluation/samples.jsonl", r"./eval/reasoning_evaluation/samples_no_human.csv")
-    raw_results = approve_reject(
-        r"./eval/Turkresults/reasoning/reasoning.csv",
-        r"./eval/Turkresults/workers/reasoning/bad worker"
-        )
+    # raw_results = approve_reject(
+    #     r"./eval/Turkresults/reasoning/reasoning.csv",
+    #     r"./eval/Turkresults/workers/reasoning/bad worker"
+    #     )
 
-    calculate_rates(raw_results)
+    # calculate_rates(raw_results)
+    add_distil_data(
+        r"./eval/reasoning_evaluation/samples.jsonl",
+        r"./data/NL_responseb_0.jsonl",
+        r"./eval/reasoning_evaluation/new_samples.jsonl"
+    )
