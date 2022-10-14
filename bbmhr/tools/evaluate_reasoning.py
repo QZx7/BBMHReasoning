@@ -35,7 +35,7 @@ def calculate_score(preds: List[Text], refes: Union[List[Text], List[List[Text]]
         average_f1 = sum(results["f1"]) / len(results["f1"])
         return average_f1
     elif metric == "bart":
-        bart_scorer = BARTScorer(device='cuda:0', checkpoint='facebook/bart-large-cnn')
+        bart_scorer = BARTScorer(device='cpu', checkpoint='facebook/bart-large-cnn')
         bart_scorer.load(path=r"D:\\project\\dataset\\bart_score\\bart_score.pth")
         results = bart_scorer.score(preds, refes, batch_size=4)
         print(results)
