@@ -1,0 +1,16 @@
+seeker: Hi there.
+supporter: Oh, hello. How are you doing?
+seeker: Yeah, I'm feeling a bit upset about my friends.
+supporter: I'm sorry to hear that. What happened?
+seeker: Yeah... Several friends of mine had a trip together without letting me know. They created a secret group discussing the details without me. And when I ask them about that, they just said that they forgot to let me know .. That's really bothering me.
+supporter: That must be really hurtful. I'm sorry that your friends didn't include you. Have you talked to them about how you're feeling?
+seeker: No, I don't know if that's the correct thing to do. That probably hate me.
+supporter: No, they might not hate you. It's totally understandable how you feel, and it's important to talk to them and let them know how you're feeling. It's okay to express your feelings, and maybe they can learn from this and be more inclusive in the future.
+seeker: I'm not sure.
+supporter: It's okay to be unsure. You can take some time to think it through, but I think it's important to talk to them and let them know how you feel. You don't have to do it right away, but it's important to express your feelings.
+seeker: I can't really see a way to start the conversation... It's been so long and I don't know where to start.
+supporter: That's understandable. You can start by simply asking how they are doing and then explain how you feel. You can let them know that you feel hurt and excluded when they went on the trip without including you. They might not have known how you feel unless you tell them.
+seeker: Ok, probably I should do that.
+supporter: Yes, I think it's a great idea. It's important to talk about your feelings in order to clear things up and hopefully have a better relationship in the future.
+seeker: Thank you.
+supporter: You're welcome. I hope it all works out.

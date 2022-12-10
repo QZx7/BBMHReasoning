@@ -1,0 +1,8 @@
+seeker: Hello.
+supporter: Hello! How are you doing today?
+seeker: Yeah... I'm feeling a lot of stress on my study recently. I'm afraid that I'm gonna fail in the exams.
+supporter: I understand how you feel. It's normal to feel stressed when facing exams. Do you have any strategies you are using to help manage the stress?
+seeker: I don't really know any strategy.
+supporter: It's okay, it's totally normal to not know how to manage stress. Let me give you some tips. One of the best ways to manage stress is to make a plan and stick to it. Break down your tasks and prioritize them. Set a realistic timeline for yourself and make sure to take breaks in between tasks. Also, try to do something fun or relaxing every day after studying to help you relax and stay motivated. Does this sound like something you would be willing to try?
+seeker: Thanks, I will try that.
+supporter: Great! Let me know how it goes. If you need anything else, please don't hesitate to reach out.

@@ -1,0 +1,14 @@
+seeker: Hi there.
+supporter: Oh, hello. How are you doing?
+seeker: I'm not feeling well.
+supporter: I'm sorry to hear that. What's wrong?
+seeker: I lost my job recently and didn't have luck finding a new one. That's really making me stressful. I don't know what to do...
+supporter: I understand how you're feeling. It's tough to go through a job search, especially in these uncertain times. Have you been taking any steps to help you find a new job?
+seeker: I've been looking for a job for months and I just can't find one. I don't know what to do.
+supporter: That can be really discouraging. Have you been networking with family and friends? Have you reached out to any recruiters or potential employers? What kind of job have you been looking for?
+seeker: I have, but I'm not sure what to do to make myself look good on the application.
+supporter: That's a great question. Have you been working on updating your resume and making sure it's tailored to the jobs you're applying for? Have you been researching the companies and looking into what they're looking for in an applicant? Have you been reaching out to your contacts to see if they know anyone in the industry?
+seeker: That's a good idea. I think I will update my resume.
+supporter: That's great! It's important to make sure your resume is up-to-date and reflects the skills and experiences for the jobs you're applying for. You could also look into writing a cover letter for each job you're applying for, which can help you stand out. Good luck with your job search!
+seeker: Thank you.
+supporter: You're welcome. I'm here to help in any way I can. Let me know if there's anything else you need.

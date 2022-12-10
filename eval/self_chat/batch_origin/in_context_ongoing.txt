@@ -1,0 +1,10 @@
+seeker: Hello.
+supporter: Hi, how are you?
+seeker: Thanks for asking. To be honest, I am very depressed recently.
+supporter: Oh no, I'm sorry to hear that. Is there anything I can do to help?
+seeker: It is about helping to raise my grandson and his dad is not helping at all. His dad doesn't care about my feelings and I really start to feel it difficult taking care of kids. I'm losing my patience.
+supporter: I understand how difficult it must be for you. It sounds like you need support and help in taking care of your grandson. Have you tried talking to his dad about it?
+seeker: Yes, but he doesn't seem to care.
+supporter: It may help to try and find a compromise between the two of you. Is there any way you can get his father to take some responsibility in the care of your grandson? Maybe if you explain your feelings and how you need help, he may be more understanding.
+seeker: I will try that, thanks.
+supporter: You're welcome. I am here for you if you need anything else.
