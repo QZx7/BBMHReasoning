@@ -152,6 +152,8 @@ cython_debug/
 #.idea/
 
 # Repository setting
-/data/*
+/data/batch
+/data/files
 /eval/human_evaluation/*
 /eval/Turkresults/*
+/eval/self_chat/batch_origin_2

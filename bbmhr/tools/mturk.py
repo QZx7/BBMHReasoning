@@ -30,7 +30,7 @@ def read_self_chat(path: Text):
                 origin_file.write('supporter: ' + utterance[1]['text'] + "\n")
  
 
-def generate_batch(task_name: Text, write_to=False):
+def generate_batch(path: Text, task_name: Text, write_to=False):
     """Generate conversation pairs for ACUTE-Eval conversation_1 is human
     conversation_2 is model generated.
 
@@ -41,19 +41,19 @@ def generate_batch(task_name: Text, write_to=False):
     Returns:
         _type_: Return the conversation pairs as a dict
     """
-    dest_file_name = "./eval/self_chat/batch_origin/" + task_name + ".csv"
+    dest_file_name = path + task_name + ".csv"
     if write_to:
         dest_file = open(dest_file_name, 'w+', encoding='utf-8', newline='')
         fieldnames = ['conversation_1', 'conversation_2']
         writer = csv.DictWriter(dest_file, fieldnames=fieldnames)
 
-    for (dirpath, dirnames, filenames) in os.walk("./eval/self_chat/batch_origin/"):
+    for (dirpath, dirnames, filenames) in os.walk(path):
         print(filenames)
     text_dict = {}
     for filename in filenames:
         if ".xlsx" in filename or ".csv" in filename:
             continue
-        text = open("./eval/self_chat/batch_origin/" + filename, 'r', encoding='utf-8').read()
+        text = open(path + filename, 'r', encoding='utf-8').read()
 
         if "human_" not in filename:
             text = text.replace("seeker","<strong>seeker</strong>")
@@ -110,7 +110,7 @@ def fleiss_kappa(ratings, n):
     return kappa
 
 
-def read_results(results_task: Text, text_dict: Dict[Text,Text]):
+def read_results(results_task: Text, results_path: Text, text_dict: Dict[Text,Text]):
     """Read from turk result csv
 
     Args:
@@ -121,7 +121,7 @@ def read_results(results_task: Text, text_dict: Dict[Text,Text]):
     Returns:
         _type_: Returns a results of all five topics as a dict and raw results as a list.
     """
-    results_file = './eval/Turkresults/self_chat/human_' + results_task + '.csv'
+    results_file = results_path + '/human_' + results_task + '.csv'
     csv_file = open(results_file, newline='', encoding='utf-8')
     reader = csv.DictReader(csv_file, delimiter=',')
     results = {
@@ -253,15 +253,16 @@ def prove_reject(task: Text):
 
 
 def main():
-    task_name = 'bbmh'
-    # read_self_chat("./eval/self_chat")
-    text_dict = generate_batch(task_name)
+    task_name = 'bb'
+    # read_self_chat("./eval/self_chat/jsonl_2")
+    text_dict = generate_batch("./eval/self_chat/batch_origin/", task_name, write_to=True)
     # generate_batch("gpt_1")
     # generate_batch("gpt_2")
     # generate_batch("ada", write_to=True)
     # generate_batch("davinci", write_to=True)
     # generate_batch("bbmh")
-    dict_results, raw_results = read_results(task_name, text_dict)
+    
+    dict_results, raw_results = read_results(task_name, "./eval/Turkresults/self_chat", text_dict)
     for key, value in dict_results.items():
         print(len(value))
     bad_annotators(raw_results)
@@ -281,8 +282,8 @@ def main():
             [
                 np.sum(question_win_rate[0:2]) / 3,
                 np.sum(question_win_rate[3:5]) / 3,
-                np.sum(question_win_rate[6:8]) / 3,
-                np.sum(question_win_rate[9:11]) / 3,
+                np.sum(question_win_rate[6:7]) / 2,
+                np.sum(question_win_rate[8:11]) / 4,
                 np.sum(question_win_rate[12:14]) / 3,
                 np.sum(question_win_rate[15:16]) / 2
             ]
