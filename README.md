@@ -2,6 +2,7 @@
 This is the repository for Paper: 
 
 **Ask an Expert: Leveraging Language Models to Improve Strategic Reasoning in Goal-Oriented Dialogue Models**
+(https://aclanthology.org/2023.findings-acl.417/)
 
 ## Abstract
 Existing empathetic conversational models can
@@ -108,3 +109,22 @@ python3 ./bbmhr/parlai/scripts/interactive_bbmhr.py \
 --save_history_path ./eval/human_evaluation/davinci_job.txt
 ```
 where `reasoning_model_name` is the name of the expert and `prompt_path` is the path of the prompt to use.
+
+## Cite as
+```
+@inproceedings{zhang-etal-2023-ask,
+    title = "Ask an Expert: Leveraging Language Models to Improve Strategic Reasoning in Goal-Oriented Dialogue Models",
+    author = "Zhang, Qiang  and
+      Naradowsky, Jason  and
+      Miyao, Yusuke",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.417",
+    doi = "10.18653/v1/2023.findings-acl.417",
+    pages = "6665--6694",
+    abstract = "Existing dialogue models may encounter scenarios which are not well-represented in the training data, and as a result generate responses that are unnatural, inappropriate, or unhelpful. We propose the {``}Ask an Expert{''} framework in which the model is trained with access to an {``}expert{''} which it can consult at each turn. Advice is solicited via a structured dialogue with the expert, and the model is optimized to selectively utilize (or ignore) it given the context and dialogue history. In this work the expert takes the form of an LLM.We evaluate this framework in a mental health support domain, where the structure of the expert conversation is outlined by pre-specified prompts which reflect a reasoning strategy taught to practitioners in the field. Blenderbot models utilizing {``}Ask an Expert{''} show quality improvements across all expert sizes, including those with fewer parameters than the dialogue model itself. Our best model provides a {\textasciitilde}10{\%} improvement over baselines, approaching human-level scores on {``}engingingness{''} and {``}helpfulness{''} metrics.",
+}
+```
